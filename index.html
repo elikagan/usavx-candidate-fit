@@ -70,6 +70,14 @@
   .nb{display:inline-block;font-size:10px;padding:1px 6px;border-radius:20px;background:#eef2ff;color:#4338ca}
   footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
   .flag{display:inline-block;font-size:11px;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:6px;padding:1px 7px;margin-left:8px}
+  .jd{max-height:0;overflow:hidden;transition:max-height .35s ease;margin-top:0}
+  .jd.open{max-height:3000px}
+  .jd-inner{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:8px 24px 22px;margin-top:16px;box-shadow:var(--shadow)}
+  .jd-inner h2{font-size:19px;letter-spacing:-.01em;margin:18px 0 6px}
+  .jd-inner h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin:20px 0 6px}
+  .jd-inner p{font-size:14px;color:#374151;margin:8px 0}
+  .jd-inner ul{margin:6px 0;padding-left:20px}
+  .jd-inner li{font-size:14px;color:#374151;margin:4px 0}
   @media(max-width:560px){.top{flex-wrap:wrap}.scorebox{width:auto;text-align:left}}
 </style>
 </head>
@@ -78,7 +86,52 @@
   <header>
     <h1>USAVX — Junior Engineer Candidate Fit</h1>
     <p>Ranked by fit for the hands-on hardware role · evidence-based scoring from resumes &amp; applications</p>
+    <button class="btn" id="jdToggle" style="margin-top:14px">📋 View job description</button>
   </header>
+
+  <div class="jd" id="jd">
+    <div class="jd-inner">
+      <h2>Junior Mechanical Engineer / Product Development Engineer</h2>
+      <p>USAVX is looking for a highly motivated Junior Mechanical Engineer to join our growing team. This role is ideal for a recent engineering graduate or senior engineering student who wants hands-on experience developing real-world aerospace and robotics systems.</p>
+      <p>You will work directly with senior engineers on the design, development, assembly, and testing of early stage unmanned aircraft systems, payloads, and supporting hardware. This is not a purely theoretical role. You'll spend real time at the bench and on the shop floor building prototypes, troubleshooting hardware, and figuring out how things actually get manufactured. You will be expected to build things, solve problems, and take ownership of projects.</p>
+      <h3>Responsibilities</h3>
+      <ul>
+        <li>Build, fabricate, and assemble prototypes, then iterate on your designs based on what you learn from testing them.</li>
+        <li>Troubleshoot mechanical, structural, and integration issues on hardware in the lab and shop, and drive them to resolution.</li>
+        <li>Work through manufacturing processes hands-on, including selecting fabrication methods, preparing parts for production, and coordinating with machine shops and vendors.</li>
+        <li>Assist with prototype fabrication, assembly, and testing.</li>
+        <li>Create and maintain CAD models, assemblies, and engineering drawings.</li>
+        <li>Develop and document mechanical designs for aircraft, payloads, and supporting hardware.</li>
+        <li>Create and maintain bills of materials (BOMs), assembly instructions, and technical documentation.</li>
+        <li>Research and evaluate commercial hardware, components, and manufacturing processes.</li>
+        <li>Support integration of electronics, sensors, batteries, and computing hardware into airborne systems.</li>
+        <li>Participate in design reviews and contribute ideas for improving products and processes.</li>
+        <li>Work closely with engineering leadership to move concepts from sketch to prototype to production.</li>
+      </ul>
+      <h3>Qualifications</h3>
+      <ul>
+        <li>Degree in Mechanical Engineering, Mechatronics Engineering, Aerospace Engineering, or a related field (or currently completing final year of study).</li>
+        <li>Experience with CAD software such as SolidWorks, Fusion 360, Creo, or similar.</li>
+        <li>Strong mechanical aptitude and problem-solving ability.</li>
+        <li>Comfortable working with tools, prototypes, and physical hardware.</li>
+        <li>Organized and detail-oriented.</li>
+        <li>Strong written and verbal communication skills in English.</li>
+        <li>Ability to work independently and take initiative when faced with unfamiliar problems.</li>
+      </ul>
+      <h3>Preferred Qualifications</h3>
+      <ul>
+        <li>Familiar with common manufacturing methods such as 3D printing, sheet metal, CNC machining, and injection molding.</li>
+        <li>Experience with composites or other fabrication and manufacturing processes.</li>
+        <li>Experience building robotics, UAV, automotive, or other engineering projects.</li>
+        <li>Familiarity with electronics integration and wiring.</li>
+        <li>Personal projects demonstrating hands-on engineering ability.</li>
+      </ul>
+      <h3>Practical Exercise</h3>
+      <p>As part of the interview process, candidates will be asked to work through a short engineering exercise. You'll be given an open-ended system or mechanical engineering problem and asked to walk us through how you'd approach it — how you break the problem down, what research you'd do, what assumptions and trade-offs you'd weigh, and how you'd move toward a workable solution. There is no single "correct" answer. We're interested in your engineering approach, research ability, communication, and overall problem-solving process.</p>
+      <h3>What We're Looking For</h3>
+      <p>We value curiosity, initiative, and execution. We are less interested in perfect credentials and more interested in people who enjoy figuring things out, building things, and learning quickly. The ideal candidate is someone who sees an unfamiliar problem, researches it independently, develops a plan, and takes action.</p>
+    </div>
+  </div>
 
   <div class="stats" id="stats"></div>
 
@@ -228,6 +281,10 @@ window.copyEmail=i=>{const c=DATA[i];navigator.clipboard.writeText(c.intro_email
   render();
 })();
 
+document.getElementById("jdToggle").addEventListener("click",()=>{
+  const jd=document.getElementById("jd");const open=jd.classList.toggle("open");
+  document.getElementById("jdToggle").textContent=(open?"▲ Hide":"📋 View")+" job description";
+});
 document.getElementById("search").addEventListener("input",e=>{state.q=e.target.value.toLowerCase();render();});
 document.querySelectorAll("#tierseg button").forEach(b=>b.addEventListener("click",()=>{
   document.querySelectorAll("#tierseg button").forEach(x=>x.classList.remove("on"));
