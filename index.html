@@ -81,9 +81,26 @@
   .jd-inner ul{margin:6px 0;padding-left:20px}
   .jd-inner li{font-size:14px;color:#374151;margin:4px 0}
   @media(max-width:560px){.top{flex-wrap:wrap}.scorebox{width:auto;text-align:left}}
+  #gate{position:fixed;inset:0;z-index:1000;background:var(--bg);display:flex;align-items:center;justify-content:center}
+  #gate.hide{display:none}
+  #gate .box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:30px 28px;box-shadow:var(--shadow);width:300px;text-align:center}
+  #gate h2{margin:0 0 4px;font-size:19px;letter-spacing:-.01em}
+  #gate p{margin:0 0 18px;color:var(--muted);font-size:13px}
+  #gate input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font-size:15px;text-align:center;font-family:inherit}
+  #gate button{margin-top:10px;width:100%;padding:11px;border:0;border-radius:8px;background:var(--ink);color:#fff;font-size:14px;cursor:pointer}
+  #gate .err{color:#b91c1c;font-size:12px;height:15px;margin-top:9px}
 </style>
 </head>
 <body>
+<div id="gate">
+  <div class="box">
+    <h2>USAVX Hiring</h2>
+    <p>Enter the access code to continue.</p>
+    <input id="gatePw" type="password" placeholder="Access code" autocomplete="off" autofocus>
+    <button id="gateBtn">Enter</button>
+    <div class="err" id="gateErr"></div>
+  </div>
+</div>
 <div class="wrap">
   <header>
     <h1>USAVX — Junior Engineer Candidate Fit</h1>
@@ -158,6 +175,21 @@
 // Empty string = notes save locally on this device only.
 const NOTES_API = "https://usavx-notes.objectlesson.workers.dev";
 // ============================================================================
+
+// --- access gate (light front-door lock; code: USAVX) ---
+(function(){
+  const PW="usavx";
+  const gate=document.getElementById("gate");
+  if(localStorage.getItem("usavx_gate")==="1"){gate.classList.add("hide");return;}
+  const err=document.getElementById("gateErr");
+  const tryPw=()=>{
+    if(document.getElementById("gatePw").value.trim().toLowerCase()===PW){
+      localStorage.setItem("usavx_gate","1");gate.classList.add("hide");
+    } else { err.textContent="Incorrect code"; }
+  };
+  document.getElementById("gateBtn").addEventListener("click",tryPw);
+  document.getElementById("gatePw").addEventListener("keydown",e=>{if(e.key==="Enter")tryPw();});
+})();
 
 const TIER = {
   0:{label:"New — needs review",color:"#7c3aed"},
