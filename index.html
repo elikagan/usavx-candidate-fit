@@ -68,6 +68,8 @@
   .notes textarea{width:100%;min-height:60px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit;font-size:13.5px;resize:vertical;background:#fffdf7}
   .saved{font-size:11px;color:var(--muted)}
   .nb{display:inline-block;font-size:10px;padding:1px 6px;border-radius:20px;background:#eef2ff;color:#4338ca}
+  .newbadge{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.04em;color:#fff;background:#7c3aed;padding:4px 12px;border-radius:20px}
+  .card.t0{border-left:4px solid #7c3aed}
   footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
   .flag{display:inline-block;font-size:11px;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:6px;padding:1px 7px;margin-left:8px}
   .jd{max-height:0;overflow:hidden;transition:max-height .35s ease;margin-top:0}
@@ -158,6 +160,7 @@ const NOTES_API = "";
 // ============================================================================
 
 const TIER = {
+  0:{label:"New — needs review",color:"#7c3aed"},
   1:{label:"Tier 1 — Interview now",color:"var(--t1)"},
   2:{label:"Tier 2 — Interview if capacity",color:"var(--t2)"},
   3:{label:"Tier 3 — Need more info",color:"var(--t3)"},
@@ -189,7 +192,8 @@ async function saveNote(id,text,el){
 function card(c,i){
   const id=c.name.replace(/\s+/g,"_");
   const note = notesCache[id]?.text || notesCache[id] || "";
-  const flag = /RED FLAG|MISSING|MISMATCH|WRONG FIELD|intermediate English/i.test(c.note);
+  const isNew = c.tier===0;
+  const flag = !isNew && /RED FLAG|MISSING|MISMATCH|WRONG FIELD|intermediate English/i.test(c.note);
   const flagTxt = /MISSING/.test(c.note)?"resume missing":/intermediate/i.test(c.note)?"verify English":/MISMATCH|WRONG FIELD/i.test(c.note)?"wrong field":"flag";
   const cats=c.categories.map(k=>`
     <div class="cat"><div class="l"><span>${k.label}</span><span>${k.score}/5</span></div>
@@ -202,9 +206,16 @@ function card(c,i){
       <button class="btn" style="margin-top:8px" onclick='copyEmail(${i})'>Copy email</button>
       ${c.email?`<a class="btn" style="margin-top:8px;text-decoration:none" href="mailto:${c.email}?subject=${encodeURIComponent(c.intro_email.subject)}&body=${encodeURIComponent(c.intro_email.body)}">Open in mail app</a>`:""}
     </div>`:"";
+  const scorebox = isNew
+    ? `<div class="scorebox"><div class="newbadge">NEW</div><div class="conf">Awaiting review</div></div>`
+    : `<div class="scorebox">
+        <div class="scorenum">${c.score}</div>
+        <div class="scorebar"><i style="width:${c.score}%"></i></div>
+        <div class="conf">Confidence: <b>${c.confidence}</b></div>
+      </div>`;
   return `<div class="card t${c.tier}" data-name="${esc(c.name.toLowerCase())} ${esc(c.school.toLowerCase())}" data-tier="${c.tier}">
     <div class="top">
-      <div class="rank">#${i+1}</div>
+      <div class="rank">${isNew?"":"#"+c._rank}</div>
       <div class="who">
         <h3>${esc(c.name)}${flag?`<span class="flag">${flagTxt}</span>`:""}</h3>
         <div class="school">${esc(c.school)}</div>
@@ -213,14 +224,10 @@ function card(c,i){
           ${c.linkedin&&c.linkedin.startsWith("http")?`<a href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn ↗</a>`:""}
         </div>
       </div>
-      <div class="scorebox">
-        <div class="scorenum">${c.score}</div>
-        <div class="scorebar"><i style="width:${c.score}%"></i></div>
-        <div class="conf">Confidence: <b>${c.confidence}</b></div>
-      </div>
+      ${scorebox}
     </div>
-    <div class="note">${esc(c.note)}</div>
-    <div class="cats">${cats}</div>
+    <div class="note"${isNew?' style="background:#f5f3ff;border-color:#ddd6fe;color:#5b21b6"':""}>${esc(c.note)}</div>
+    ${isNew?"":`<div class="cats">${cats}</div>`}
     <div class="actions">
       ${email}
       <button class="btn" onclick="toggle('dt${i}')">Details</button>
@@ -267,9 +274,14 @@ window.copyEmail=i=>{const c=DATA[i];navigator.clipboard.writeText(c.intro_email
 (async function(){
   const d=await (await fetch("candidates.json?v="+Date.now())).json();
   DATA=d.candidates;
+  // rank among scored (tier>0); new (tier 0) float to the top
+  let rk=0; DATA.forEach(c=>{ if(c.tier>0){ rk++; c._rank=rk; } });
+  DATA.sort((a,b)=> (a.tier===0?-1:0)-(b.tier===0?-1:0) || (b.score||0)-(a.score||0));
   await loadNotes();
-  const counts={1:0,2:0,3:0,4:0}; DATA.forEach(c=>counts[c.tier]++);
+  const counts={0:0,1:0,2:0,3:0,4:0}; DATA.forEach(c=>counts[c.tier]++);
+  const newStat = counts[0] ? `<div class="stat"><b style="color:#7c3aed">${counts[0]}</b><span>new — needs review</span></div>` : "";
   document.getElementById("stats").innerHTML=`
+    ${newStat}
     <div class="stat"><b>${DATA.length}</b><span>candidates</span></div>
     <div class="stat"><b style="color:var(--t1)">${counts[1]}</b><span>Tier 1 — interview</span></div>
     <div class="stat"><b style="color:var(--t2)">${counts[2]}</b><span>Tier 2</span></div>

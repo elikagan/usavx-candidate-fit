@@ -1,0 +1,34 @@
+name: Refresh candidates from Airtable
+
+on:
+  schedule:
+    - cron: '0 * * * *'      # hourly
+  workflow_dispatch: {}       # manual "Run" button
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild candidates.json from Airtable
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: python3 generate_data.py
+      - name: Commit if changed
+        run: |
+          git config user.name "usavx-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if ! git diff --quiet candidates.json; then
+            git add candidates.json
+            git commit -m "Auto-refresh candidates from Airtable"
+            git push
+            echo "Published updated candidates.json"
+          else
+            echo "No changes."
+          fi
