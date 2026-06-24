@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>USAVX — Junior Engineer Candidate Fit</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --ink:#1a1d21; --muted:#6b7280; --line:#e5e7eb;
+    --accent:#2563eb; --t1:#16a34a; --t2:#2563eb; --t3:#d97706; --t4:#9ca3af;
+    --good:#16a34a; --mid:#d97706; --low:#9ca3af; --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 20px 80px}
+  header h1{font-size:26px;margin:0 0 4px;letter-spacing:-.02em}
+  header p{margin:0;color:var(--muted);font-size:15px}
+  .stats{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 8px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px;box-shadow:var(--shadow)}
+  .stat b{display:block;font-size:22px;line-height:1.1}
+  .stat span{font-size:12px;color:var(--muted)}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 26px;
+    position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:20}
+  .controls input{flex:1;min-width:180px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;background:#fff}
+  .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff}
+  .seg button{border:0;background:#fff;padding:8px 12px;font-size:13px;cursor:pointer;color:var(--muted);border-right:1px solid var(--line)}
+  .seg button:last-child{border-right:0}
+  .seg button.on{background:var(--ink);color:#fff}
+  .tierhead{display:flex;align-items:center;gap:10px;margin:30px 0 12px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+  .dot{width:10px;height:10px;border-radius:50%}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
+  .card.t1{border-left:4px solid var(--t1)} .card.t2{border-left:4px solid var(--t2)}
+  .card.t3{border-left:4px solid var(--t3)} .card.t4{border-left:4px solid var(--t4)}
+  .top{display:flex;align-items:flex-start;gap:16px}
+  .rank{font-size:13px;color:var(--muted);width:26px;flex:none;padding-top:4px}
+  .who{flex:1;min-width:0}
+  .who h3{margin:0;font-size:18px;letter-spacing:-.01em}
+  .who .school{color:var(--muted);font-size:13px;margin-top:2px}
+  .links{margin-top:6px;font-size:13px;display:flex;gap:14px;flex-wrap:wrap}
+  .links a{color:var(--accent);text-decoration:none}
+  .links a:hover{text-decoration:underline}
+  .scorebox{flex:none;text-align:right;width:120px}
+  .scorenum{font-size:30px;font-weight:700;letter-spacing:-.03em;line-height:1}
+  .scorebar{height:6px;background:var(--line);border-radius:4px;margin-top:6px;overflow:hidden}
+  .scorebar>i{display:block;height:100%;background:var(--accent);border-radius:4px}
+  .conf{font-size:11px;color:var(--muted);margin-top:5px}
+  .conf b{font-weight:600}
+  .note{margin:14px 0 0;font-size:14px;color:#374151;background:#f9fafb;border:1px solid var(--line);border-radius:8px;padding:11px 13px}
+  .cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px 18px;margin-top:14px}
+  .cat{font-size:12px}
+  .cat .l{display:flex;justify-content:space-between;color:var(--muted)}
+  .cat .b{height:5px;background:var(--line);border-radius:3px;margin-top:3px;overflow:hidden}
+  .cat .b>i{display:block;height:100%;border-radius:3px}
+  .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 13px;cursor:pointer;color:var(--ink)}
+  .btn:hover{background:#f3f4f6}
+  .btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .reveal{margin-top:12px;display:none}
+  .reveal.show{display:block}
+  details{margin-top:10px}
+  details summary{cursor:pointer;font-size:13px;color:var(--accent);outline:none}
+  details .body{font-size:13px;color:#4b5563;white-space:pre-wrap;margin-top:8px;padding:10px 12px;background:#f9fafb;border:1px solid var(--line);border-radius:8px}
+  .email{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;font-size:13.5px;white-space:pre-wrap;color:#1f2937}
+  .email .subj{font-weight:600;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .notes label{font-size:12px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:6px;margin:14px 0 6px}
+  .notes textarea{width:100%;min-height:60px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit;font-size:13.5px;resize:vertical;background:#fffdf7}
+  .saved{font-size:11px;color:var(--muted)}
+  .nb{display:inline-block;font-size:10px;padding:1px 6px;border-radius:20px;background:#eef2ff;color:#4338ca}
+  footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+  .flag{display:inline-block;font-size:11px;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:6px;padding:1px 7px;margin-left:8px}
+  @media(max-width:560px){.top{flex-wrap:wrap}.scorebox{width:auto;text-align:left}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>USAVX — Junior Engineer Candidate Fit</h1>
+    <p>Ranked by fit for the hands-on hardware role · evidence-based scoring from resumes &amp; applications</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <input id="search" placeholder="Search name or school…">
+    <div class="seg" id="tierseg">
+      <button data-t="all" class="on">All</button>
+      <button data-t="1">Tier 1</button>
+      <button data-t="2">Tier 2</button>
+      <button data-t="3">Tier 3</button>
+      <button data-t="4">Tier 4</button>
+    </div>
+  </div>
+
+  <div id="list"></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+// === Notes backend: set to the Cloudflare Worker URL to make notes SHARED.
+// Empty string = notes save locally on this device only.
+const NOTES_API = "";
+// ============================================================================
+
+const TIER = {
+  1:{label:"Tier 1 — Interview now",color:"var(--t1)"},
+  2:{label:"Tier 2 — Interview if capacity",color:"var(--t2)"},
+  3:{label:"Tier 3 — Need more info",color:"var(--t3)"},
+  4:{label:"Tier 4 — Likely not a fit for this role",color:"var(--t4)"},
+};
+const catColor = s => s>=4?"var(--good)":s>=3?"var(--mid)":"var(--low)";
+const esc = s => (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+let DATA=[], notesCache={}, state={tier:"all",q:""};
+
+async function loadNotes(){
+  if(!NOTES_API) { notesCache = JSON.parse(localStorage.getItem("usavx_notes")||"{}"); return; }
+  try{ const r=await fetch(NOTES_API); notesCache=await r.json(); }
+  catch(e){ notesCache = JSON.parse(localStorage.getItem("usavx_notes")||"{}"); }
+}
+async function saveNote(id,text,el){
+  if(NOTES_API){
+    try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id,text})});
+         el.textContent="Saved ✓ (shared)"; }
+    catch(e){ el.textContent="Couldn't reach server"; }
+  } else {
+    const all=JSON.parse(localStorage.getItem("usavx_notes")||"{}");
+    if(text.trim()) all[id]={text}; else delete all[id];
+    localStorage.setItem("usavx_notes",JSON.stringify(all));
+    el.textContent="Saved ✓ (this device)";
+  }
+}
+
+function card(c,i){
+  const id=c.name.replace(/\s+/g,"_");
+  const note = notesCache[id]?.text || notesCache[id] || "";
+  const flag = /RED FLAG|MISSING|MISMATCH|WRONG FIELD|intermediate English/i.test(c.note);
+  const flagTxt = /MISSING/.test(c.note)?"resume missing":/intermediate/i.test(c.note)?"verify English":/MISMATCH|WRONG FIELD/i.test(c.note)?"wrong field":"flag";
+  const cats=c.categories.map(k=>`
+    <div class="cat"><div class="l"><span>${k.label}</span><span>${k.score}/5</span></div>
+    <div class="b"><i style="width:${k.score/5*100}%;background:${catColor(k.score)}"></i></div></div>`).join("");
+  const email = c.intro_email ? `
+    <button class="btn primary" onclick="toggle('em${i}')">✉ Intro email</button>` : "";
+  const emailBox = c.intro_email ? `
+    <div class="reveal" id="em${i}">
+      <div class="email"><div class="subj">${esc(c.intro_email.subject)}</div>${esc(c.intro_email.body)}</div>
+      <button class="btn" style="margin-top:8px" onclick='copyEmail(${i})'>Copy email</button>
+      ${c.email?`<a class="btn" style="margin-top:8px;text-decoration:none" href="mailto:${c.email}?subject=${encodeURIComponent(c.intro_email.subject)}&body=${encodeURIComponent(c.intro_email.body)}">Open in mail app</a>`:""}
+    </div>`:"";
+  return `<div class="card t${c.tier}" data-name="${esc(c.name.toLowerCase())} ${esc(c.school.toLowerCase())}" data-tier="${c.tier}">
+    <div class="top">
+      <div class="rank">#${i+1}</div>
+      <div class="who">
+        <h3>${esc(c.name)}${flag?`<span class="flag">${flagTxt}</span>`:""}</h3>
+        <div class="school">${esc(c.school)}</div>
+        <div class="links">
+          ${c.email?`<a href="mailto:${c.email}">${esc(c.email)}</a>`:""}
+          ${c.linkedin&&c.linkedin.startsWith("http")?`<a href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn ↗</a>`:""}
+        </div>
+      </div>
+      <div class="scorebox">
+        <div class="scorenum">${c.score}</div>
+        <div class="scorebar"><i style="width:${c.score}%"></i></div>
+        <div class="conf">Confidence: <b>${c.confidence}</b></div>
+      </div>
+    </div>
+    <div class="note">${esc(c.note)}</div>
+    <div class="cats">${cats}</div>
+    <div class="actions">
+      ${email}
+      <button class="btn" onclick="toggle('dt${i}')">Details</button>
+    </div>
+    ${emailBox}
+    <div class="reveal" id="dt${i}">
+      ${c.about?`<details open><summary>About me (their words)</summary><div class="body">${esc(c.about)}</div></details>`:""}
+      <details><summary>Full resume summary</summary><div class="body">${esc(c.summary)}</div></details>
+    </div>
+    <div class="notes">
+      <label>Notes <span class="nb">${NOTES_API?"shared":"this device"}</span></label>
+      <textarea id="nt${id}" placeholder="Add a note — interview impressions, follow-ups…">${esc(note)}</textarea>
+      <div class="saved" id="sv${id}"></div>
+    </div>
+  </div>`;
+}
+
+function render(){
+  const list=document.getElementById("list");
+  const shown=DATA.filter(c=>(state.tier==="all"||String(c.tier)===state.tier)&&
+    (c.name+" "+c.school).toLowerCase().includes(state.q));
+  let html="", lastTier=null;
+  shown.forEach((c,gi)=>{
+    if(c.tier!==lastTier && state.tier==="all"){
+      lastTier=c.tier;
+      html+=`<div class="tierhead"><span class="dot" style="background:${TIER[c.tier].color}"></span>${TIER[c.tier].label}</div>`;
+    }
+    html+=card(c, DATA.indexOf(c));
+  });
+  list.innerHTML = shown.length?html:`<p style="color:var(--muted)">No candidates match.</p>`;
+  // wire textareas
+  shown.forEach(c=>{
+    const id=c.name.replace(/\s+/g,"_");
+    const ta=document.getElementById("nt"+id), sv=document.getElementById("sv"+id);
+    if(!ta) return;
+    let t; ta.addEventListener("input",()=>{sv.textContent="…";clearTimeout(t);
+      t=setTimeout(()=>saveNote(id,ta.value,sv),600);});
+  });
+}
+window.toggle=id=>document.getElementById(id).classList.toggle("show");
+window.copyEmail=i=>{const c=DATA[i];navigator.clipboard.writeText(c.intro_email.subject+"\n\n"+c.intro_email.body);
+  event.target.textContent="Copied ✓";setTimeout(()=>event.target.textContent="Copy email",1500);};
+
+(async function(){
+  const d=await (await fetch("candidates.json?v="+Date.now())).json();
+  DATA=d.candidates;
+  await loadNotes();
+  const counts={1:0,2:0,3:0,4:0}; DATA.forEach(c=>counts[c.tier]++);
+  document.getElementById("stats").innerHTML=`
+    <div class="stat"><b>${DATA.length}</b><span>candidates</span></div>
+    <div class="stat"><b style="color:var(--t1)">${counts[1]}</b><span>Tier 1 — interview</span></div>
+    <div class="stat"><b style="color:var(--t2)">${counts[2]}</b><span>Tier 2</span></div>
+    <div class="stat"><b style="color:var(--t4)">${counts[4]}</b><span>not a fit</span></div>`;
+  document.getElementById("foot").innerHTML=
+    `Scored on 7 weighted dimensions (fabrication, CAD, mechanical design, domain/UAV experience, initiative, English, electronics). `+
+    `Credentials &amp; GPA are deliberately not scored — demonstrated building is. English scores are provisional; confirm live. `+
+    `${NOTES_API?"Notes are shared across everyone with this link.":"Notes currently save to this device only."}`;
+  render();
+})();
+
+document.getElementById("search").addEventListener("input",e=>{state.q=e.target.value.toLowerCase();render();});
+document.querySelectorAll("#tierseg button").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll("#tierseg button").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on");state.tier=b.dataset.t;render();}));
+</script>
+</body>
+</html>
