@@ -6,6 +6,10 @@
    "score": 96.8,
    "confidence": "High",
    "tier": 1,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems",
+    "Aerospace Mechanical Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -67,6 +71,9 @@
    "score": 94.4,
    "confidence": "High",
    "tier": 1,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -128,6 +135,9 @@
    "score": 87.4,
    "confidence": "Medium",
    "tier": 1,
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -189,6 +199,9 @@
    "score": 85.8,
    "confidence": "Medium",
    "tier": 1,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -250,6 +263,10 @@
    "score": 81.4,
    "confidence": "High",
    "tier": 1,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems",
+    "Aerospace Mechanical Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -311,6 +328,9 @@
    "score": 77.8,
    "confidence": "Medium",
    "tier": 2,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -368,6 +388,10 @@
    "score": 72.2,
    "confidence": "High",
    "tier": 2,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems",
+    "Aerospace Mechanical Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -425,6 +449,9 @@
    "score": 71.4,
    "confidence": "Medium",
    "tier": 2,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -482,6 +509,9 @@
    "score": 68.4,
    "confidence": "Medium",
    "tier": 2,
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -539,6 +569,9 @@
    "score": 66.4,
    "confidence": "Medium",
    "tier": 2,
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -596,6 +629,9 @@
    "score": 64.0,
    "confidence": "Medium",
    "tier": 2,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -653,6 +689,9 @@
    "score": 57.0,
    "confidence": "Medium",
    "tier": 3,
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -710,6 +749,9 @@
    "score": 55.4,
    "confidence": "Low",
    "tier": 3,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -767,6 +809,9 @@
    "score": 50.6,
    "confidence": "Low",
    "tier": 3,
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -824,6 +869,9 @@
    "score": 49.0,
    "confidence": "Low",
    "tier": 3,
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -881,6 +929,9 @@
    "score": 45.0,
    "confidence": "Low",
    "tier": 3,
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -938,6 +989,9 @@
    "score": 43.8,
    "confidence": "Low",
    "tier": 3,
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -994,7 +1048,10 @@
    "school": "Caltech",
    "score": 32.6,
    "confidence": "High",
-   "tier": 4,
+   "tier": 5,
+   "roles": [
+    "AI Engineer"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -1039,7 +1096,7 @@
      "weight": 8
     }
    ],
-   "note": "MISMATCH: ML/software engineer, co-founded a GenAI startup. Exceptional — but no mechanical/CAD/fabrication. Redirect to a software/autonomy req, not this hardware role.",
+   "note": "Applied to the AI Engineer role — not the hardware req, so not ranked against this rubric. Exceptional ML/software engineer (Caltech; co-founded a GenAI startup). Evaluate under the AI role.",
    "email": "jlavin@alumni.caltech.edu",
    "linkedin": "https://www.linkedin.com/in/jlavin1 ",
    "about": "",
@@ -1051,7 +1108,10 @@
    "school": "ORT Argentina",
    "score": 30.2,
    "confidence": "High",
-   "tier": 4,
+   "tier": 5,
+   "roles": [
+    "Strategic Projects Intern"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -1096,7 +1156,7 @@
      "weight": 8
     }
    ],
-   "note": "MISMATCH: full-stack / Web3 software developer. Capable, wrong discipline for a CAD/fab role. Redirect to software.",
+   "note": "Applied to the Strategic Projects Intern role. Full-stack / Web3 developer with clear initiative and startup experience. Evaluate under Strategic Projects, not the hardware rubric.",
    "email": "felipe@fluck.com.ar",
    "linkedin": "https://www.linkedin.com/in/felipefluckdev/",
    "about": "",
@@ -1108,7 +1168,10 @@
    "school": "San Diego State",
    "score": 25.0,
    "confidence": "High",
-   "tier": 4,
+   "tier": 5,
+   "roles": [
+    "Operations Intern"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -1153,7 +1216,7 @@
      "weight": 8
     }
    ],
-   "note": "WRONG FIELD for this role: B.S. Business Admin / Management. Strong operations & leadership — possible ops/PM fit elsewhere, not mechanical engineering.",
+   "note": "Applied to the Operations Intern role. Strong operations & organizational leadership (ran campus orgs, managed budgets). Evaluate under the Operations req, not the hardware rubric.",
    "email": "laurenhagen04@gmail.com",
    "linkedin": "https://www.linkedin.com/in/laurenhagen2004",
    "about": "",
@@ -1165,7 +1228,10 @@
    "school": "CETYS",
    "score": 15.2,
    "confidence": "High",
-   "tier": 4,
+   "tier": 5,
+   "roles": [
+    "Strategic Projects Intern"
+   ],
    "categories": [
     {
      "key": "Fabrication",
@@ -1210,7 +1276,7 @@
      "weight": 8
     }
    ],
-   "note": "WRONG FIELD: marketing student (social media, Canva, branding). 'Highly Relevant' tag is mis-set. Not an engineering candidate.",
+   "note": "Applied to the Strategic Projects Intern role. Marketing / branding / event-coordination background. Evaluate under Strategic Projects, not the hardware rubric.",
    "email": "camilaalewis@gmail.com",
    "linkedin": "https://www.linkedin.com/in/camilaalewis/",
    "about": "",

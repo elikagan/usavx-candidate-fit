@@ -1,0 +1,8 @@
+name = "usavx-notes"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "usavx-notes-db"
+database_id = "a4c356e9-3f08-46ec-99cc-7c486a33a50a"

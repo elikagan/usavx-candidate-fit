@@ -28,9 +28,14 @@
   .seg button{border:0;background:#fff;padding:8px 12px;font-size:13px;cursor:pointer;color:var(--muted);border-right:1px solid var(--line)}
   .seg button:last-child{border-right:0}
   .seg button.on{background:var(--ink);color:#fff}
+  .controls2{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-12px 0 26px}
+  .controls2 select{padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-size:13px;background:#fff;font-family:inherit;max-width:340px}
+  .chip{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:20px;padding:7px 14px;cursor:pointer;color:var(--muted)}
+  .chip.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+  .rolepill{display:inline-block;font-size:11px;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;border-radius:6px;padding:1px 8px;margin:5px 6px 0 0}
   .tierhead{display:flex;align-items:center;gap:10px;margin:30px 0 12px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
   .dot{width:10px;height:10px;border-radius:50%}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
+  .card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
   .card.t1{border-left:4px solid var(--t1)} .card.t2{border-left:4px solid var(--t2)}
   .card.t3{border-left:4px solid var(--t3)} .card.t4{border-left:4px solid var(--t4)}
   .top{display:flex;align-items:flex-start;gap:16px}
@@ -53,10 +58,15 @@
   .cat .l{display:flex;justify-content:space-between;color:var(--muted)}
   .cat .b{height:5px;background:var(--line);border-radius:3px;margin-top:3px;overflow:hidden}
   .cat .b>i{display:block;height:100%;border-radius:3px}
-  .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
   .btn{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 13px;cursor:pointer;color:var(--ink)}
   .btn:hover{background:#f3f4f6}
   .btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .btn.toggle.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+  .iconbtn{font-size:18px;line-height:1;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;color:#9ca3af}
+  .iconbtn.on{color:#f59e0b;border-color:#fcd34d;background:#fffbeb}
+  .star{position:absolute;top:16px;right:18px;font-size:20px;line-height:1;background:none;border:0;cursor:pointer;color:#d1d5db}
+  .star.on{color:#f59e0b}
   .reveal{margin-top:12px;display:none}
   .reveal.show{display:block}
   details{margin-top:10px}
@@ -161,8 +171,13 @@
       <button data-t="1">Tier 1</button>
       <button data-t="2">Tier 2</button>
       <button data-t="3">Tier 3</button>
-      <button data-t="4">Tier 4</button>
+      <button data-t="5">Other roles</button>
     </div>
+  </div>
+  <div class="controls2">
+    <select id="roleFilter"><option value="all">All roles</option></select>
+    <button class="chip" id="chipBookmark">☆ Bookmarked</button>
+    <button class="chip" id="chipElevated">⭐ Top picks</button>
   </div>
 
   <div id="list"></div>
@@ -196,18 +211,45 @@ const TIER = {
   1:{label:"Tier 1 — Interview now",color:"var(--t1)"},
   2:{label:"Tier 2 — Interview if capacity",color:"var(--t2)"},
   3:{label:"Tier 3 — Need more info",color:"var(--t3)"},
-  4:{label:"Tier 4 — Likely not a fit for this role",color:"var(--t4)"},
+  5:{label:"Other roles — applied to a different req",color:"var(--t4)"},
 };
 const catColor = s => s>=4?"var(--good)":s>=3?"var(--mid)":"var(--low)";
 const esc = s => (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const cid = name => name.replace(/\s+/g,"_");
 
-let DATA=[], notesCache={}, state={tier:"all",q:""};
+let DATA=[], notesCache={}, bookmarks=new Set(), elevated=new Set();
+let state={tier:"all",q:"",role:"all",bookmarked:false,elevated:false};
 
-async function loadNotes(){
-  if(!NOTES_API) { notesCache = JSON.parse(localStorage.getItem("usavx_notes")||"{}"); return; }
-  try{ const r=await fetch(NOTES_API); notesCache=await r.json(); }
-  catch(e){ notesCache = JSON.parse(localStorage.getItem("usavx_notes")||"{}"); }
+function ingest(all){
+  notesCache={}; bookmarks=new Set(); elevated=new Set();
+  for(const k in all){
+    const v = all[k]?.text ?? all[k];
+    if(k.startsWith("bm:")){ if(v) bookmarks.add(k.slice(3)); }
+    else if(k.startsWith("elev:")){ if(v) elevated.add(k.slice(5)); }
+    else notesCache[k]={text:v};
+  }
 }
+async function loadNotes(){
+  if(!NOTES_API) { ingest(JSON.parse(localStorage.getItem("usavx_notes")||"{}")); return; }
+  try{ const r=await fetch(NOTES_API); ingest(await r.json()); }
+  catch(e){ ingest(JSON.parse(localStorage.getItem("usavx_notes")||"{}")); }
+}
+async function setFlag(prefix,candId,on){
+  const key=prefix+candId;
+  if(NOTES_API){
+    try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id:key,text:on?"1":""})}); }catch(e){}
+  } else {
+    const all=JSON.parse(localStorage.getItem("usavx_notes")||"{}");
+    if(on) all[key]={text:"1"}; else delete all[key];
+    localStorage.setItem("usavx_notes",JSON.stringify(all));
+  }
+}
+window.toggleBookmark=(name,btn)=>{ const id=cid(name); const on=!bookmarks.has(id);
+  on?bookmarks.add(id):bookmarks.delete(id); setFlag("bm:",id,on);
+  btn.classList.toggle("on",on); btn.textContent=on?"★ Bookmarked":"☆ Bookmark"; if(state.bookmarked)render(); };
+window.toggleElevate=(name,btn)=>{ const id=cid(name); const on=!elevated.has(id);
+  on?elevated.add(id):elevated.delete(id); setFlag("elev:",id,on);
+  btn.classList.toggle("on",on); btn.textContent=on?"⭐ Top pick":"☆ Mark top pick"; if(state.elevated)render(); };
 async function saveNote(id,text,el){
   if(NOTES_API){
     try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id,text})});
@@ -245,12 +287,15 @@ function card(c,i){
         <div class="scorebar"><i style="width:${c.score}%"></i></div>
         <div class="conf">Confidence: <b>${c.confidence}</b></div>
       </div>`;
+  const bmOn=bookmarks.has(id), elOn=elevated.has(id);
+  const rolePills=(c.roles||[]).map(r=>`<span class="rolepill">${esc(r)}</span>`).join("");
   return `<div class="card t${c.tier}" data-name="${esc(c.name.toLowerCase())} ${esc(c.school.toLowerCase())}" data-tier="${c.tier}">
     <div class="top">
       <div class="rank">${isNew?"":"#"+c._rank}</div>
       <div class="who">
         <h3>${esc(c.name)}${flag?`<span class="flag">${flagTxt}</span>`:""}</h3>
         <div class="school">${esc(c.school)}</div>
+        ${rolePills?`<div>${rolePills}</div>`:""}
         <div class="links">
           ${c.email?`<a href="mailto:${c.email}">${esc(c.email)}</a>`:""}
           ${c.linkedin&&c.linkedin.startsWith("http")?`<a href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn ↗</a>`:""}
@@ -262,6 +307,8 @@ function card(c,i){
     ${isNew?"":`<div class="cats">${cats}</div>`}
     <div class="actions">
       ${email}
+      <button class="btn toggle ${elOn?'on':''}" onclick='toggleElevate(${JSON.stringify(c.name)},this)'>${elOn?"⭐ Top pick":"☆ Mark top pick"}</button>
+      <button class="btn toggle ${bmOn?'on':''}" onclick='toggleBookmark(${JSON.stringify(c.name)},this)'>${bmOn?"★ Bookmarked":"☆ Bookmark"}</button>
       <button class="btn" onclick="toggle('dt${i}')">Details</button>
     </div>
     ${emailBox}
@@ -279,7 +326,11 @@ function card(c,i){
 
 function render(){
   const list=document.getElementById("list");
-  const shown=DATA.filter(c=>(state.tier==="all"||String(c.tier)===state.tier)&&
+  const shown=DATA.filter(c=>
+    (state.tier==="all"||String(c.tier)===state.tier)&&
+    (state.role==="all"||(c.roles||[]).includes(state.role))&&
+    (!state.bookmarked||bookmarks.has(cid(c.name)))&&
+    (!state.elevated||elevated.has(cid(c.name)))&&
     (c.name+" "+c.school).toLowerCase().includes(state.q));
   let html="", lastTier=null;
   shown.forEach((c,gi)=>{
@@ -310,14 +361,18 @@ window.copyEmail=i=>{const c=DATA[i];navigator.clipboard.writeText(c.intro_email
   let rk=0; DATA.forEach(c=>{ if(c.tier>0){ rk++; c._rank=rk; } });
   DATA.sort((a,b)=> (a.tier===0?-1:0)-(b.tier===0?-1:0) || (b.score||0)-(a.score||0));
   await loadNotes();
-  const counts={0:0,1:0,2:0,3:0,4:0}; DATA.forEach(c=>counts[c.tier]++);
+  const counts={0:0,1:0,2:0,3:0,5:0}; DATA.forEach(c=>counts[c.tier]=(counts[c.tier]||0)+1);
   const newStat = counts[0] ? `<div class="stat"><b style="color:#7c3aed">${counts[0]}</b><span>new — needs review</span></div>` : "";
   document.getElementById("stats").innerHTML=`
     ${newStat}
     <div class="stat"><b>${DATA.length}</b><span>candidates</span></div>
     <div class="stat"><b style="color:var(--t1)">${counts[1]}</b><span>Tier 1 — interview</span></div>
     <div class="stat"><b style="color:var(--t2)">${counts[2]}</b><span>Tier 2</span></div>
-    <div class="stat"><b style="color:var(--t4)">${counts[4]}</b><span>not a fit</span></div>`;
+    <div class="stat"><b style="color:var(--t4)">${counts[5]}</b><span>other roles</span></div>`;
+  // populate role filter
+  const roles=[...new Set(DATA.flatMap(c=>c.roles||[]))].sort();
+  const rf=document.getElementById("roleFilter");
+  roles.forEach(r=>{const o=document.createElement("option");o.value=r;o.textContent=r;rf.appendChild(o);});
   document.getElementById("foot").innerHTML=
     `Scored on 7 weighted dimensions (fabrication, CAD, mechanical design, domain/UAV experience, initiative, English, electronics). `+
     `Credentials &amp; GPA are deliberately not scored — demonstrated building is. English scores are provisional; confirm live. `+
@@ -333,6 +388,12 @@ document.getElementById("search").addEventListener("input",e=>{state.q=e.target.
 document.querySelectorAll("#tierseg button").forEach(b=>b.addEventListener("click",()=>{
   document.querySelectorAll("#tierseg button").forEach(x=>x.classList.remove("on"));
   b.classList.add("on");state.tier=b.dataset.t;render();}));
+document.getElementById("roleFilter").addEventListener("change",e=>{state.role=e.target.value;render();});
+document.getElementById("chipBookmark").addEventListener("click",e=>{
+  state.bookmarked=!state.bookmarked;e.target.classList.toggle("on",state.bookmarked);
+  e.target.textContent=(state.bookmarked?"★":"☆")+" Bookmarked";render();});
+document.getElementById("chipElevated").addEventListener("click",e=>{
+  state.elevated=!state.elevated;e.target.classList.toggle("on",state.elevated);render();});
 </script>
 </body>
 </html>

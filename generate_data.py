@@ -35,7 +35,9 @@ def field(f, k):
 def norm(s): return re.sub(r"\s+", " ", (s or "").strip().lower())
 
 # richest record per unique person (dedupe; prefer one with most text)
+# also collect ALL roles a person is linked to across their records
 by_name = {}
+roles_by_name = {}
 for r in raw:
     f = r["fields"]
     nm = norm(f.get("Name", ""))
@@ -43,6 +45,10 @@ for r in raw:
     weight = len(field(f, "About Me")) + len(field(f, "Resume Summary"))
     if nm not in by_name or weight > by_name[nm][1]:
         by_name[nm] = (f, weight)
+    for rl in (f.get("Role Name (from Roles)") or []):
+        roles_by_name.setdefault(nm, [])
+        if rl not in roles_by_name[nm]:
+            roles_by_name[nm].append(rl)
 
 def match_key(name):
     """Find the raw record key for a scored name, tolerating middle names."""
@@ -67,10 +73,10 @@ for c in C:
 def total(c): return round(sum(c[k]/5*WEIGHTS[k] for k in WEIGHTS), 1)
 
 T1 = {"Leon Aillaud Chavez","Yixin Zhou","Jackson Martin","Sofia Valdez Lau","Diego Mendoza Madrid"}
-T4 = {"Jonayet Lavin","Felipe Fluck","Lauren Hagen","Camila Lewis"}
+OTHER_ROLE = {"Jonayet Lavin","Felipe Fluck","Lauren Hagen","Camila Lewis"}  # applied to non-hardware reqs
 def tier(name, sc):
+    if name in OTHER_ROLE: return 5   # "Other roles" — not ranked vs hardware rubric
     if name in T1: return 1
-    if name in T4: return 4
     return 2 if sc >= 64 else 3
 
 EMAILS = {
@@ -112,6 +118,7 @@ for r in sorted(C, key=lambda x: total(x["c"]), reverse=True):
       "name": r["name"], "school": r["school"], "score": total(c),
       "confidence": {"H":"High","M":"Medium","L":"Low"}[r["conf"]],
       "tier": tier(r["name"], total(c)),
+      "roles": roles_by_name.get(mk, []) if mk else [],
       "categories": [{"key":k,"label":lbl,"score":c[k],"weight":WEIGHTS[k]} for k,lbl in CATLABELS],
       "note": r["note"], "email": field(f,"Email"), "linkedin": f.get("LinkedIn",""),
       "about": field(f,"About Me"), "summary": field(f,"Resume Summary"),
@@ -126,6 +133,7 @@ for nm,(f,_) in by_name.items():
     out.append({
       "name": f.get("Name",""), "school": field(f,"Resume-Role Relevance Category") or "",
       "score": None, "confidence": "—", "tier": 0,
+      "roles": roles_by_name.get(nm, []),
       "categories": [], "note": "New application — not yet reviewed.",
       "email": field(f,"Email"), "linkedin": f.get("LinkedIn",""),
       "about": field(f,"About Me"), "summary": field(f,"Resume Summary"), "intro_email": None,

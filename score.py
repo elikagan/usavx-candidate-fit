@@ -69,19 +69,19 @@ C = [
  dict(name="Marco Rangel", school="CETYS", conf="L",
    c=dict(CAD=2,Fabrication=2,MechDesign=2,Domain=1,Electronics=1,Initiative=3,English=5),
    note="ME grad met at job fair; 3D printing; quad-lingual (En/Es/It/basic German); production-supervision internship. Thin technical depth; strong communicator."),
- # --- domain mismatch: capable but not a mechanical/CAD/fab fit ---
+ # --- applicants to OTHER roles (not the hardware req) — not ranked vs this rubric ---
  dict(name="Jonayet Lavin", school="Caltech", conf="H",
    c=dict(CAD=0,Fabrication=1,MechDesign=0,Domain=1,Electronics=2,Initiative=5,English=5),
-   note="MISMATCH: ML/software engineer, co-founded a GenAI startup. Exceptional — but no mechanical/CAD/fabrication. Redirect to a software/autonomy req, not this hardware role."),
+   note="Applied to the AI Engineer role — not the hardware req, so not ranked against this rubric. Exceptional ML/software engineer (Caltech; co-founded a GenAI startup). Evaluate under the AI role."),
  dict(name="Felipe Fluck", school="ORT Argentina", conf="H",
    c=dict(CAD=0,Fabrication=1,MechDesign=0,Domain=1,Electronics=2,Initiative=4,English=5),
-   note="MISMATCH: full-stack / Web3 software developer. Capable, wrong discipline for a CAD/fab role. Redirect to software."),
+   note="Applied to the Strategic Projects Intern role. Full-stack / Web3 developer with clear initiative and startup experience. Evaluate under Strategic Projects, not the hardware rubric."),
  dict(name="Camila Lewis", school="CETYS", conf="H",
    c=dict(CAD=0,Fabrication=0,MechDesign=0,Domain=0,Electronics=0,Initiative=3,English=4),
-   note="WRONG FIELD: marketing student (social media, Canva, branding). 'Highly Relevant' tag is mis-set. Not an engineering candidate."),
+   note="Applied to the Strategic Projects Intern role. Marketing / branding / event-coordination background. Evaluate under Strategic Projects, not the hardware rubric."),
  dict(name="Lauren Hagen", school="San Diego State", conf="H",
    c=dict(CAD=0,Fabrication=0,MechDesign=0,Domain=1,Electronics=0,Initiative=5,English=5),
-   note="WRONG FIELD for this role: B.S. Business Admin / Management. Strong operations & leadership — possible ops/PM fit elsewhere, not mechanical engineering."),
+   note="Applied to the Operations Intern role. Strong operations & organizational leadership (ran campus orgs, managed budgets). Evaluate under the Operations req, not the hardware rubric."),
 ]
 
 def score(cat):
