@@ -65,6 +65,7 @@
   .btn:hover{background:#f3f4f6}
   .btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
   .btn.toggle.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+  .btn.archive{color:var(--muted);margin-left:auto}
   .iconbtn{font-size:18px;line-height:1;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;color:#9ca3af}
   .iconbtn.on{color:#f59e0b;border-color:#fcd34d;background:#fffbeb}
   .star{position:absolute;top:16px;right:18px;font-size:20px;line-height:1;background:none;border:0;cursor:pointer;color:#d1d5db}
@@ -173,6 +174,7 @@
   <div class="controls2">
     <button class="chip" id="chipBookmark">☆ Bookmarked</button>
     <button class="chip" id="chipElevated">⭐ Top picks</button>
+    <button class="chip" id="chipArchived">🗄 Archived</button>
   </div>
 
   <div id="list"></div>
@@ -212,15 +214,16 @@ const catColor = s => s>=4?"var(--good)":s>=3?"var(--mid)":"var(--low)";
 const esc = s => (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 const cid = name => name.replace(/\s+/g,"_");
 
-let DATA=[], ROLE_COUNTS={}, notesCache={}, bookmarks=new Set(), elevated=new Set();
-let state={q:"",role:"all",bookmarked:false,elevated:false};
+let DATA=[], ROLE_COUNTS={}, notesCache={}, bookmarks=new Set(), elevated=new Set(), archived=new Set();
+let state={q:"",role:"all",bookmarked:false,elevated:false,archived:false};
 
 function ingest(all){
-  notesCache={}; bookmarks=new Set(); elevated=new Set();
+  notesCache={}; bookmarks=new Set(); elevated=new Set(); archived=new Set();
   for(const k in all){
     const v = all[k]?.text ?? all[k];
     if(k.startsWith("bm:")){ if(v) bookmarks.add(k.slice(3)); }
     else if(k.startsWith("elev:")){ if(v) elevated.add(k.slice(5)); }
+    else if(k.startsWith("arch:")){ if(v) archived.add(k.slice(5)); }
     else notesCache[k]={text:v};
   }
 }
@@ -245,6 +248,8 @@ window.toggleBookmark=(name,btn)=>{ const id=cid(name); const on=!bookmarks.has(
 window.toggleElevate=(name,btn)=>{ const id=cid(name); const on=!elevated.has(id);
   on?elevated.add(id):elevated.delete(id); setFlag("elev:",id,on);
   btn.classList.toggle("on",on); btn.textContent=on?"⭐ Top pick":"☆ Mark top pick"; if(state.elevated)render(); };
+window.toggleArchive=(name)=>{ const id=cid(name); const on=!archived.has(id);
+  on?archived.add(id):archived.delete(id); setFlag("arch:",id,on); render(); };
 async function saveNote(id,text,el){
   if(NOTES_API){
     try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id,text})});
@@ -303,6 +308,7 @@ function card(c, rank, uid){
       <button class="btn toggle ${elOn?'on':''}" onclick='toggleElevate(${JSON.stringify(c.name)},this)'>${elOn?"⭐ Top pick":"☆ Mark top pick"}</button>
       <button class="btn toggle ${bmOn?'on':''}" onclick='toggleBookmark(${JSON.stringify(c.name)},this)'>${bmOn?"★ Bookmarked":"☆ Bookmark"}</button>
       <button class="btn" onclick="toggle('dt${uid}')">Details</button>
+      <button class="btn archive" onclick='toggleArchive(${JSON.stringify(c.name)})'>${archived.has(id)?"♻ Restore":"🗄 Archive"}</button>
     </div>
     ${emailBox}
     <div class="reveal" id="dt${uid}">
@@ -319,10 +325,13 @@ function card(c, rank, uid){
 
 function render(){
   const list=document.getElementById("list");
-  const base=DATA.filter(c=>
-    (!state.bookmarked||bookmarks.has(cid(c.name)))&&
-    (!state.elevated||elevated.has(cid(c.name)))&&
-    (c.name+" "+c.school).toLowerCase().includes(state.q));
+  const base=DATA.filter(c=>{
+    const arch=archived.has(cid(c.name));
+    if(state.archived ? !arch : arch) return false;   // show only archived, or only active
+    return (!state.bookmarked||bookmarks.has(cid(c.name)))&&
+      (!state.elevated||elevated.has(cid(c.name)))&&
+      (c.name+" "+c.school).toLowerCase().includes(state.q);
+  });
   let roleList = state.role!=="all" ? [state.role]
     : Object.keys(ROLE_COUNTS).sort((a,b)=>ROLE_COUNTS[b]-ROLE_COUNTS[a]);
   let html="", uid=0, any=false;
@@ -382,6 +391,8 @@ document.getElementById("chipBookmark").addEventListener("click",e=>{
   e.target.textContent=(state.bookmarked?"★":"☆")+" Bookmarked";render();});
 document.getElementById("chipElevated").addEventListener("click",e=>{
   state.elevated=!state.elevated;e.target.classList.toggle("on",state.elevated);render();});
+document.getElementById("chipArchived").addEventListener("click",e=>{
+  state.archived=!state.archived;e.target.classList.toggle("on",state.archived);render();});
 </script>
 </body>
 </html>
