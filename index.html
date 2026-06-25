@@ -6,221 +6,216 @@
 <title>USAVX — Candidate Fit</title>
 <style>
   :root{
-    --bg:#f6f7f9; --panel:#ffffff; --ink:#1a1d21; --muted:#6b7280; --line:#e5e7eb;
-    --accent:#2563eb; --t1:#16a34a; --t2:#2563eb; --t3:#d97706; --t4:#9ca3af;
-    --good:#16a34a; --mid:#d97706; --low:#9ca3af; --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+    --bg:#f4f5f8; --panel:#ffffff; --sidebar:#fbfbfd;
+    --ink:#15181d; --body:#3a3f4a; --muted:#6b7280; --faint:#9aa1ad;
+    --line:#e6e8ee; --line2:#eef0f4;
+    --accent:#4f46e5; --accent-soft:#eef0fe;
+    --strong:#16a34a; --interview:#2563eb; --maybe:#d97706; --hold:#9ca3af; --new:#7c3aed;
+    --shadow:0 1px 2px rgba(16,24,40,.04),0 1px 3px rgba(16,24,40,.06);
+    --shadow-lg:0 8px 24px rgba(16,24,40,.10);
+    --radius:14px;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);
+  html,body{margin:0;height:100%}
+  body{background:var(--bg);color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.5;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:1080px;margin:0 auto;padding:32px 20px 80px}
-  header h1{font-size:26px;margin:0 0 4px;letter-spacing:-.02em}
-  header p{margin:0;color:var(--muted);font-size:15px}
-  .stats{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 8px}
-  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px;box-shadow:var(--shadow)}
-  .stat b{display:block;font-size:22px;line-height:1.1}
-  .stat span{font-size:12px;color:var(--muted)}
-  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 26px;
-    position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:20}
-  .controls input{flex:1;min-width:180px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;background:#fff}
-  .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff}
-  .seg button{border:0;background:#fff;padding:8px 12px;font-size:13px;cursor:pointer;color:var(--muted);border-right:1px solid var(--line)}
-  .seg button:last-child{border-right:0}
-  .seg button.on{background:var(--ink);color:#fff}
-  .controls2{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-12px 0 26px}
-  .rolesel{padding:9px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;background:#fff;font-family:inherit;min-width:240px;cursor:pointer;font-weight:500}
-  .recbadge{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:20px;color:#fff}
-  .rolecount{font-size:11px;font-weight:500;color:var(--muted);background:#f3f4f6;border-radius:20px;padding:2px 9px;margin-left:6px}
-  .chip{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:20px;padding:7px 14px;cursor:pointer;color:var(--muted)}
-  .chip.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
-  .rolepill{display:inline-block;font-size:11px;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;border-radius:6px;padding:1px 8px;margin:5px 6px 0 0}
-  .tierhead{display:flex;align-items:center;gap:10px;margin:30px 0 12px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
-  .dot{width:10px;height:10px;border-radius:50%}
-  .card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
-  .card.t1{border-left:4px solid var(--t1)} .card.t2{border-left:4px solid var(--t2)}
-  .card.t3{border-left:4px solid var(--t3)} .card.t4{border-left:4px solid var(--t4)}
-  .top{display:flex;align-items:flex-start;gap:16px}
-  .rank{font-size:13px;color:var(--muted);width:26px;flex:none;padding-top:4px}
+    line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  button{font-family:inherit}
+
+  /* ---------- App shell ---------- */
+  .app{display:grid;grid-template-columns:280px 1fr;min-height:100vh}
+  .sidebar{background:var(--sidebar);border-right:1px solid var(--line);
+    padding:22px 16px;position:sticky;top:0;height:100vh;overflow-y:auto}
+  .brand{display:flex;align-items:center;gap:9px;padding:4px 8px 18px;font-weight:700;font-size:15px;letter-spacing:-.01em}
+  .brand .mark{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    display:grid;place-items:center;color:#fff;font-size:13px;font-weight:800}
+  .brand small{display:block;font-weight:500;color:var(--faint);font-size:11px;letter-spacing:.02em;margin-top:1px}
+
+  .navlabel{font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);padding:14px 8px 7px}
+  .joblink{display:flex;align-items:center;gap:8px;width:100%;text-align:left;border:0;background:none;
+    padding:9px 10px;border-radius:9px;cursor:pointer;color:var(--body);font-size:13.5px;line-height:1.3;margin-bottom:1px}
+  .joblink:hover{background:#f0f1f5}
+  .joblink.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+  .joblink .jl-name{flex:1;min-width:0}
+  .joblink .jl-count{font-size:11px;font-weight:600;color:var(--faint);background:#eceef3;border-radius:20px;padding:1px 8px;flex:none}
+  .joblink.on .jl-count{background:#fff;color:var(--accent)}
+  .joblink.overview{font-weight:600;color:var(--ink)}
+  .joblink.overview.on{color:var(--accent)}
+
+  .sb-search{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:9px;font-size:13px;background:#fff;margin:6px 0 4px}
+  .chips{display:flex;flex-direction:column;gap:5px;margin-top:4px}
+  .chip{display:flex;align-items:center;gap:8px;width:100%;text-align:left;font-size:13px;border:1px solid transparent;
+    background:none;border-radius:8px;padding:7px 10px;cursor:pointer;color:var(--body)}
+  .chip:hover{background:#f0f1f5}
+  .chip.on{background:#fffbeb;color:#92400e;border-color:#fde68a}
+
+  /* ---------- Main ---------- */
+  .main{min-width:0}
+  .main-inner{max-width:880px;margin:0 auto;padding:34px 32px 90px}
+  .jobhead{margin-bottom:8px}
+  .eyebrow{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+  .jobhead h1{font-size:27px;letter-spacing:-.025em;margin:6px 0 6px;line-height:1.15}
+  .jobmeta{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;color:var(--muted);font-size:13.5px}
+  .jobmeta .sep{color:var(--line)}
+  .pill-dist{display:inline-flex;gap:6px;align-items:center}
+  .dotc{width:8px;height:8px;border-radius:50%;display:inline-block}
+  .jdbtn{margin-top:14px;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:9px;padding:8px 13px;cursor:pointer;color:var(--body);box-shadow:var(--shadow)}
+  .jdbtn:hover{background:#f7f8fa}
+  .jdwrap{max-height:0;overflow:hidden;transition:max-height .35s ease}
+  .jdwrap.open{max-height:2400px}
+  .jdbox{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:6px 24px 22px;margin-top:14px;box-shadow:var(--shadow)}
+  .jdbox h1,.jdbox h2,.jdbox h3{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin:18px 0 6px}
+  .jdbox p,.jdbox li{font-size:14px;color:var(--body);margin:6px 0}
+  .jdbox ul{margin:6px 0;padding-left:20px}
+  .jdbox strong{color:var(--ink)}
+
+  .sectionhead{display:flex;align-items:baseline;gap:10px;margin:34px 0 14px;padding-bottom:10px;border-bottom:1px solid var(--line2)}
+  .sectionhead h2{font-size:16px;letter-spacing:-.01em;margin:0}
+  .sectionhead .cnt{font-size:12px;color:var(--faint);font-weight:500}
+
+  /* ---------- Card ---------- */
+  .card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 20px;margin-bottom:13px;box-shadow:var(--shadow);transition:box-shadow .15s,border-color .15s}
+  .card:hover{box-shadow:var(--shadow-lg);border-color:#dcdfe8}
+  .accent{position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:3px}
+  .ctop{display:flex;align-items:flex-start;gap:14px}
+  .rank{font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;color:var(--faint);width:24px;flex:none;padding-top:3px}
   .who{flex:1;min-width:0}
-  .who h3{margin:0;font-size:18px;letter-spacing:-.01em}
-  .who .school{color:var(--muted);font-size:13px;margin-top:2px}
-  .links{margin-top:6px;font-size:13px;display:flex;gap:14px;flex-wrap:wrap}
-  .links a{color:var(--accent);text-decoration:none}
-  .links a:hover{text-decoration:underline}
-  .scorebox{flex:none;text-align:right;width:120px}
-  .scorenum{font-size:30px;font-weight:700;letter-spacing:-.03em;line-height:1}
-  .scorebar{height:6px;background:var(--line);border-radius:4px;margin-top:6px;overflow:hidden}
-  .scorebar>i{display:block;height:100%;background:var(--accent);border-radius:4px}
-  .conf{font-size:11px;color:var(--muted);margin-top:5px}
-  .conf b{font-weight:600}
-  .note{margin:14px 0 0;font-size:14px;color:#374151;background:#f9fafb;border:1px solid var(--line);border-radius:8px;padding:11px 13px}
-  .cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px 18px;margin-top:14px}
+  .nmeline{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .who h3{margin:0;font-size:17px;letter-spacing:-.01em}
+  .who .school{color:var(--muted);font-size:13px;margin-top:3px}
+  .links{margin-top:7px;font-size:12.5px;display:flex;gap:14px;flex-wrap:wrap}
+  .recbadge{font-size:11px;font-weight:600;padding:2px 9px;border-radius:20px;color:#fff;white-space:nowrap}
+  .flag{font-size:11px;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:6px;padding:1px 7px}
+  .scorebox{flex:none;text-align:right;width:96px}
+  .scorenum{font-size:30px;font-weight:700;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
+  .scorebar{height:5px;background:var(--line2);border-radius:4px;margin-top:7px;overflow:hidden}
+  .scorebar>i{display:block;height:100%;border-radius:4px}
+  .conf{font-size:11px;color:var(--faint);margin-top:6px}
+  .conf b{font-weight:600;color:var(--muted)}
+  .newbadge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;color:#fff;background:var(--new);padding:4px 11px;border-radius:20px}
+
+  .note{margin:14px 0 0;font-size:13.5px;color:var(--body);background:#f9fafb;border:1px solid var(--line2);border-radius:10px;padding:11px 14px}
+  .cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:9px 20px;margin-top:15px}
   .cat{font-size:12px}
-  .cat .l{display:flex;justify-content:space-between;color:var(--muted)}
-  .cat .b{height:5px;background:var(--line);border-radius:3px;margin-top:3px;overflow:hidden}
+  .cat .l{display:flex;justify-content:space-between;color:var(--muted);gap:8px}
+  .cat .l b{font-weight:600;color:var(--body)}
+  .cat .b{height:5px;background:var(--line2);border-radius:3px;margin-top:4px;overflow:hidden}
   .cat .b>i{display:block;height:100%;border-radius:3px}
-  .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
-  .btn{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 13px;cursor:pointer;color:var(--ink)}
-  .btn:hover{background:#f3f4f6}
+
+  .actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:16px}
+  .btn{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 13px;cursor:pointer;color:var(--body)}
+  .btn:hover{background:#f5f6f8}
   .btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
-  .btn.toggle.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
-  .btn.archive{color:var(--muted);margin-left:auto}
-  .iconbtn{font-size:18px;line-height:1;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;color:#9ca3af}
-  .iconbtn.on{color:#f59e0b;border-color:#fcd34d;background:#fffbeb}
-  .star{position:absolute;top:16px;right:18px;font-size:20px;line-height:1;background:none;border:0;cursor:pointer;color:#d1d5db}
-  .star.on{color:#f59e0b}
-  .reveal{margin-top:12px;display:none}
+  .btn.primary:hover{background:#000}
+  .btn.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+  .btn.archive{color:var(--faint);margin-left:auto}
+  .iconwrap{display:flex;gap:6px}
+
+  .reveal{margin-top:13px;display:none}
   .reveal.show{display:block}
-  details{margin-top:10px}
+  details{margin-top:9px}
   details summary{cursor:pointer;font-size:13px;color:var(--accent);outline:none}
-  details .body{font-size:13px;color:#4b5563;white-space:pre-wrap;margin-top:8px;padding:10px 12px;background:#f9fafb;border:1px solid var(--line);border-radius:8px}
-  .email{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;font-size:13.5px;white-space:pre-wrap;color:#1f2937}
-  .email .subj{font-weight:600;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
-  .notes label{font-size:12px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:6px;margin:14px 0 6px}
-  .notes textarea{width:100%;min-height:60px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit;font-size:13.5px;resize:vertical;background:#fffdf7}
-  .saved{font-size:11px;color:var(--muted)}
-  .nb{display:inline-block;font-size:10px;padding:1px 6px;border-radius:20px;background:#eef2ff;color:#4338ca}
-  .newbadge{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.04em;color:#fff;background:#7c3aed;padding:4px 12px;border-radius:20px}
-  .card.t0{border-left:4px solid #7c3aed}
-  footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
-  .flag{display:inline-block;font-size:11px;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:6px;padding:1px 7px;margin-left:8px}
-  .jd{max-height:0;overflow:hidden;transition:max-height .35s ease;margin-top:0}
-  .jd.open{max-height:3000px}
-  .jd-inner{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:8px 24px 22px;margin-top:16px;box-shadow:var(--shadow)}
-  .jd-inner h2{font-size:19px;letter-spacing:-.01em;margin:18px 0 6px}
-  .jd-inner h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin:20px 0 6px}
-  .jd-inner p{font-size:14px;color:#374151;margin:8px 0}
-  .jd-inner ul{margin:6px 0;padding-left:20px}
-  .jd-inner li{font-size:14px;color:#374151;margin:4px 0}
-  @media(max-width:560px){.top{flex-wrap:wrap}.scorebox{width:auto;text-align:left}}
+  details .body{font-size:13px;color:var(--body);white-space:pre-wrap;margin-top:8px;padding:11px 13px;background:#f9fafb;border:1px solid var(--line2);border-radius:9px}
+  .email{background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px;font-size:13.5px;white-space:pre-wrap;color:var(--ink)}
+  .email .subj{font-weight:600;margin-bottom:9px;padding-bottom:9px;border-bottom:1px solid var(--line2)}
+  .notes label{font-size:12px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:7px;margin:15px 0 6px}
+  .notes textarea{width:100%;min-height:58px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit;font-size:13.5px;resize:vertical;background:#fffdf7}
+  .notes textarea:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+  .saved{font-size:11px;color:var(--faint);margin-top:4px;min-height:14px}
+  .nb{font-size:10px;padding:1px 7px;border-radius:20px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+  .empty{color:var(--muted);font-size:14px;padding:40px 0;text-align:center}
+  .foot{margin-top:46px;font-size:12px;color:var(--faint);border-top:1px solid var(--line2);padding-top:18px;line-height:1.6}
+
+  /* ---------- Gate ---------- */
   #gate{position:fixed;inset:0;z-index:1000;background:var(--bg);display:flex;align-items:center;justify-content:center}
   #gate.hide{display:none}
-  #gate .box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:30px 28px;box-shadow:var(--shadow);width:300px;text-align:center}
+  #gate .box{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px 30px;box-shadow:var(--shadow-lg);width:320px;text-align:center}
+  #gate .mark{width:42px;height:42px;border-radius:11px;background:linear-gradient(135deg,#4f46e5,#7c3aed);display:grid;place-items:center;color:#fff;font-weight:800;margin:0 auto 14px}
   #gate h2{margin:0 0 4px;font-size:19px;letter-spacing:-.01em}
   #gate p{margin:0 0 18px;color:var(--muted);font-size:13px}
-  #gate input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font-size:15px;text-align:center;font-family:inherit}
-  #gate button{margin-top:10px;width:100%;padding:11px;border:0;border-radius:8px;background:var(--ink);color:#fff;font-size:14px;cursor:pointer}
+  #gate input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:9px;font-size:15px;text-align:center;font-family:inherit}
+  #gate button{margin-top:10px;width:100%;padding:11px;border:0;border-radius:9px;background:var(--accent);color:#fff;font-size:14px;cursor:pointer;font-weight:500}
   #gate .err{color:#b91c1c;font-size:12px;height:15px;margin-top:9px}
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:900px){
+    .app{grid-template-columns:1fr}
+    .sidebar{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:14px}
+    .navlabel{display:none}
+    .jobnav{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px}
+    .joblink{width:auto;white-space:nowrap;flex:none}
+    .joblink .jl-name{flex:none}
+    .chips{flex-direction:row;flex-wrap:wrap}
+    .main-inner{padding:24px 18px 70px}
+  }
+  @media(max-width:560px){.ctop{flex-wrap:wrap}.scorebox{width:auto;text-align:left}}
 </style>
 </head>
 <body>
 <div id="gate">
   <div class="box">
-    <h2>USAVX Hiring</h2>
+    <div class="mark">UX</div>
+    <h2>USAVX Talent</h2>
     <p>Enter the access code to continue.</p>
     <input id="gatePw" type="password" placeholder="Access code" autocomplete="off" autofocus>
     <button id="gateBtn">Enter</button>
     <div class="err" id="gateErr"></div>
   </div>
 </div>
-<div class="wrap">
-  <header>
-    <h1>USAVX — Candidate Fit</h1>
-    <p>Candidates ranked for each open role · scored against the job they applied to</p>
-    <button class="btn" id="jdToggle" style="margin-top:14px">📋 Engineering role — sample job description</button>
-  </header>
 
-  <div class="jd" id="jd">
-    <div class="jd-inner">
-      <h2>Junior Mechanical Engineer / Product Development Engineer</h2>
-      <p>USAVX is looking for a highly motivated Junior Mechanical Engineer to join our growing team. This role is ideal for a recent engineering graduate or senior engineering student who wants hands-on experience developing real-world aerospace and robotics systems.</p>
-      <p>You will work directly with senior engineers on the design, development, assembly, and testing of early stage unmanned aircraft systems, payloads, and supporting hardware. This is not a purely theoretical role. You'll spend real time at the bench and on the shop floor building prototypes, troubleshooting hardware, and figuring out how things actually get manufactured. You will be expected to build things, solve problems, and take ownership of projects.</p>
-      <h3>Responsibilities</h3>
-      <ul>
-        <li>Build, fabricate, and assemble prototypes, then iterate on your designs based on what you learn from testing them.</li>
-        <li>Troubleshoot mechanical, structural, and integration issues on hardware in the lab and shop, and drive them to resolution.</li>
-        <li>Work through manufacturing processes hands-on, including selecting fabrication methods, preparing parts for production, and coordinating with machine shops and vendors.</li>
-        <li>Assist with prototype fabrication, assembly, and testing.</li>
-        <li>Create and maintain CAD models, assemblies, and engineering drawings.</li>
-        <li>Develop and document mechanical designs for aircraft, payloads, and supporting hardware.</li>
-        <li>Create and maintain bills of materials (BOMs), assembly instructions, and technical documentation.</li>
-        <li>Research and evaluate commercial hardware, components, and manufacturing processes.</li>
-        <li>Support integration of electronics, sensors, batteries, and computing hardware into airborne systems.</li>
-        <li>Participate in design reviews and contribute ideas for improving products and processes.</li>
-        <li>Work closely with engineering leadership to move concepts from sketch to prototype to production.</li>
-      </ul>
-      <h3>Qualifications</h3>
-      <ul>
-        <li>Degree in Mechanical Engineering, Mechatronics Engineering, Aerospace Engineering, or a related field (or currently completing final year of study).</li>
-        <li>Experience with CAD software such as SolidWorks, Fusion 360, Creo, or similar.</li>
-        <li>Strong mechanical aptitude and problem-solving ability.</li>
-        <li>Comfortable working with tools, prototypes, and physical hardware.</li>
-        <li>Organized and detail-oriented.</li>
-        <li>Strong written and verbal communication skills in English.</li>
-        <li>Ability to work independently and take initiative when faced with unfamiliar problems.</li>
-      </ul>
-      <h3>Preferred Qualifications</h3>
-      <ul>
-        <li>Familiar with common manufacturing methods such as 3D printing, sheet metal, CNC machining, and injection molding.</li>
-        <li>Experience with composites or other fabrication and manufacturing processes.</li>
-        <li>Experience building robotics, UAV, automotive, or other engineering projects.</li>
-        <li>Familiarity with electronics integration and wiring.</li>
-        <li>Personal projects demonstrating hands-on engineering ability.</li>
-      </ul>
-      <h3>Practical Exercise</h3>
-      <p>As part of the interview process, candidates will be asked to work through a short engineering exercise. You'll be given an open-ended system or mechanical engineering problem and asked to walk us through how you'd approach it — how you break the problem down, what research you'd do, what assumptions and trade-offs you'd weigh, and how you'd move toward a workable solution. There is no single "correct" answer. We're interested in your engineering approach, research ability, communication, and overall problem-solving process.</p>
-      <h3>What We're Looking For</h3>
-      <p>We value curiosity, initiative, and execution. We are less interested in perfect credentials and more interested in people who enjoy figuring things out, building things, and learning quickly. The ideal candidate is someone who sees an unfamiliar problem, researches it independently, develops a plan, and takes action.</p>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="mark">UX</span>
+      <span>USAVX Talent<small>Candidate fit by role</small></span>
     </div>
-  </div>
+    <div class="navlabel">Jobs</div>
+    <nav class="jobnav" id="jobnav"></nav>
+    <div class="navlabel">Filter</div>
+    <input class="sb-search" id="search" placeholder="Search name or school…">
+    <div class="chips">
+      <button class="chip" id="chipBookmark">☆ &nbsp;Bookmarked</button>
+      <button class="chip" id="chipElevated">⭐ &nbsp;Top picks</button>
+      <button class="chip" id="chipArchived">🗄 &nbsp;Archived</button>
+    </div>
+  </aside>
 
-  <div class="stats" id="stats"></div>
-
-  <div class="controls">
-    <input id="search" placeholder="Search name or school…">
-    <select id="roleFilter" class="rolesel"><option value="all">▾ All open roles</option></select>
-  </div>
-  <div class="controls2">
-    <button class="chip" id="chipBookmark">☆ Bookmarked</button>
-    <button class="chip" id="chipElevated">⭐ Top picks</button>
-    <button class="chip" id="chipArchived">🗄 Archived</button>
-  </div>
-
-  <div id="list"></div>
-
-  <footer id="foot"></footer>
+  <main class="main">
+    <div class="main-inner">
+      <div class="jobhead" id="jobhead"></div>
+      <div class="jdwrap" id="jdwrap"><div class="jdbox" id="jdbox"></div></div>
+      <div id="list"></div>
+      <div class="foot" id="foot"></div>
+    </div>
+  </main>
 </div>
 
 <script>
-// === Notes backend: set to the Cloudflare Worker URL to make notes SHARED.
-// Empty string = notes save locally on this device only.
 const NOTES_API = "https://usavx-notes.objectlesson.workers.dev";
-// ============================================================================
-
-// --- access gate (light front-door lock; code: USAVX) ---
-(function(){
-  const PW="usavx";
-  const gate=document.getElementById("gate");
-  if(localStorage.getItem("usavx_gate")==="1"){gate.classList.add("hide");return;}
-  const err=document.getElementById("gateErr");
-  const tryPw=()=>{
-    if(document.getElementById("gatePw").value.trim().toLowerCase()===PW){
-      localStorage.setItem("usavx_gate","1");gate.classList.add("hide");
-    } else { err.textContent="Incorrect code"; }
-  };
-  document.getElementById("gateBtn").addEventListener("click",tryPw);
-  document.getElementById("gatePw").addEventListener("keydown",e=>{if(e.key==="Enter")tryPw();});
-})();
 
 const REC = {
-  strong:{label:"Strong interview",color:"#16a34a"},
-  interview:{label:"Interview",color:"#2563eb"},
-  maybe:{label:"Maybe",color:"#d97706"},
-  hold:{label:"Hold",color:"#9ca3af"},
-  new:{label:"New — needs review",color:"#7c3aed"},
+  strong:{label:"Strong interview",color:"var(--strong)"},
+  interview:{label:"Interview",color:"var(--interview)"},
+  maybe:{label:"Maybe",color:"var(--maybe)"},
+  hold:{label:"Hold",color:"var(--hold)"},
+  new:{label:"New",color:"var(--new)"},
 };
-const catColor = s => s>=4?"var(--good)":s>=3?"var(--mid)":"var(--low)";
 const esc = s => (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 const cid = name => name.replace(/\s+/g,"_");
+const catColor = s => s>=4?"var(--strong)":s>=3?"var(--maybe)":"var(--hold)";
 
-let DATA=[], ROLE_COUNTS={}, notesCache={}, bookmarks=new Set(), elevated=new Set(), archived=new Set();
+let DATA=[], ROLE_COUNTS={}, ROLE_INFO={}, notesCache={},
+    bookmarks=new Set(), elevated=new Set(), archived=new Set();
 let state={q:"",role:"all",bookmarked:false,elevated:false,archived:false};
 
+/* ---------- shared store (notes / flags) ---------- */
 function ingest(all){
   notesCache={}; bookmarks=new Set(); elevated=new Set(); archived=new Set();
   for(const k in all){
-    const v = all[k]?.text ?? all[k];
+    const v=all[k]?.text ?? all[k];
     if(k.startsWith("bm:")){ if(v) bookmarks.add(k.slice(3)); }
     else if(k.startsWith("elev:")){ if(v) elevated.add(k.slice(5)); }
     else if(k.startsWith("arch:")){ if(v) archived.add(k.slice(5)); }
@@ -228,71 +223,74 @@ function ingest(all){
   }
 }
 async function loadNotes(){
-  if(!NOTES_API) { ingest(JSON.parse(localStorage.getItem("usavx_notes")||"{}")); return; }
-  try{ const r=await fetch(NOTES_API); ingest(await r.json()); }
+  if(!NOTES_API){ ingest(JSON.parse(localStorage.getItem("usavx_notes")||"{}")); return; }
+  try{ ingest(await (await fetch(NOTES_API)).json()); }
   catch(e){ ingest(JSON.parse(localStorage.getItem("usavx_notes")||"{}")); }
 }
-async function setFlag(prefix,candId,on){
-  const key=prefix+candId;
-  if(NOTES_API){
-    try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id:key,text:on?"1":""})}); }catch(e){}
-  } else {
-    const all=JSON.parse(localStorage.getItem("usavx_notes")||"{}");
-    if(on) all[key]={text:"1"}; else delete all[key];
-    localStorage.setItem("usavx_notes",JSON.stringify(all));
-  }
+async function setFlag(prefix,id,on){
+  if(NOTES_API){ try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id:prefix+id,text:on?"1":""})}); }catch(e){} }
+  else { const a=JSON.parse(localStorage.getItem("usavx_notes")||"{}"); if(on)a[prefix+id]={text:"1"};else delete a[prefix+id]; localStorage.setItem("usavx_notes",JSON.stringify(a)); }
 }
-window.toggleBookmark=(name,btn)=>{ const id=cid(name); const on=!bookmarks.has(id);
-  on?bookmarks.add(id):bookmarks.delete(id); setFlag("bm:",id,on);
-  btn.classList.toggle("on",on); btn.textContent=on?"★ Bookmarked":"☆ Bookmark"; if(state.bookmarked)render(); };
-window.toggleElevate=(name,btn)=>{ const id=cid(name); const on=!elevated.has(id);
-  on?elevated.add(id):elevated.delete(id); setFlag("elev:",id,on);
-  btn.classList.toggle("on",on); btn.textContent=on?"⭐ Top pick":"☆ Mark top pick"; if(state.elevated)render(); };
-window.toggleArchive=(name)=>{ const id=cid(name); const on=!archived.has(id);
-  on?archived.add(id):archived.delete(id); setFlag("arch:",id,on); render(); };
 async function saveNote(id,text,el){
-  if(NOTES_API){
-    try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id,text})});
-         el.textContent="Saved ✓ (shared)"; }
-    catch(e){ el.textContent="Couldn't reach server"; }
-  } else {
-    const all=JSON.parse(localStorage.getItem("usavx_notes")||"{}");
-    if(text.trim()) all[id]={text}; else delete all[id];
-    localStorage.setItem("usavx_notes",JSON.stringify(all));
-    el.textContent="Saved ✓ (this device)";
+  if(NOTES_API){ try{ await fetch(NOTES_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id,text})}); el.textContent="Saved ✓ shared"; }catch(e){ el.textContent="Couldn't save"; } }
+  else { const a=JSON.parse(localStorage.getItem("usavx_notes")||"{}"); if(text.trim())a[id]={text};else delete a[id]; localStorage.setItem("usavx_notes",JSON.stringify(a)); el.textContent="Saved ✓"; }
+}
+window.toggleBookmark=(name,btn)=>{const id=cid(name),on=!bookmarks.has(id);on?bookmarks.add(id):bookmarks.delete(id);setFlag("bm:",id,on);btn.classList.toggle("on",on);btn.innerHTML=on?"★ Bookmarked":"☆ Bookmark";if(state.bookmarked)render();};
+window.toggleElevate=(name,btn)=>{const id=cid(name),on=!elevated.has(id);on?elevated.add(id):elevated.delete(id);setFlag("elev:",id,on);btn.classList.toggle("on",on);btn.innerHTML=on?"⭐ Top pick":"☆ Mark top pick";if(state.elevated)render();};
+window.toggleArchive=(name)=>{const id=cid(name),on=!archived.has(id);on?archived.add(id):archived.delete(id);setFlag("arch:",id,on);render();};
+window.toggle=id=>document.getElementById(id).classList.toggle("show");
+window.copyEmailByName=(name)=>{const c=DATA.find(x=>x.name===name);if(!c||!c.intro_email)return;
+  navigator.clipboard.writeText(c.intro_email.subject+"\n\n"+c.intro_email.body);
+  event.target.textContent="Copied ✓";setTimeout(()=>event.target.textContent="Copy email",1500);};
+
+/* ---------- tiny markdown for JDs ---------- */
+function mdLite(md){
+  const lines=(md||"").split("\n"); let html="",inList=false;
+  const inline=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>");
+  for(let raw of lines){
+    const l=raw.trim();
+    if(!l){ if(inList){html+="</ul>";inList=false;} continue; }
+    const h=l.match(/^(#{1,4})\s+(.*)/);
+    if(h){ if(inList){html+="</ul>";inList=false;} html+=`<h3>${inline(h[2])}</h3>`; continue; }
+    if(/^[-*]\s+/.test(l)){ if(!inList){html+="<ul>";inList=true;} html+=`<li>${inline(l.replace(/^[-*]\s+/,""))}</li>`; continue; }
+    if(inList){html+="</ul>";inList=false;}
+    html+=`<p>${inline(l)}</p>`;
   }
+  if(inList)html+="</ul>";
+  return html;
 }
 
+/* ---------- candidate card ---------- */
 function card(c, rank, uid){
   const id=cid(c.name);
-  const note = notesCache[id]?.text || "";
-  const isNew = c.score===null;
-  const r = REC[c.recKey] || REC.hold;
-  const flag = !isNew && /RED FLAG|MISSING|intermediate English/i.test(c.note);
-  const flagTxt = /MISSING/.test(c.note)?"resume missing":/intermediate/i.test(c.note)?"verify English":"flag";
+  const note=notesCache[id]?.text||"";
+  const isNew=c.score===null;
+  const r=REC[c.recKey]||REC.hold;
+  const flag=!isNew && /RED FLAG|MISSING|intermediate English/i.test(c.note);
+  const flagTxt=/MISSING/.test(c.note)?"resume missing":/intermediate/i.test(c.note)?"verify English":"flag";
   const cats=c.categories.map(k=>`
-    <div class="cat"><div class="l"><span>${esc(k.label)}</span><span>${k.score}/5</span></div>
+    <div class="cat"><div class="l"><span>${esc(k.label)}</span><b>${k.score}/5</b></div>
     <div class="b"><i style="width:${k.score/5*100}%;background:${catColor(k.score)}"></i></div></div>`).join("");
-  const email = c.intro_email ? `<button class="btn primary" onclick="toggle('em${uid}')">✉ Intro email</button>` : "";
-  const emailBox = c.intro_email ? `
-    <div class="reveal" id="em${uid}">
+  const emailBtn=c.intro_email?`<button class="btn primary" onclick="toggle('em${uid}')">✉ Intro email</button>`:"";
+  const emailBox=c.intro_email?`<div class="reveal" id="em${uid}">
       <div class="email"><div class="subj">${esc(c.intro_email.subject)}</div>${esc(c.intro_email.body)}</div>
-      <button class="btn" style="margin-top:8px" onclick='copyEmailByName(${JSON.stringify(c.name)})'>Copy email</button>
-      ${c.email?`<a class="btn" style="margin-top:8px;text-decoration:none" href="mailto:${c.email}?subject=${encodeURIComponent(c.intro_email.subject)}&body=${encodeURIComponent(c.intro_email.body)}">Open in mail app</a>`:""}
+      <div class="actions"><button class="btn" onclick='copyEmailByName(${JSON.stringify(c.name)})'>Copy email</button>
+      ${c.email?`<a class="btn" style="text-decoration:none" href="mailto:${c.email}?subject=${encodeURIComponent(c.intro_email.subject)}&body=${encodeURIComponent(c.intro_email.body)}">Open in mail app</a>`:""}</div>
     </div>`:"";
-  const scorebox = isNew
+  const scorebox=isNew
     ? `<div class="scorebox"><div class="newbadge">NEW</div><div class="conf">Awaiting review</div></div>`
-    : `<div class="scorebox">
-        <div class="scorenum">${c.score}</div>
-        <div class="scorebar"><i style="width:${c.score}%;background:${r.color}"></i></div>
-        <div class="conf">Confidence: <b>${c.confidence}</b></div>
-      </div>`;
-  const bmOn=bookmarks.has(id), elOn=elevated.has(id);
-  return `<div class="card" style="border-left:4px solid ${isNew?REC.new.color:r.color}" data-name="${esc(c.name.toLowerCase())}">
-    <div class="top">
+    : `<div class="scorebox"><div class="scorenum">${c.score}</div>
+       <div class="scorebar"><i style="width:${c.score}%;background:${r.color}"></i></div>
+       <div class="conf">Confidence <b>${c.confidence}</b></div></div>`;
+  const bmOn=bookmarks.has(id), elOn=elevated.has(id), arOn=archived.has(id);
+  return `<div class="card">
+    <span class="accent" style="background:${isNew?REC.new.color:r.color}"></span>
+    <div class="ctop">
       <div class="rank">${isNew?"":"#"+rank}</div>
       <div class="who">
-        <h3>${esc(c.name)} ${isNew?"":`<span class="recbadge" style="background:${r.color}">${r.label}</span>`}${flag?`<span class="flag">${flagTxt}</span>`:""}</h3>
+        <div class="nmeline"><h3>${esc(c.name)}</h3>
+          ${isNew?"":`<span class="recbadge" style="background:${r.color}">${r.label}</span>`}
+          ${flag?`<span class="flag">${flagTxt}</span>`:""}</div>
         <div class="school">${esc(c.school)}</div>
         <div class="links">
           ${c.email?`<a href="mailto:${c.email}">${esc(c.email)}</a>`:""}
@@ -304,11 +302,11 @@ function card(c, rank, uid){
     <div class="note"${isNew?' style="background:#f5f3ff;border-color:#ddd6fe;color:#5b21b6"':""}>${esc(c.note)}</div>
     ${isNew?"":`<div class="cats">${cats}</div>`}
     <div class="actions">
-      ${email}
-      <button class="btn toggle ${elOn?'on':''}" onclick='toggleElevate(${JSON.stringify(c.name)},this)'>${elOn?"⭐ Top pick":"☆ Mark top pick"}</button>
-      <button class="btn toggle ${bmOn?'on':''}" onclick='toggleBookmark(${JSON.stringify(c.name)},this)'>${bmOn?"★ Bookmarked":"☆ Bookmark"}</button>
+      ${emailBtn}
+      <button class="btn ${elOn?'on':''}" onclick='toggleElevate(${JSON.stringify(c.name)},this)'>${elOn?"⭐ Top pick":"☆ Mark top pick"}</button>
+      <button class="btn ${bmOn?'on':''}" onclick='toggleBookmark(${JSON.stringify(c.name)},this)'>${bmOn?"★ Bookmarked":"☆ Bookmark"}</button>
       <button class="btn" onclick="toggle('dt${uid}')">Details</button>
-      <button class="btn archive" onclick='toggleArchive(${JSON.stringify(c.name)})'>${archived.has(id)?"♻ Restore":"🗄 Archive"}</button>
+      <button class="btn archive" onclick='toggleArchive(${JSON.stringify(c.name)})'>${arOn?"♻ Restore":"🗄 Archive"}</button>
     </div>
     ${emailBox}
     <div class="reveal" id="dt${uid}">
@@ -316,83 +314,123 @@ function card(c, rank, uid){
       ${c.summary?`<details><summary>Full resume summary</summary><div class="body">${esc(c.summary)}</div></details>`:""}
     </div>
     <div class="notes">
-      <label>Notes <span class="nb">${NOTES_API?"shared":"this device"}</span></label>
-      <textarea data-cand="${id}" id="nt${uid}" placeholder="Add a note — interview impressions, follow-ups…">${esc(note)}</textarea>
+      <label>Notes <span class="nb">${NOTES_API?"shared":"local"}</span></label>
+      <textarea data-cand="${id}" id="nt${uid}" placeholder="Interview impressions, follow-ups…">${esc(note)}</textarea>
       <div class="saved" id="sv${uid}"></div>
     </div>
   </div>`;
 }
 
+/* ---------- sidebar ---------- */
+function renderSidebar(){
+  const nav=document.getElementById("jobnav");
+  const roles=Object.keys(ROLE_COUNTS).sort((a,b)=>ROLE_COUNTS[b]-ROLE_COUNTS[a]);
+  let h=`<button class="joblink overview ${state.role==='all'?'on':''}" data-role="all">
+      <span class="jl-name">Overview · all roles</span><span class="jl-count">${DATA.length}</span></button>`;
+  roles.forEach(rl=>{ h+=`<button class="joblink ${state.role===rl?'on':''}" data-role="${esc(rl)}">
+      <span class="jl-name">${esc(rl)}</span><span class="jl-count">${ROLE_COUNTS[rl]}</span></button>`; });
+  nav.innerHTML=h;
+  nav.querySelectorAll(".joblink").forEach(b=>b.addEventListener("click",()=>{
+    state.role=b.dataset.role; document.getElementById("jdwrap").classList.remove("open");
+    render(); window.scrollTo({top:0,behavior:"smooth"});
+  }));
+}
+
+/* ---------- main render ---------- */
+function distHTML(cands){
+  const d={strong:0,interview:0,maybe:0,hold:0};
+  cands.forEach(c=>{ if(c.recKey in d) d[c.recKey]++; });
+  const parts=[];
+  if(d.strong)parts.push(`<span class="pill-dist"><span class="dotc" style="background:var(--strong)"></span>${d.strong} strong</span>`);
+  if(d.interview)parts.push(`<span class="pill-dist"><span class="dotc" style="background:var(--interview)"></span>${d.interview} interview</span>`);
+  if(d.maybe)parts.push(`<span class="pill-dist"><span class="dotc" style="background:var(--maybe)"></span>${d.maybe} maybe</span>`);
+  if(d.hold)parts.push(`<span class="pill-dist"><span class="dotc" style="background:var(--hold)"></span>${d.hold} hold</span>`);
+  return parts.join('<span class="sep">·</span>');
+}
 function render(){
-  const list=document.getElementById("list");
+  renderSidebar();
   const base=DATA.filter(c=>{
     const arch=archived.has(cid(c.name));
-    if(state.archived ? !arch : arch) return false;   // show only archived, or only active
+    if(state.archived?!arch:arch) return false;
     return (!state.bookmarked||bookmarks.has(cid(c.name)))&&
-      (!state.elevated||elevated.has(cid(c.name)))&&
-      (c.name+" "+c.school).toLowerCase().includes(state.q);
+           (!state.elevated||elevated.has(cid(c.name)))&&
+           (c.name+" "+c.school).toLowerCase().includes(state.q);
   });
+  const sortRole=(list)=>list.sort((a,b)=>(a.score===null?-1:0)-(b.score===null?-1:0)||(b.score||0)-(a.score||0));
+
+  // ---- header ----
+  const head=document.getElementById("jobhead"), jdwrap=document.getElementById("jdwrap");
+  if(state.role==="all"){
+    head.innerHTML=`<div class="eyebrow">Candidate pipeline</div>
+      <h1>All open roles</h1>
+      <div class="jobmeta"><span>${DATA.length} candidates</span><span class="sep">·</span>
+      <span>${Object.keys(ROLE_COUNTS).length} open roles</span><span class="sep">·</span>${distHTML(DATA.filter(c=>c.score!==null))}</div>`;
+    jdwrap.classList.remove("open"); jdwrap.style.display="none";
+  } else {
+    const info=ROLE_INFO[state.role]||{};
+    const inRole=base.filter(c=>(c.roles||[]).includes(state.role));
+    head.innerHTML=`<div class="eyebrow">${esc(info.seniority||"Open role")}</div>
+      <h1>${esc(state.role)}</h1>
+      <div class="jobmeta"><span>${(ROLE_COUNTS[state.role]||0)} candidates</span>${distHTML(inRole.filter(c=>c.score!==null))?'<span class="sep">·</span>'+distHTML(inRole.filter(c=>c.score!==null)):""}</div>
+      ${info.jd?`<button class="jdbtn" id="jdbtn">📋 View job description</button>`:""}`;
+    jdwrap.style.display="";
+    if(info.jd){
+      document.getElementById("jdbox").innerHTML=mdLite(info.jd);
+      document.getElementById("jdbtn").addEventListener("click",()=>{
+        const open=jdwrap.classList.toggle("open");
+        document.getElementById("jdbtn").textContent=(open?"▲ Hide":"📋 View")+" job description";
+      });
+    }
+  }
+
+  // ---- list ----
+  const list=document.getElementById("list");
   let roleList = state.role!=="all" ? [state.role]
     : Object.keys(ROLE_COUNTS).sort((a,b)=>ROLE_COUNTS[b]-ROLE_COUNTS[a]);
-  let html="", uid=0, any=false;
+  let html="",uid=0,any=false;
   roleList.forEach(role=>{
-    let inRole=base.filter(c=>(c.roles||[]).includes(role));
+    let inRole=sortRole(base.filter(c=>(c.roles||[]).includes(role)));
     if(!inRole.length) return;
-    inRole.sort((a,b)=>(a.score===null?-1:0)-(b.score===null?-1:0) || (b.score||0)-(a.score||0));
     any=true;
-    html+=`<div class="tierhead"><span class="dot" style="background:#5f8fad"></span>${esc(role)}<span class="rolecount">${inRole.length}</span></div>`;
+    if(state.role==="all")
+      html+=`<div class="sectionhead"><h2>${esc(role)}</h2><span class="cnt">${inRole.length} candidate${inRole.length>1?"s":""}</span></div>`;
     let rank=0;
-    inRole.forEach(c=>{ if(c.score!==null) rank++; html+=card(c, rank, uid++); });
+    inRole.forEach(c=>{ if(c.score!==null) rank++; html+=card(c,rank,uid++); });
   });
-  list.innerHTML = any?html:`<p style="color:var(--muted)">No candidates match.</p>`;
+  list.innerHTML=any?html:`<div class="empty">No candidates match these filters.</div>`;
   list.querySelectorAll("textarea[data-cand]").forEach(ta=>{
-    const idc=ta.getAttribute("data-cand"), sv=ta.nextElementSibling;
-    let t; ta.addEventListener("input",()=>{sv.textContent="…";clearTimeout(t);
-      t=setTimeout(()=>saveNote(idc,ta.value,sv),600);});
+    const idc=ta.getAttribute("data-cand"), sv=ta.nextElementSibling; let t;
+    ta.addEventListener("input",()=>{sv.textContent="…";clearTimeout(t);t=setTimeout(()=>saveNote(idc,ta.value,sv),600);});
   });
-}
-window.toggle=id=>document.getElementById(id).classList.toggle("show");
-window.copyEmailByName=(name)=>{const c=DATA.find(x=>x.name===name); if(!c||!c.intro_email)return;
-  navigator.clipboard.writeText(c.intro_email.subject+"\n\n"+c.intro_email.body);
-  event.target.textContent="Copied ✓";setTimeout(()=>event.target.textContent="Copy email",1500);};
-
-(async function(){
-  const d=await (await fetch("candidates.json?v="+Date.now())).json();
-  DATA=d.candidates; ROLE_COUNTS=d.roles||{};
-  await loadNotes();
-  const newN = DATA.filter(c=>c.score===null).length;
-  const strongN = DATA.filter(c=>c.recKey==="strong").length;
-  const roleN = Object.keys(ROLE_COUNTS).length;
-  const newStat = newN ? `<div class="stat"><b style="color:#7c3aed">${newN}</b><span>new — needs review</span></div>` : "";
-  document.getElementById("stats").innerHTML=`
-    ${newStat}
-    <div class="stat"><b>${DATA.length}</b><span>candidates</span></div>
-    <div class="stat"><b>${roleN}</b><span>open roles</span></div>
-    <div class="stat"><b style="color:#16a34a">${strongN}</b><span>strong interviews</span></div>`;
-  // populate role filter, ordered by candidate count
-  const rf=document.getElementById("roleFilter");
-  Object.keys(ROLE_COUNTS).sort((a,b)=>ROLE_COUNTS[b]-ROLE_COUNTS[a]).forEach(r=>{
-    const o=document.createElement("option");o.value=r;o.textContent=`${r} (${ROLE_COUNTS[r]})`;rf.appendChild(o);});
   document.getElementById("foot").innerHTML=
-    `Each candidate is scored against the rubric for the job they applied to (different jobs weight different skills). `+
-    `Credentials &amp; GPA are deliberately not scored — demonstrated capability is. English scores are provisional; confirm live. `+
-    `${NOTES_API?"Notes, bookmarks and top-picks are shared across everyone with this link.":"Notes save to this device only."}`;
-  render();
+    `Each candidate is scored against the rubric for the job they applied to — different jobs weight different skills. `+
+    `Credentials &amp; GPA are deliberately not scored; demonstrated capability is. English scores are provisional — confirm live. `+
+    `${NOTES_API?"Notes, bookmarks, top-picks and archives are shared across everyone with this link.":""}`;
+}
+
+/* ---------- filters ---------- */
+document.getElementById("search").addEventListener("input",e=>{state.q=e.target.value.toLowerCase();render();});
+document.getElementById("chipBookmark").addEventListener("click",e=>{state.bookmarked=!state.bookmarked;e.currentTarget.classList.toggle("on",state.bookmarked);render();});
+document.getElementById("chipElevated").addEventListener("click",e=>{state.elevated=!state.elevated;e.currentTarget.classList.toggle("on",state.elevated);render();});
+document.getElementById("chipArchived").addEventListener("click",e=>{state.archived=!state.archived;e.currentTarget.classList.toggle("on",state.archived);render();});
+
+/* ---------- gate ---------- */
+(function(){
+  const gate=document.getElementById("gate");
+  if(localStorage.getItem("usavx_gate")==="1"){gate.classList.add("hide");return;}
+  const err=document.getElementById("gateErr");
+  const tryPw=()=>{ if(document.getElementById("gatePw").value.trim().toLowerCase()==="usavx"){localStorage.setItem("usavx_gate","1");gate.classList.add("hide");} else err.textContent="Incorrect code"; };
+  document.getElementById("gateBtn").addEventListener("click",tryPw);
+  document.getElementById("gatePw").addEventListener("keydown",e=>{if(e.key==="Enter")tryPw();});
 })();
 
-document.getElementById("jdToggle").addEventListener("click",()=>{
-  const jd=document.getElementById("jd");const open=jd.classList.toggle("open");
-  document.getElementById("jdToggle").textContent=(open?"▲ Hide":"📋 View")+" job description";
-});
-document.getElementById("search").addEventListener("input",e=>{state.q=e.target.value.toLowerCase();render();});
-document.getElementById("roleFilter").addEventListener("change",e=>{state.role=e.target.value;render();});
-document.getElementById("chipBookmark").addEventListener("click",e=>{
-  state.bookmarked=!state.bookmarked;e.target.classList.toggle("on",state.bookmarked);
-  e.target.textContent=(state.bookmarked?"★":"☆")+" Bookmarked";render();});
-document.getElementById("chipElevated").addEventListener("click",e=>{
-  state.elevated=!state.elevated;e.target.classList.toggle("on",state.elevated);render();});
-document.getElementById("chipArchived").addEventListener("click",e=>{
-  state.archived=!state.archived;e.target.classList.toggle("on",state.archived);render();});
+/* ---------- init ---------- */
+(async function(){
+  const d=await (await fetch("candidates.json?v="+Date.now())).json();
+  DATA=d.candidates; ROLE_COUNTS=d.roles||{}; ROLE_INFO=d.role_info||{};
+  await loadNotes();
+  render();
+})();
 </script>
 </body>
 </html>

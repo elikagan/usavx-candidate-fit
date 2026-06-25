@@ -9,22 +9,34 @@ from score import C, RUBRICS, ROLE_RUBRIC
 
 BASE = "app3Xl5G65tJGxKGQ"
 TABLE = "tblUzb0LiqEpfVS33"
+SEG_TABLE = "tbln455HEK0nvZPue"   # Roles / Segments (job descriptions)
+
+def airtable(table):
+    tok = os.environ["AIRTABLE_TOKEN"]
+    recs, offset = [], None
+    while True:
+        url = f"https://api.airtable.com/v0/{BASE}/{table}?pageSize=100" + (f"&offset={offset}" if offset else "")
+        d = json.load(urllib.request.urlopen(urllib.request.Request(url, headers={"Authorization": f"Bearer {tok}"})))
+        recs += d["records"]; offset = d.get("offset")
+        if not offset: break
+    return recs
 
 def load_raw():
-    tok = os.environ.get("AIRTABLE_TOKEN")
-    if tok:
-        recs, offset = [], None
-        while True:
-            url = f"https://api.airtable.com/v0/{BASE}/{TABLE}?pageSize=100" + (f"&offset={offset}" if offset else "")
-            req = urllib.request.Request(url, headers={"Authorization": f"Bearer {tok}"})
-            d = json.load(urllib.request.urlopen(req))
-            recs += d["records"]; offset = d.get("offset")
-            if not offset: break
+    if os.environ.get("AIRTABLE_TOKEN"):
+        recs = airtable(TABLE)
         json.dump({"records": recs}, open("candidates_raw.json", "w"))
+        # also cache role JDs/meta
+        segs = {}
+        for r in airtable(SEG_TABLE):
+            f = r["fields"]; nm = f.get("Role Name")
+            if nm: segs[nm] = {"jd": f.get("Job Description",""), "seniority": f.get("Seniority Level",""), "status": f.get("Status","")}
+        json.dump(segs, open("roles_raw.json", "w"))
         return recs
     return json.load(open("candidates_raw.json"))["records"]
 
 raw = load_raw()
+try: ROLE_META = json.load(open("roles_raw.json"))
+except Exception: ROLE_META = {}
 def field(f, k):
     v = f.get(k, "")
     if isinstance(v, dict): v = v.get("value", "")
@@ -126,7 +138,14 @@ role_counts = {}
 for c in out:
     for rl in c["roles"]: role_counts[rl] = role_counts.get(rl,0)+1
 
-json.dump({"candidates": out, "rubrics": RUBRICS, "roles": role_counts, "new_count": new_count},
+# role detail (JD + seniority) for each role that has candidates
+role_info = {}
+for rl in role_counts:
+    m = ROLE_META.get(rl, {})
+    role_info[rl] = {"count": role_counts[rl], "jd": m.get("jd",""), "seniority": m.get("seniority","")}
+
+json.dump({"candidates": out, "rubrics": RUBRICS, "roles": role_counts,
+           "role_info": role_info, "new_count": new_count},
           open("candidates.json","w"), indent=1, ensure_ascii=False)
 print(f"Wrote candidates.json — {len(out)} candidates across {len(role_counts)} roles ({new_count} new)")
 for rl,n in sorted(role_counts.items(), key=lambda x:-x[1]): print(f"  {n:2}  {rl}")
