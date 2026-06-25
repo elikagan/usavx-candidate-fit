@@ -29,7 +29,9 @@
   .seg button:last-child{border-right:0}
   .seg button.on{background:var(--ink);color:#fff}
   .controls2{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:-12px 0 26px}
-  .controls2 select{padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-size:13px;background:#fff;font-family:inherit;max-width:340px}
+  .rolesel{padding:9px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;background:#fff;font-family:inherit;min-width:240px;cursor:pointer;font-weight:500}
+  .recbadge{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:20px;color:#fff}
+  .rolecount{font-size:11px;font-weight:500;color:var(--muted);background:#f3f4f6;border-radius:20px;padding:2px 9px;margin-left:6px}
   .chip{font-size:13px;border:1px solid var(--line);background:#fff;border-radius:20px;padding:7px 14px;cursor:pointer;color:var(--muted)}
   .chip.on{background:#fffbeb;border-color:#fcd34d;color:#92400e}
   .rolepill{display:inline-block;font-size:11px;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;border-radius:6px;padding:1px 8px;margin:5px 6px 0 0}
@@ -113,9 +115,9 @@
 </div>
 <div class="wrap">
   <header>
-    <h1>USAVX — Junior Engineer Candidate Fit</h1>
-    <p>Ranked by fit for the hands-on hardware role · evidence-based scoring from resumes &amp; applications</p>
-    <button class="btn" id="jdToggle" style="margin-top:14px">📋 View job description</button>
+    <h1>USAVX — Candidate Fit</h1>
+    <p>Candidates ranked for each open role · scored against the job they applied to</p>
+    <button class="btn" id="jdToggle" style="margin-top:14px">📋 Engineering role — sample job description</button>
   </header>
 
   <div class="jd" id="jd">
@@ -166,16 +168,9 @@
 
   <div class="controls">
     <input id="search" placeholder="Search name or school…">
-    <div class="seg" id="tierseg">
-      <button data-t="all" class="on">All</button>
-      <button data-t="1">Tier 1</button>
-      <button data-t="2">Tier 2</button>
-      <button data-t="3">Tier 3</button>
-      <button data-t="5">Other roles</button>
-    </div>
+    <select id="roleFilter" class="rolesel"><option value="all">▾ All open roles</option></select>
   </div>
   <div class="controls2">
-    <select id="roleFilter"><option value="all">All roles</option></select>
     <button class="chip" id="chipBookmark">☆ Bookmarked</button>
     <button class="chip" id="chipElevated">⭐ Top picks</button>
   </div>
@@ -206,19 +201,19 @@ const NOTES_API = "https://usavx-notes.objectlesson.workers.dev";
   document.getElementById("gatePw").addEventListener("keydown",e=>{if(e.key==="Enter")tryPw();});
 })();
 
-const TIER = {
-  0:{label:"New — needs review",color:"#7c3aed"},
-  1:{label:"Tier 1 — Interview now",color:"var(--t1)"},
-  2:{label:"Tier 2 — Interview if capacity",color:"var(--t2)"},
-  3:{label:"Tier 3 — Need more info",color:"var(--t3)"},
-  5:{label:"Other roles — applied to a different req",color:"var(--t4)"},
+const REC = {
+  strong:{label:"Strong interview",color:"#16a34a"},
+  interview:{label:"Interview",color:"#2563eb"},
+  maybe:{label:"Maybe",color:"#d97706"},
+  hold:{label:"Hold",color:"#9ca3af"},
+  new:{label:"New — needs review",color:"#7c3aed"},
 };
 const catColor = s => s>=4?"var(--good)":s>=3?"var(--mid)":"var(--low)";
 const esc = s => (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 const cid = name => name.replace(/\s+/g,"_");
 
-let DATA=[], notesCache={}, bookmarks=new Set(), elevated=new Set();
-let state={tier:"all",q:"",role:"all",bookmarked:false,elevated:false};
+let DATA=[], ROLE_COUNTS={}, notesCache={}, bookmarks=new Set(), elevated=new Set();
+let state={q:"",role:"all",bookmarked:false,elevated:false};
 
 function ingest(all){
   notesCache={}; bookmarks=new Set(); elevated=new Set();
@@ -263,39 +258,37 @@ async function saveNote(id,text,el){
   }
 }
 
-function card(c,i){
-  const id=c.name.replace(/\s+/g,"_");
-  const note = notesCache[id]?.text || notesCache[id] || "";
-  const isNew = c.tier===0;
-  const flag = !isNew && /RED FLAG|MISSING|MISMATCH|WRONG FIELD|intermediate English/i.test(c.note);
-  const flagTxt = /MISSING/.test(c.note)?"resume missing":/intermediate/i.test(c.note)?"verify English":/MISMATCH|WRONG FIELD/i.test(c.note)?"wrong field":"flag";
+function card(c, rank, uid){
+  const id=cid(c.name);
+  const note = notesCache[id]?.text || "";
+  const isNew = c.score===null;
+  const r = REC[c.recKey] || REC.hold;
+  const flag = !isNew && /RED FLAG|MISSING|intermediate English/i.test(c.note);
+  const flagTxt = /MISSING/.test(c.note)?"resume missing":/intermediate/i.test(c.note)?"verify English":"flag";
   const cats=c.categories.map(k=>`
-    <div class="cat"><div class="l"><span>${k.label}</span><span>${k.score}/5</span></div>
+    <div class="cat"><div class="l"><span>${esc(k.label)}</span><span>${k.score}/5</span></div>
     <div class="b"><i style="width:${k.score/5*100}%;background:${catColor(k.score)}"></i></div></div>`).join("");
-  const email = c.intro_email ? `
-    <button class="btn primary" onclick="toggle('em${i}')">✉ Intro email</button>` : "";
+  const email = c.intro_email ? `<button class="btn primary" onclick="toggle('em${uid}')">✉ Intro email</button>` : "";
   const emailBox = c.intro_email ? `
-    <div class="reveal" id="em${i}">
+    <div class="reveal" id="em${uid}">
       <div class="email"><div class="subj">${esc(c.intro_email.subject)}</div>${esc(c.intro_email.body)}</div>
-      <button class="btn" style="margin-top:8px" onclick='copyEmail(${i})'>Copy email</button>
+      <button class="btn" style="margin-top:8px" onclick='copyEmailByName(${JSON.stringify(c.name)})'>Copy email</button>
       ${c.email?`<a class="btn" style="margin-top:8px;text-decoration:none" href="mailto:${c.email}?subject=${encodeURIComponent(c.intro_email.subject)}&body=${encodeURIComponent(c.intro_email.body)}">Open in mail app</a>`:""}
     </div>`:"";
   const scorebox = isNew
     ? `<div class="scorebox"><div class="newbadge">NEW</div><div class="conf">Awaiting review</div></div>`
     : `<div class="scorebox">
         <div class="scorenum">${c.score}</div>
-        <div class="scorebar"><i style="width:${c.score}%"></i></div>
+        <div class="scorebar"><i style="width:${c.score}%;background:${r.color}"></i></div>
         <div class="conf">Confidence: <b>${c.confidence}</b></div>
       </div>`;
   const bmOn=bookmarks.has(id), elOn=elevated.has(id);
-  const rolePills=(c.roles||[]).map(r=>`<span class="rolepill">${esc(r)}</span>`).join("");
-  return `<div class="card t${c.tier}" data-name="${esc(c.name.toLowerCase())} ${esc(c.school.toLowerCase())}" data-tier="${c.tier}">
+  return `<div class="card" style="border-left:4px solid ${isNew?REC.new.color:r.color}" data-name="${esc(c.name.toLowerCase())}">
     <div class="top">
-      <div class="rank">${isNew?"":"#"+c._rank}</div>
+      <div class="rank">${isNew?"":"#"+rank}</div>
       <div class="who">
-        <h3>${esc(c.name)}${flag?`<span class="flag">${flagTxt}</span>`:""}</h3>
+        <h3>${esc(c.name)} ${isNew?"":`<span class="recbadge" style="background:${r.color}">${r.label}</span>`}${flag?`<span class="flag">${flagTxt}</span>`:""}</h3>
         <div class="school">${esc(c.school)}</div>
-        ${rolePills?`<div>${rolePills}</div>`:""}
         <div class="links">
           ${c.email?`<a href="mailto:${c.email}">${esc(c.email)}</a>`:""}
           ${c.linkedin&&c.linkedin.startsWith("http")?`<a href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn ↗</a>`:""}
@@ -309,74 +302,72 @@ function card(c,i){
       ${email}
       <button class="btn toggle ${elOn?'on':''}" onclick='toggleElevate(${JSON.stringify(c.name)},this)'>${elOn?"⭐ Top pick":"☆ Mark top pick"}</button>
       <button class="btn toggle ${bmOn?'on':''}" onclick='toggleBookmark(${JSON.stringify(c.name)},this)'>${bmOn?"★ Bookmarked":"☆ Bookmark"}</button>
-      <button class="btn" onclick="toggle('dt${i}')">Details</button>
+      <button class="btn" onclick="toggle('dt${uid}')">Details</button>
     </div>
     ${emailBox}
-    <div class="reveal" id="dt${i}">
+    <div class="reveal" id="dt${uid}">
       ${c.about?`<details open><summary>About me (their words)</summary><div class="body">${esc(c.about)}</div></details>`:""}
-      <details><summary>Full resume summary</summary><div class="body">${esc(c.summary)}</div></details>
+      ${c.summary?`<details><summary>Full resume summary</summary><div class="body">${esc(c.summary)}</div></details>`:""}
     </div>
     <div class="notes">
       <label>Notes <span class="nb">${NOTES_API?"shared":"this device"}</span></label>
-      <textarea id="nt${id}" placeholder="Add a note — interview impressions, follow-ups…">${esc(note)}</textarea>
-      <div class="saved" id="sv${id}"></div>
+      <textarea data-cand="${id}" id="nt${uid}" placeholder="Add a note — interview impressions, follow-ups…">${esc(note)}</textarea>
+      <div class="saved" id="sv${uid}"></div>
     </div>
   </div>`;
 }
 
 function render(){
   const list=document.getElementById("list");
-  const shown=DATA.filter(c=>
-    (state.tier==="all"||String(c.tier)===state.tier)&&
-    (state.role==="all"||(c.roles||[]).includes(state.role))&&
+  const base=DATA.filter(c=>
     (!state.bookmarked||bookmarks.has(cid(c.name)))&&
     (!state.elevated||elevated.has(cid(c.name)))&&
     (c.name+" "+c.school).toLowerCase().includes(state.q));
-  let html="", lastTier=null;
-  shown.forEach((c,gi)=>{
-    if(c.tier!==lastTier && state.tier==="all"){
-      lastTier=c.tier;
-      html+=`<div class="tierhead"><span class="dot" style="background:${TIER[c.tier].color}"></span>${TIER[c.tier].label}</div>`;
-    }
-    html+=card(c, DATA.indexOf(c));
+  let roleList = state.role!=="all" ? [state.role]
+    : Object.keys(ROLE_COUNTS).sort((a,b)=>ROLE_COUNTS[b]-ROLE_COUNTS[a]);
+  let html="", uid=0, any=false;
+  roleList.forEach(role=>{
+    let inRole=base.filter(c=>(c.roles||[]).includes(role));
+    if(!inRole.length) return;
+    inRole.sort((a,b)=>(a.score===null?-1:0)-(b.score===null?-1:0) || (b.score||0)-(a.score||0));
+    any=true;
+    html+=`<div class="tierhead"><span class="dot" style="background:#5f8fad"></span>${esc(role)}<span class="rolecount">${inRole.length}</span></div>`;
+    let rank=0;
+    inRole.forEach(c=>{ if(c.score!==null) rank++; html+=card(c, rank, uid++); });
   });
-  list.innerHTML = shown.length?html:`<p style="color:var(--muted)">No candidates match.</p>`;
-  // wire textareas
-  shown.forEach(c=>{
-    const id=c.name.replace(/\s+/g,"_");
-    const ta=document.getElementById("nt"+id), sv=document.getElementById("sv"+id);
-    if(!ta) return;
+  list.innerHTML = any?html:`<p style="color:var(--muted)">No candidates match.</p>`;
+  list.querySelectorAll("textarea[data-cand]").forEach(ta=>{
+    const idc=ta.getAttribute("data-cand"), sv=ta.nextElementSibling;
     let t; ta.addEventListener("input",()=>{sv.textContent="…";clearTimeout(t);
-      t=setTimeout(()=>saveNote(id,ta.value,sv),600);});
+      t=setTimeout(()=>saveNote(idc,ta.value,sv),600);});
   });
 }
 window.toggle=id=>document.getElementById(id).classList.toggle("show");
-window.copyEmail=i=>{const c=DATA[i];navigator.clipboard.writeText(c.intro_email.subject+"\n\n"+c.intro_email.body);
+window.copyEmailByName=(name)=>{const c=DATA.find(x=>x.name===name); if(!c||!c.intro_email)return;
+  navigator.clipboard.writeText(c.intro_email.subject+"\n\n"+c.intro_email.body);
   event.target.textContent="Copied ✓";setTimeout(()=>event.target.textContent="Copy email",1500);};
 
 (async function(){
   const d=await (await fetch("candidates.json?v="+Date.now())).json();
-  DATA=d.candidates;
-  // rank among scored (tier>0); new (tier 0) float to the top
-  let rk=0; DATA.forEach(c=>{ if(c.tier>0){ rk++; c._rank=rk; } });
-  DATA.sort((a,b)=> (a.tier===0?-1:0)-(b.tier===0?-1:0) || (b.score||0)-(a.score||0));
+  DATA=d.candidates; ROLE_COUNTS=d.roles||{};
   await loadNotes();
-  const counts={0:0,1:0,2:0,3:0,5:0}; DATA.forEach(c=>counts[c.tier]=(counts[c.tier]||0)+1);
-  const newStat = counts[0] ? `<div class="stat"><b style="color:#7c3aed">${counts[0]}</b><span>new — needs review</span></div>` : "";
+  const newN = DATA.filter(c=>c.score===null).length;
+  const strongN = DATA.filter(c=>c.recKey==="strong").length;
+  const roleN = Object.keys(ROLE_COUNTS).length;
+  const newStat = newN ? `<div class="stat"><b style="color:#7c3aed">${newN}</b><span>new — needs review</span></div>` : "";
   document.getElementById("stats").innerHTML=`
     ${newStat}
     <div class="stat"><b>${DATA.length}</b><span>candidates</span></div>
-    <div class="stat"><b style="color:var(--t1)">${counts[1]}</b><span>Tier 1 — interview</span></div>
-    <div class="stat"><b style="color:var(--t2)">${counts[2]}</b><span>Tier 2</span></div>
-    <div class="stat"><b style="color:var(--t4)">${counts[5]}</b><span>other roles</span></div>`;
-  // populate role filter
-  const roles=[...new Set(DATA.flatMap(c=>c.roles||[]))].sort();
+    <div class="stat"><b>${roleN}</b><span>open roles</span></div>
+    <div class="stat"><b style="color:#16a34a">${strongN}</b><span>strong interviews</span></div>`;
+  // populate role filter, ordered by candidate count
   const rf=document.getElementById("roleFilter");
-  roles.forEach(r=>{const o=document.createElement("option");o.value=r;o.textContent=r;rf.appendChild(o);});
+  Object.keys(ROLE_COUNTS).sort((a,b)=>ROLE_COUNTS[b]-ROLE_COUNTS[a]).forEach(r=>{
+    const o=document.createElement("option");o.value=r;o.textContent=`${r} (${ROLE_COUNTS[r]})`;rf.appendChild(o);});
   document.getElementById("foot").innerHTML=
-    `Scored on 7 weighted dimensions (fabrication, CAD, mechanical design, domain/UAV experience, initiative, English, electronics). `+
-    `Credentials &amp; GPA are deliberately not scored — demonstrated building is. English scores are provisional; confirm live. `+
-    `${NOTES_API?"Notes are shared across everyone with this link.":"Notes currently save to this device only."}`;
+    `Each candidate is scored against the rubric for the job they applied to (different jobs weight different skills). `+
+    `Credentials &amp; GPA are deliberately not scored — demonstrated capability is. English scores are provisional; confirm live. `+
+    `${NOTES_API?"Notes, bookmarks and top-picks are shared across everyone with this link.":"Notes save to this device only."}`;
   render();
 })();
 
@@ -385,9 +376,6 @@ document.getElementById("jdToggle").addEventListener("click",()=>{
   document.getElementById("jdToggle").textContent=(open?"▲ Hide":"📋 View")+" job description";
 });
 document.getElementById("search").addEventListener("input",e=>{state.q=e.target.value.toLowerCase();render();});
-document.querySelectorAll("#tierseg button").forEach(b=>b.addEventListener("click",()=>{
-  document.querySelectorAll("#tierseg button").forEach(x=>x.classList.remove("on"));
-  b.classList.add("on");state.tier=b.dataset.t;render();}));
 document.getElementById("roleFilter").addEventListener("change",e=>{state.role=e.target.value;render();});
 document.getElementById("chipBookmark").addEventListener("click",e=>{
   state.bookmarked=!state.bookmarked;e.target.classList.toggle("on",state.bookmarked);

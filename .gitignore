@@ -2,3 +2,4 @@ candidates_raw.json
 scores.csv
 .claude/
 __pycache__/
+.vercel

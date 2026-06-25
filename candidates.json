@@ -5,64 +5,59 @@
    "school": "CETYS Mexicali",
    "score": 96.8,
    "confidence": "High",
-   "tier": 1,
+   "rubric": "hardware",
+   "rec": "Strong interview",
+   "recKey": "strong",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems",
     "Aerospace Mechanical Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 5,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 5,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 5,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 5,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 3,
      "weight": 8
     }
    ],
-   "note": "Built inspection fixtures on his OWN 3D printer until employer saw value & bought one; co-founded CADIS; CSU 3D-printed fixed-wing aircraft comp (empennage); MATE ROV submarine + ANSYS FEA. Textbook fit.",
+   "note": "Built inspection fixtures on his OWN 3D printer until the employer funded one; co-founded CADIS; CSU 3D-printed fixed-wing aircraft comp (empennage); MATE ROV submarine + ANSYS FEA. Textbook fit.",
    "email": "leonixaillaud@gmail.com",
    "linkedin": "https://www.linkedin.com/in/leon-aillaud/",
    "about": "I’m a recent Mechanical Engineering graduate from CETYS Mexicali with hands-on experience in design, manufacturing, and analysis. I completed a six-month internship at ROA Pacific Inc. as a Quality Engineer, where I was later hired full-time and helped start a small design area within the company. I designed and built inspection fixtures, worked with vision systems, and developed measurement routines to ensure part quality, initially using my own 3D printer and later one purchased by the company once the value of the work was proven. Alongside my industry experience, I was a member and co-founder of the CADIS group at my university, where we competed in the CSU 3D-Printed Fixed-Wing Aircraft Competition at Cal State LA. Our team fully designed and manufactured a 3D-printed aircraft in SolidWorks under strict requirements, and I focused on the empennage, which strengthened my understanding of aerodynamics, lift, and flight principles. We achieved one of the top placements, reinforcing my interest in aerospace design and structures. I also worked on my capstone project designing a remotely operated submarine for the MATE ROV Competition, where we developed the full system in SolidWorks and performed extensive structural and load analysis in ANSYS, with a strong focus on finite element analysis. Overall, I really enjoy working in teams, designing, testing, learning, and applying engineering theory to real problems, and my main interests are aerospace engineering, mechanical design, and FEA.\n",
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~1–2 years\n\n**Skills:** Mechanical design, SolidWorks, 3D printing, metrology, automated inspection, injection molding, project management, CAD, Ansys, manufacturing process automation\n\n**Agency:** Demonstrates initiative through hands-on engineering projects, self-driven skill development, and proactive involvement in fixture design and process automation.\n\n**Experience:** Relevant technical experience in mechanical engineering roles, including fixture design, automated inspection programming, and manufacturing support; strong academic foundation with practical project work.\n\n**Entrepreneurship:** Some ownership shown in leading engineering projects and developing solutions from concept to implementation, but no direct evidence of startup or business creation.\n\n**Leadership:** Led hands-on projects (e.g., underwater actuator, aerospace competition empennage), and supported process improvements; member of engineering society, indicating peer leadership and engagement.\n\n**Teamwork:** Active collaboration in university teams and professional settings; experience working cross-functionally in manufacturing and design environments.\n\n**Overall Summary:** Leon is an early-career mechanical engineer with a solid mix of academic excellence and practical, project-based experience. He has demonstrated initiative in both professional and academic settings, with hands-on leadership in technical projects and a strong record of collaboration. While direct entrepreneurial experience is limited, his proactive approach and technical depth are clear. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High",
    "intro_email": {
     "to_first": "Leon",
-    "subject": "USAVX — junior engineering role (we were impressed by your work)",
-    "body": "Hi Leon,\n\nI'm reaching out from USAVX — we design unmanned aircraft systems and autonomy technology, and we came across your profile while hiring for a junior engineering role on our small hardware team.\n\nWhat stood out to us was that you built inspection fixtures on your own 3D printer until the value was proven — that build-it-and-show-it instinct is exactly how we operate. Your CADIS aircraft project and ROV/FEA work line up closely with the flight hardware we prototype.\n\nThe role is hands-on: CAD modeling, prototype fabrication, assembly and testing, and working directly with our senior engineers across several early-stage projects. It's the kind of build–test–iterate environment where your 3D-printed aircraft and in-house fixture work would translate directly.\n\nWould you be open to a short call this week or next to tell you more and hear about what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Leon,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nWhat stood out to us was that you built inspection fixtures on your own 3D printer until the value was proven — that build-it-and-show-it instinct is exactly how we operate. Your CADIS aircraft project and ROV/FEA work line up closely with the flight hardware we prototype.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
    }
   },
   {
@@ -70,49 +65,44 @@
    "school": "Olin College",
    "score": 94.4,
    "confidence": "High",
-   "tier": 1,
+   "rubric": "hardware",
+   "rec": "Strong interview",
+   "recKey": "strong",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 5,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 5,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 4,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 5,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 3,
      "weight": 8
@@ -125,8 +115,8 @@
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Mechanical engineering, CAD (Fusion 360, SolidWorks, FEA), 3D printing, CNC machining, Arduino, C++, MATLAB, technical documentation\n\n**Agency:** Demonstrates strong initiative through independent project work, technical documentation, and organizing a summer program.\n\n**Experience:** Hands-on technical experience in mechanical design, fabrication, and research; relevant exposure to engineering projects and lab environments.\n\n**Entrepreneurship:** Shows ownership in designing and producing custom products and organizing a summer program; some risk-taking in project selection and execution.\n\n**Leadership:** Led technical documentation efforts, organized a summer program, and delivered research presentations; early signs of leadership in project and educational contexts.\n\n**Teamwork:** Collaborated with educators, students, and technical teams; contributed to cross-functional student motorsports and research teams.\n\n**Overall Summary:** Yixin Zhou is an early-stage mechanical engineering student with strong hands-on technical skills and a track record of initiative in both academic and extracurricular settings. She independently drives projects from concept to execution, contributes effectively to team-based engineering efforts, and communicates technical results. Early leadership and entrepreneurial signals are present, with clear evidence of agency and collaboration. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Rapid prototyping, technical project execution, and collaborative engineering teams needing self-starters with practical skills.\n\n**Where she is weak:** Limited depth in industry experience and large-scale leadership; still developing advanced project management and business acumen.",
    "intro_email": {
     "to_first": "Yixin",
-    "subject": "USAVX — junior engineering role (we were impressed by your work)",
-    "body": "Hi Yixin,\n\nI'm reaching out from USAVX — we design unmanned aircraft systems and autonomy technology, and we came across your profile while hiring for a junior engineering role on our small hardware team.\n\nYour Formula SAE powertrain work — pairing hand calculations with FEA and then actually fabricating the parts — is the exact loop our junior engineers run every week. Olin's hands-on engineering reputation and your CNC/3D-printing experience are a strong match for how we build.\n\nThe role is hands-on: CAD modeling, prototype fabrication, assembly and testing, and working directly with our senior engineers across several early-stage projects. It's the kind of build–test–iterate environment where your Formula SAE powertrain work would translate directly.\n\nWould you be open to a short call this week or next to tell you more and hear about what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Yixin,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nYour Formula SAE powertrain work — pairing hand calculations with FEA and then actually fabricating the parts — is the exact loop our junior engineers run every week. Olin's hands-on reputation and your CNC/3D-printing experience are a strong match.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
    }
   },
   {
@@ -134,49 +124,44 @@
    "school": "San Diego State",
    "score": 87.4,
    "confidence": "Medium",
-   "tier": 1,
+   "rubric": "hardware",
+   "rec": "Strong interview",
+   "recKey": "strong",
    "roles": [
     "Aerospace Mechanical Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 4,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 4,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 4,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 5,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 5,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 4,
      "weight": 8
@@ -189,8 +174,8 @@
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~1–2 years\n\n**Skills:** Aerospace engineering, SolidWorks, MATLAB, Python, Java, R, 3D CAD, leadership, teamwork, problem-solving, strategic planning\n\n**Agency:** Demonstrates strong initiative by leading projects, developing new systems, and driving cost-saving solutions in internships and extracurriculars.\n\n**Experience:** Relevant hands-on technical experience in aerospace engineering, research, and engineering internships; leadership in student organizations and technical teams.\n\n**Entrepreneurship:** Evidence of ownership and risk-taking through creating new systems, leading chapter growth, and initiating new project directions.\n\n**Leadership:** Led an 8-person engineering team, chaired proposal panels, and served as fraternity chapter president managing a large budget and doubling membership.\n\n**Teamwork:** Extensive collaboration in engineering teams, cross-functional student projects, and fraternity leadership; strong interpersonal and engagement skills.\n\n**Overall Summary:** Jackson Martin is a high-performing university student with robust technical and leadership experience for his career stage. He has demonstrated initiative in both engineering and organizational contexts, leading teams, managing budgets, and driving measurable outcomes. His hands-on project work and leadership roles signal strong potential for fast-paced environments. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High",
    "intro_email": {
     "to_first": "Jackson",
-    "subject": "USAVX — junior engineering role (we were impressed by your work)",
-    "body": "Hi Jackson,\n\nI'm reaching out from USAVX — we design unmanned aircraft systems and autonomy technology, and we came across your profile while hiring for a junior engineering role on our small hardware team.\n\nYou're the rare candidate whose hands-on work is literally UAVs — autonomous drone software with Dr. Machuca and a quadcopter biplane you built end to end. That's directly on-mission for what we're developing, and your team-leadership experience is a bonus.\n\nThe role is hands-on: CAD modeling, prototype fabrication, assembly and testing, and working directly with our senior engineers across several early-stage projects. It's the kind of build–test–iterate environment where your autonomous drone and quadcopter biplane work would translate directly.\n\nWould you be open to a short call this week or next to tell you more and hear about what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Jackson,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nYou're the rare candidate whose hands-on work is literally UAVs — autonomous drone software with Dr. Machuca and a quadcopter biplane you built end to end. That's directly on-mission for our airframe team.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
    }
   },
   {
@@ -198,49 +183,44 @@
    "school": "CETYS",
    "score": 85.8,
    "confidence": "Medium",
-   "tier": 1,
+   "rubric": "hardware",
+   "rec": "Strong interview",
+   "recKey": "strong",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 4,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 5,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 4,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 5,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 4,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 2,
      "weight": 8
@@ -253,8 +233,8 @@
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** SolidWorks (advanced parametric modeling), mechanical design, manufacturing processes, mechanical analysis, MATLAB, Python, team leadership, problem solving\n\n**Agency:** Demonstrates strong initiative by leading and managing a university racing team, driving technical planning and real-time troubleshooting.\n\n**Experience:** Hands-on engineering experience through leadership of a university racing team, mechanical support roles, and a manufacturing internship; experience is technical, practical, and project-based.\n\n**Entrepreneurship:** Shows ownership and risk-taking as president of a competitive racing team, including designing and optimizing vehicle components.\n\n**Leadership:** Led a student engineering team, managed organization, technical planning, and competition preparation, and oversaw mechanical modifications under pressure.\n\n**Teamwork:** Extensive collaboration with engineering, production, and racing teams; effective in cross-functional and high-pressure environments.\n\n**Overall Summary:** Sofia is a proactive mechanical engineering student with advanced CAD and mechanical design skills, proven leadership as president of a university racing team, and practical experience in both academic and real-world engineering environments. She balances technical depth with strong teamwork and reliability, showing clear initiative and ownership in her projects. Her experience is highly relevant for technical and collaborative roles, with emerging entrepreneurial and leadership strengths. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical teams needing hands-on mechanical design, rapid prototyping, and team leadership in dynamic environments.\n\n**Where she is weak:** Limited exposure to industry-scale projects and business-side responsibilities; experience is primarily academic and project-based, not yet at a senior or mid-level professional depth.",
    "intro_email": {
     "to_first": "Sofia",
-    "subject": "USAVX — junior engineering role (we were impressed by your work)",
-    "body": "Hi Sofia,\n\nI'm reaching out from USAVX — we design unmanned aircraft systems and autonomy technology, and we came across your profile while hiring for a junior engineering role on our small hardware team.\n\nRunning a competitive racing team — designing and optimizing components, then troubleshooting them in real time under pressure — maps almost exactly onto our prototype-and-test cycle. Your advanced SolidWorks work and ownership mindset are what we look for.\n\nThe role is hands-on: CAD modeling, prototype fabrication, assembly and testing, and working directly with our senior engineers across several early-stage projects. It's the kind of build–test–iterate environment where leading your university racing team would translate directly.\n\nWould you be open to a short call this week or next to tell you more and hear about what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Sofia,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nRunning a competitive racing team — designing and optimizing components, then troubleshooting them in real time under pressure — maps almost exactly onto our prototype-and-test cycle. Your advanced SolidWorks work and ownership mindset are what we look for.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
    }
   },
   {
@@ -262,50 +242,45 @@
    "school": "CETYS",
    "score": 81.4,
    "confidence": "High",
-   "tier": 1,
+   "rubric": "hardware",
+   "rec": "Strong interview",
+   "recKey": "strong",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems",
     "Aerospace Mechanical Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 4,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 5,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 2,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 5,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 4,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 3,
      "weight": 8
@@ -318,8 +293,8 @@
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student (final semester)\n\n**Estimated Experience:** ~1 year\n\n**Skills:** Mechanical design, SolidWorks, manufacturing process planning, structural analysis, tooling and fixture design, GD&T, process validation, electropneumatics, hydraulics, bilingual (English/Spanish)\n\n**Agency:** Demonstrates strong initiative by leading process revalidation, designing fixtures and tooling, and driving measurable improvements in production efficiency and scrap reduction.\n\n**Experience:** Relevant hands-on experience in mechanical and hydraulic prosthetics manufacturing, process optimization, and technical project execution; depth is appropriate for an advanced student.\n\n**Entrepreneurship:** Some ownership shown in leading design and process improvement projects, but no evidence of founding or risk-taking beyond academic/professional scope.\n\n**Leadership:** Led teams and projects, including manufacturing teams and automated machine design, with clear impact on outcomes and process improvements.\n\n**Teamwork:** Experience as a team lead and collaborator on cross-functional engineering projects, indicating strong interpersonal and collaborative skills.\n\n**Overall Summary:** Diego is a final-semester mechanical engineering student with approximately one year of relevant technical and project-based experience. He has demonstrated initiative and leadership in both academic and professional settings, driving process improvements and leading technical teams. His skills in mechanical design, manufacturing, and process optimization are well-developed for his career stage. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Technical contributor or junior team lead roles in mechanical design, manufacturing, or process optimization, especially in engineering-driven environments.\n\n**Where she is weak:** Limited by early-career status; lacks multi-year professional experience and evidence of entrepreneurial risk-taking or startup exposure.",
    "intro_email": {
     "to_first": "Diego",
-    "subject": "USAVX — junior engineering role (we were impressed by your work)",
-    "body": "Hi Diego,\n\nI'm reaching out from USAVX — we design unmanned aircraft systems and autonomy technology, and we came across your profile while hiring for a junior engineering role on our small hardware team.\n\nYour work at Össur — precision fixtures, tooling, parametric test setups, GD&T, and a process revalidation that measurably cut scrap — shows the kind of careful, hands-on mechanical design we rely on. We think you'd ramp quickly on our prototype hardware.\n\nThe role is hands-on: CAD modeling, prototype fabrication, assembly and testing, and working directly with our senior engineers across several early-stage projects. It's the kind of build–test–iterate environment where your fixture and tooling work at Össur would translate directly.\n\nWould you be open to a short call this week or next to tell you more and hear about what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Diego,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nYour work at Össur — precision fixtures, tooling, parametric test setups, GD&T, and a revalidation that measurably cut scrap — shows the careful, hands-on mechanical design we rely on.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
    }
   },
   {
@@ -327,49 +302,44 @@
    "school": "CETYS Tijuana",
    "score": 77.8,
    "confidence": "Medium",
-   "tier": 2,
+   "rubric": "hardware",
+   "rec": "Interview",
+   "recKey": "interview",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 3,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 4,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 4,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 5,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 5,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 4,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 2,
      "weight": 8
@@ -387,50 +357,45 @@
    "school": "CETYS",
    "score": 72.2,
    "confidence": "High",
-   "tier": 2,
+   "rubric": "hardware",
+   "rec": "Interview",
+   "recKey": "interview",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems",
     "Aerospace Mechanical Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 4,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 4,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 4,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 1,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 5,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 5,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 2,
      "weight": 8
@@ -448,49 +413,44 @@
    "school": "CETYS",
    "score": 71.4,
    "confidence": "Medium",
-   "tier": 2,
+   "rubric": "hardware",
+   "rec": "Interview",
+   "recKey": "interview",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 3,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 4,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 4,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 3,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 4,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 5,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 2,
      "weight": 8
@@ -508,55 +468,50 @@
    "school": "UT Tijuana",
    "score": 68.4,
    "confidence": "Medium",
-   "tier": 2,
+   "rubric": "hardware",
+   "rec": "Interview",
+   "recKey": "interview",
    "roles": [
     "Aerospace Mechanical Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 4,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 4,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 4,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 2,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 4,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 2,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 3,
      "weight": 8
     }
    ],
-   "note": "~2.5yr mechanical design + automation; SolidWorks, FEA, PLC; fixture/tooling; supervised interns. RED FLAG: resume summary explicitly notes ENGLISH IS INTERMEDIATE — verify.",
+   "note": "~2.5yr mechanical design + automation; SolidWorks, FEA, PLC; fixture/tooling; supervised interns. RED FLAG: resume notes ENGLISH IS INTERMEDIATE — verify.",
    "email": "jake.rrufino@gmail.com",
    "linkedin": "www.linkedin.com/in/jake-rufino-06553b29a ",
    "about": "Mechatronic Engineer specialized in Mechanical Design with more than two years of experience in the Automation field. Experience in mechanical design for manufacturing and automation projects development. I have participated in two projects that have impacted the reduction of waiting time, movements, inventory and rework. I am passionate about mechanical design, creating parts, performing analysis, and applying mathematics in what I do.\n",
@@ -564,113 +519,48 @@
    "intro_email": null
   },
   {
-   "name": "Vania Leal Espinoza",
-   "school": "CETYS",
-   "score": 66.4,
-   "confidence": "Medium",
-   "tier": 2,
-   "roles": [
-    "Hardware / Embedded Systems Intern – AI Test & Integration"
-   ],
-   "categories": [
-    {
-     "key": "Fabrication",
-     "label": "Fabrication & Prototyping",
-     "score": 3,
-     "weight": 22
-    },
-    {
-     "key": "CAD",
-     "label": "CAD Proficiency",
-     "score": 2,
-     "weight": 18
-    },
-    {
-     "key": "MechDesign",
-     "label": "Mechanical Design",
-     "score": 2,
-     "weight": 15
-    },
-    {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
-     "score": 4,
-     "weight": 15
-    },
-    {
-     "key": "Initiative",
-     "label": "Initiative",
-     "score": 5,
-     "weight": 12
-    },
-    {
-     "key": "English",
-     "label": "English",
-     "score": 4,
-     "weight": 10
-    },
-    {
-     "key": "Electronics",
-     "label": "Electronics Integration",
-     "score": 5,
-     "weight": 8
-    }
-   ],
-   "note": "Electronics lead for university rocketry team; embedded/robotics/vision; hackathons; taught robotics. Excellent for electronics integration, light on CAD/mechanical.",
-   "email": "lealespinozav@gmail.com",
-   "linkedin": "www.linkedin.com/in/vania-leal-9083b9351",
-   "about": "Electronic Cybernetics Engineering student with practical experience in embedded systems, robotics, and hardware and software integration. I have taken the time to understand the company’s work and technical focus, and the areas it operates in, especially artificial intelligence, embedded systems, and electronics, closely match my personal and professional interests.\n",
-   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Embedded systems, hardware-software integration, robotics, Python, C++, Linux, vision systems, sensor integration, technical documentation\n\n**Agency:** Demonstrates strong initiative by leading electronics development for a rocketry team, independently driving system bring-up, and active participation in hackathons and competitions.\n\n**Experience:** Hands-on, project-based experience in embedded systems, robotics, and vision pipelines with relevant technical depth for early-career engineering roles.\n\n**Entrepreneurship:** Clear evidence of ownership and risk-taking through leading technical projects, competing in hackathons, and building prototypes under time constraints.\n\n**Leadership:** Led electronics development for a university rocketry team, programming/electronics for a high school robotics team, and taught robotics as an instructor, showing emerging leadership skills.\n\n**Teamwork:** Extensive collaboration in team-based competitions, cross-functional university projects, and teaching roles; proven ability to work effectively in group settings.\n\n**Overall Summary:** Vania Leal is a university student with approximately 2–3 years of hands-on, project-based experience in embedded systems, robotics, and technical competitions. She shows strong initiative, technical depth, and a track record of leading and collaborating on complex projects. Her experience spans both technical execution and early leadership, with clear signs of ownership and adaptability. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High",
-   "intro_email": null
-  },
-  {
    "name": "Daniel Lopez Moreno",
    "school": "CETYS",
    "score": 64.0,
    "confidence": "Medium",
-   "tier": 2,
+   "rubric": "hardware",
+   "rec": "Maybe",
+   "recKey": "maybe",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 3,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 3,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 3,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 3,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 4,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 3,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 4,
      "weight": 8
@@ -684,113 +574,48 @@
    "intro_email": null
   },
   {
-   "name": "Melanie Picen",
-   "school": "CETYS",
-   "score": 57.0,
-   "confidence": "Medium",
-   "tier": 3,
-   "roles": [
-    "Hardware / Embedded Systems Intern – AI Test & Integration"
-   ],
-   "categories": [
-    {
-     "key": "Fabrication",
-     "label": "Fabrication & Prototyping",
-     "score": 2,
-     "weight": 22
-    },
-    {
-     "key": "CAD",
-     "label": "CAD Proficiency",
-     "score": 2,
-     "weight": 18
-    },
-    {
-     "key": "MechDesign",
-     "label": "Mechanical Design",
-     "score": 2,
-     "weight": 15
-    },
-    {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
-     "score": 3,
-     "weight": 15
-    },
-    {
-     "key": "Initiative",
-     "label": "Initiative",
-     "score": 5,
-     "weight": 12
-    },
-    {
-     "key": "English",
-     "label": "English",
-     "score": 3,
-     "weight": 10
-    },
-    {
-     "key": "Electronics",
-     "label": "Electronics Integration",
-     "score": 5,
-     "weight": 8
-    }
-   ],
-   "note": "Cybernetics: FPGA/Verilog, embedded, ML. Strong electronics + initiative, but little CAD/fabrication evidence. Discipline tilts away from this role's core.",
-   "email": "picen.melanie223@gmail.com",
-   "linkedin": "www.linkedin.com/in/melaniephdez",
-   "about": "I am an engineering student with a strong interest in learning, problem solving, and personal growth.\n",
-   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Python, C++, Swift, Verilog HDL, FPGA design, embedded systems, machine learning, digital systems, system validation, teamwork, technical leadership\n\n**Agency:** Demonstrates strong initiative through self-directed technical projects, competition participation, and independent learning.\n\n**Experience:** Solid hands-on experience in technical projects spanning AI, embedded systems, and hardware-software integration, primarily academic and extracurricular.\n\n**Entrepreneurship:** Evidence of ownership and risk-taking in leading technical projects, developing original solutions, and participating in competitions.\n\n**Leadership:** Led workshops, taught programming to peers and younger students, and contributed to project organization and technical leadership in STEM initiatives.\n\n**Teamwork:** Effective collaborator in multidisciplinary and cross-functional teams, with experience in both technical and social impact projects.\n\n**Overall Summary:** Melanie is a proactive university student with a strong technical foundation in cybernetics, embedded systems, and AI. She has demonstrated initiative and ownership through diverse technical projects and competitions, and has taken on leadership roles in STEM outreach and education. Her teamwork and cross-functional collaboration skills are well developed for her career stage. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High",
-   "intro_email": null
-  },
-  {
    "name": "Alfonso Gonzalez Villalobos",
    "school": "CETYS",
    "score": 55.4,
    "confidence": "Low",
-   "tier": 3,
+   "rubric": "hardware",
+   "rec": "Maybe",
+   "recKey": "maybe",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 3,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 3,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 3,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 2,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 3,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 3,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 2,
      "weight": 8
@@ -804,113 +629,48 @@
    "intro_email": null
   },
   {
-   "name": "Kevin Osorio Franco",
-   "school": "CETYS",
-   "score": 50.6,
-   "confidence": "Low",
-   "tier": 3,
-   "roles": [
-    "Hardware / Embedded Systems Intern – AI Test & Integration"
-   ],
-   "categories": [
-    {
-     "key": "Fabrication",
-     "label": "Fabrication & Prototyping",
-     "score": 2,
-     "weight": 22
-    },
-    {
-     "key": "CAD",
-     "label": "CAD Proficiency",
-     "score": 2,
-     "weight": 18
-    },
-    {
-     "key": "MechDesign",
-     "label": "Mechanical Design",
-     "score": 2,
-     "weight": 15
-    },
-    {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
-     "score": 3,
-     "weight": 15
-    },
-    {
-     "key": "Initiative",
-     "label": "Initiative",
-     "score": 3,
-     "weight": 12
-    },
-    {
-     "key": "English",
-     "label": "English",
-     "score": 3,
-     "weight": 10
-    },
-    {
-     "key": "Electronics",
-     "label": "Electronics Integration",
-     "score": 4,
-     "weight": 8
-    }
-   ],
-   "note": "RESUME MISSING (no summary in Airtable). About Me shows AOI/ABB robotics, STM32, PLC. Tagged 'Not Relevant'. Cannot assess until resume obtained.",
-   "email": "kevinof@cetys.edu.mx",
-   "linkedin": "www.linkedin.com/in/kevin-osorio-b378ba2b4",
-   "about": "I'm a Mechatronics Engineering student at CETYS Universidad. Through my current internship working with AOI systems and ABB robotics, I've developed a strong interest in hardware integration and automated testing. I also have hands-on experience with STM32 embedded systems and PLC programming. I'm eager to expand into AI-driven test and integration environments, and I see this role as a great opportunity to grow in that direction.\n",
-   "summary": "NONE.",
-   "intro_email": null
-  },
-  {
    "name": "Diego Romero Bassoco",
    "school": "CETYS",
    "score": 49.0,
    "confidence": "Low",
-   "tier": 3,
+   "rubric": "hardware",
+   "rec": "Hold",
+   "recKey": "hold",
    "roles": [
     "Mechanical Engineering Intern – Prototyping & Test Systems"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 2,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 3,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 3,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 2,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 3,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 2,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 2,
      "weight": 8
@@ -928,49 +688,44 @@
    "school": "CETYS Tijuana",
    "score": 45.0,
    "confidence": "Low",
-   "tier": 3,
+   "rubric": "hardware",
+   "rec": "Hold",
+   "recKey": "hold",
    "roles": [
     "Aerospace Mechanical Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 2,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 3,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 2,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 1,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 3,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 3,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 2,
      "weight": 8
@@ -988,49 +743,44 @@
    "school": "CETYS",
    "score": 43.8,
    "confidence": "Low",
-   "tier": 3,
+   "rubric": "hardware",
+   "rec": "Hold",
+   "recKey": "hold",
    "roles": [
     "Aerospace Mechanical Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
      "label": "Fabrication & Prototyping",
      "score": 2,
      "weight": 22
     },
     {
-     "key": "CAD",
      "label": "CAD Proficiency",
      "score": 2,
      "weight": 18
     },
     {
-     "key": "MechDesign",
      "label": "Mechanical Design",
      "score": 2,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
+     "label": "Domain (UAV / robotics / SAE)",
      "score": 1,
      "weight": 15
     },
     {
-     "key": "Initiative",
      "label": "Initiative",
      "score": 3,
      "weight": 12
     },
     {
-     "key": "English",
      "label": "English",
      "score": 5,
      "weight": 10
     },
     {
-     "key": "Electronics",
      "label": "Electronics Integration",
      "score": 1,
      "weight": 8
@@ -1044,119 +794,257 @@
    "intro_email": null
   },
   {
+   "name": "Vania Leal Espinoza",
+   "school": "CETYS",
+   "score": 94.0,
+   "confidence": "Medium",
+   "rubric": "embedded",
+   "rec": "Strong interview",
+   "recKey": "strong",
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
+   "categories": [
+    {
+     "label": "HW/Embedded Bring-up (RPi, sensors, MCU)",
+     "score": 5,
+     "weight": 25
+    },
+    {
+     "label": "Electronics & Integration",
+     "score": 5,
+     "weight": 18
+    },
+    {
+     "label": "Software / Linux / Python",
+     "score": 5,
+     "weight": 15
+    },
+    {
+     "label": "Test & Debug",
+     "score": 4,
+     "weight": 15
+    },
+    {
+     "label": "Initiative",
+     "score": 5,
+     "weight": 12
+    },
+    {
+     "label": "English & Documentation",
+     "score": 4,
+     "weight": 15
+    }
+   ],
+   "note": "Near-ideal for this role: embedded systems, hardware-software integration, Linux, vision systems, sensor integration. Led electronics for a rocketry team; hackathons; taught robotics.",
+   "email": "lealespinozav@gmail.com",
+   "linkedin": "www.linkedin.com/in/vania-leal-9083b9351",
+   "about": "Electronic Cybernetics Engineering student with practical experience in embedded systems, robotics, and hardware and software integration. I have taken the time to understand the company’s work and technical focus, and the areas it operates in, especially artificial intelligence, embedded systems, and electronics, closely match my personal and professional interests.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Embedded systems, hardware-software integration, robotics, Python, C++, Linux, vision systems, sensor integration, technical documentation\n\n**Agency:** Demonstrates strong initiative by leading electronics development for a rocketry team, independently driving system bring-up, and active participation in hackathons and competitions.\n\n**Experience:** Hands-on, project-based experience in embedded systems, robotics, and vision pipelines with relevant technical depth for early-career engineering roles.\n\n**Entrepreneurship:** Clear evidence of ownership and risk-taking through leading technical projects, competing in hackathons, and building prototypes under time constraints.\n\n**Leadership:** Led electronics development for a university rocketry team, programming/electronics for a high school robotics team, and taught robotics as an instructor, showing emerging leadership skills.\n\n**Teamwork:** Extensive collaboration in team-based competitions, cross-functional university projects, and teaching roles; proven ability to work effectively in group settings.\n\n**Overall Summary:** Vania Leal is a university student with approximately 2–3 years of hands-on, project-based experience in embedded systems, robotics, and technical competitions. She shows strong initiative, technical depth, and a track record of leading and collaborating on complex projects. Her experience spans both technical execution and early leadership, with clear signs of ownership and adaptability. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High",
+   "intro_email": {
+    "to_first": "Vania",
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Vania,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nYour embedded systems background — Linux, sensor and vision integration, and leading electronics for a rocketry team — is almost a one-to-one match for bringing up and testing our Delta AI hardware. This role is hands-on bench work, exactly where you've thrived.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+   }
+  },
+  {
+   "name": "Melanie Picen",
+   "school": "CETYS",
+   "score": 83.0,
+   "confidence": "Medium",
+   "rubric": "embedded",
+   "rec": "Strong interview",
+   "recKey": "strong",
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
+   "categories": [
+    {
+     "label": "HW/Embedded Bring-up (RPi, sensors, MCU)",
+     "score": 4,
+     "weight": 25
+    },
+    {
+     "label": "Electronics & Integration",
+     "score": 5,
+     "weight": 18
+    },
+    {
+     "label": "Software / Linux / Python",
+     "score": 4,
+     "weight": 15
+    },
+    {
+     "label": "Test & Debug",
+     "score": 4,
+     "weight": 15
+    },
+    {
+     "label": "Initiative",
+     "score": 5,
+     "weight": 12
+    },
+    {
+     "label": "English & Documentation",
+     "score": 3,
+     "weight": 15
+    }
+   ],
+   "note": "Cybernetics: FPGA/Verilog, embedded systems, ML, system validation, Python/C++. Strong embedded/test fit; written English brief but technical depth is high.",
+   "email": "picen.melanie223@gmail.com",
+   "linkedin": "www.linkedin.com/in/melaniephdez",
+   "about": "I am an engineering student with a strong interest in learning, problem solving, and personal growth.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Python, C++, Swift, Verilog HDL, FPGA design, embedded systems, machine learning, digital systems, system validation, teamwork, technical leadership\n\n**Agency:** Demonstrates strong initiative through self-directed technical projects, competition participation, and independent learning.\n\n**Experience:** Solid hands-on experience in technical projects spanning AI, embedded systems, and hardware-software integration, primarily academic and extracurricular.\n\n**Entrepreneurship:** Evidence of ownership and risk-taking in leading technical projects, developing original solutions, and participating in competitions.\n\n**Leadership:** Led workshops, taught programming to peers and younger students, and contributed to project organization and technical leadership in STEM initiatives.\n\n**Teamwork:** Effective collaborator in multidisciplinary and cross-functional teams, with experience in both technical and social impact projects.\n\n**Overall Summary:** Melanie is a proactive university student with a strong technical foundation in cybernetics, embedded systems, and AI. She has demonstrated initiative and ownership through diverse technical projects and competitions, and has taken on leadership roles in STEM outreach and education. Her teamwork and cross-functional collaboration skills are well developed for her career stage. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High",
+   "intro_email": null
+  },
+  {
+   "name": "Kevin Osorio Franco",
+   "school": "CETYS",
+   "score": 65.6,
+   "confidence": "Low",
+   "rubric": "embedded",
+   "rec": "Interview",
+   "recKey": "interview",
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
+   "categories": [
+    {
+     "label": "HW/Embedded Bring-up (RPi, sensors, MCU)",
+     "score": 4,
+     "weight": 25
+    },
+    {
+     "label": "Electronics & Integration",
+     "score": 4,
+     "weight": 18
+    },
+    {
+     "label": "Software / Linux / Python",
+     "score": 2,
+     "weight": 15
+    },
+    {
+     "label": "Test & Debug",
+     "score": 3,
+     "weight": 15
+    },
+    {
+     "label": "Initiative",
+     "score": 3,
+     "weight": 12
+    },
+    {
+     "label": "English & Documentation",
+     "score": 3,
+     "weight": 15
+    }
+   ],
+   "note": "Mechatronics: AOI systems, ABB robotics, STM32 embedded, PLC — relevant to bring-up/test. RESUME MISSING in Airtable, so scores are provisional; get the resume to confirm.",
+   "email": "kevinof@cetys.edu.mx",
+   "linkedin": "www.linkedin.com/in/kevin-osorio-b378ba2b4",
+   "about": "I'm a Mechatronics Engineering student at CETYS Universidad. Through my current internship working with AOI systems and ABB robotics, I've developed a strong interest in hardware integration and automated testing. I also have hands-on experience with STM32 embedded systems and PLC programming. I'm eager to expand into AI-driven test and integration environments, and I see this role as a great opportunity to grow in that direction.\n",
+   "summary": "NONE.",
+   "intro_email": null
+  },
+  {
    "name": "Jonayet Lavin",
    "school": "Caltech",
-   "score": 32.6,
+   "score": 88.0,
    "confidence": "High",
-   "tier": 5,
+   "rubric": "ai",
+   "rec": "Strong interview",
+   "recKey": "strong",
    "roles": [
     "AI Engineer"
    ],
    "categories": [
     {
-     "key": "Fabrication",
-     "label": "Fabrication & Prototyping",
-     "score": 1,
-     "weight": 22
+     "label": "ML / LLM depth (PyTorch, RAG, fine-tuning)",
+     "score": 5,
+     "weight": 30
     },
     {
-     "key": "CAD",
-     "label": "CAD Proficiency",
-     "score": 0,
-     "weight": 18
+     "label": "Software Engineering / Production",
+     "score": 5,
+     "weight": 20
     },
     {
-     "key": "MechDesign",
-     "label": "Mechanical Design",
-     "score": 0,
+     "label": "Edge / Real-time Systems",
+     "score": 3,
      "weight": 15
     },
     {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
-     "score": 1,
+     "label": "Initiative / Research-to-product",
+     "score": 5,
      "weight": 15
     },
     {
-     "key": "Initiative",
-     "label": "Initiative",
-     "score": 5,
-     "weight": 12
-    },
-    {
-     "key": "English",
-     "label": "English",
-     "score": 5,
+     "label": "Autonomy / Robotics domain",
+     "score": 2,
      "weight": 10
     },
     {
-     "key": "Electronics",
-     "label": "Electronics Integration",
-     "score": 2,
-     "weight": 8
+     "label": "Communication",
+     "score": 5,
+     "weight": 10
     }
    ],
-   "note": "Applied to the AI Engineer role — not the hardware req, so not ranked against this rubric. Exceptional ML/software engineer (Caltech; co-founded a GenAI startup). Evaluate under the AI role.",
+   "note": "Strong fit for this role: ML eng (PyTorch, GenAI, RAG, fine-tuning), co-founded a GenAI startup as backend lead, model deployment (Docker/FastAPI). Edge-inference & autonomy domain are the gaps to probe.",
    "email": "jlavin@alumni.caltech.edu",
    "linkedin": "https://www.linkedin.com/in/jlavin1 ",
    "about": "",
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student (graduating 2025)\n\n**Estimated Experience:** ~2.5–3 years\n\n**Skills:** Machine learning, Python, PyTorch, TensorFlow, GenAI, AutoML, Docker, FastAPI, Azure, SQL, data science, model deployment, RAG, differential privacy, model interpretability\n\n**Agency:** Demonstrates strong initiative through self-driven technical projects, contract work, and co-founding a GenAI startup while still in university.\n\n**Experience:** Deep hands-on experience in ML engineering, including building and optimizing pipelines, deploying models, and developing evaluation suites across research, industry, and startup environments.\n\n**Entrepreneurship:** Clear evidence of ownership and risk-taking as co-founder and backend lead of a GenAI platform, driving both technical and product direction.\n\n**Leadership:** Led ML and backend development at a startup, designed and optimized systems, and contributed to impactful research and engineering projects; some team and project leadership, though not yet at a senior management level.\n\n**Teamwork:** Consistent collaboration in research labs, startups, and engineering teams; experience working cross-functionally and in small, agile groups.\n\n**Overall Summary:** Jonayet is a high-performing university student with substantial real-world ML engineering experience across research, industry, and entrepreneurial settings. He has demonstrated initiative, technical depth, and the ability to drive projects from conception to deployment. Leadership and teamwork are evident, especially in startup and research contexts. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High",
-   "intro_email": null
+   "intro_email": {
+    "to_first": "Jonayet",
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Jonayet,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nYour ML engineering depth — PyTorch, RAG, fine-tuning, and co-founding a GenAI platform as backend lead — lines up closely with the onboard AI agents we're building. We'd love to talk about edge inference and real-time autonomy with you.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+   }
   },
   {
    "name": "Felipe Fluck",
    "school": "ORT Argentina",
-   "score": 30.2,
+   "score": 75.0,
    "confidence": "High",
-   "tier": 5,
+   "rubric": "strategic",
+   "rec": "Interview",
+   "recKey": "interview",
    "roles": [
     "Strategic Projects Intern"
    ],
    "categories": [
     {
-     "key": "Fabrication",
-     "label": "Fabrication & Prototyping",
-     "score": 1,
-     "weight": 22
+     "label": "Project Coordination & Organization",
+     "score": 3,
+     "weight": 25
     },
     {
-     "key": "CAD",
-     "label": "CAD Proficiency",
-     "score": 0,
-     "weight": 18
-    },
-    {
-     "key": "MechDesign",
-     "label": "Mechanical Design",
-     "score": 0,
-     "weight": 15
-    },
-    {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
-     "score": 1,
-     "weight": 15
-    },
-    {
-     "key": "Initiative",
-     "label": "Initiative",
+     "label": "Communication & Writing",
      "score": 4,
-     "weight": 12
+     "weight": 20
     },
     {
-     "key": "English",
-     "label": "English",
+     "label": "Initiative / Ownership",
      "score": 5,
+     "weight": 20
+    },
+    {
+     "label": "Marketing & Comms Support",
+     "score": 2,
+     "weight": 15
+    },
+    {
+     "label": "Adaptability / Generalist Range",
+     "score": 4,
      "weight": 10
     },
     {
-     "key": "Electronics",
-     "label": "Electronics Integration",
-     "score": 2,
-     "weight": 8
+     "label": "English",
+     "score": 5,
+     "weight": 10
     }
    ],
-   "note": "Applied to the Strategic Projects Intern role. Full-stack / Web3 developer with clear initiative and startup experience. Evaluate under Strategic Projects, not the hardware rubric.",
+   "note": "Full-stack/Web3 builder with strong initiative (founded projects, DAOs), logistics coordination and customer-facing experience. Broad generalist; lighter on pure marketing/comms.",
    "email": "felipe@fluck.com.ar",
    "linkedin": "https://www.linkedin.com/in/felipefluckdev/",
    "about": "",
@@ -1164,134 +1052,288 @@
    "intro_email": null
   },
   {
-   "name": "Lauren Hagen",
-   "school": "San Diego State",
-   "score": 25.0,
-   "confidence": "High",
-   "tier": 5,
-   "roles": [
-    "Operations Intern"
-   ],
-   "categories": [
-    {
-     "key": "Fabrication",
-     "label": "Fabrication & Prototyping",
-     "score": 0,
-     "weight": 22
-    },
-    {
-     "key": "CAD",
-     "label": "CAD Proficiency",
-     "score": 0,
-     "weight": 18
-    },
-    {
-     "key": "MechDesign",
-     "label": "Mechanical Design",
-     "score": 0,
-     "weight": 15
-    },
-    {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
-     "score": 1,
-     "weight": 15
-    },
-    {
-     "key": "Initiative",
-     "label": "Initiative",
-     "score": 5,
-     "weight": 12
-    },
-    {
-     "key": "English",
-     "label": "English",
-     "score": 5,
-     "weight": 10
-    },
-    {
-     "key": "Electronics",
-     "label": "Electronics Integration",
-     "score": 0,
-     "weight": 8
-    }
-   ],
-   "note": "Applied to the Operations Intern role. Strong operations & organizational leadership (ran campus orgs, managed budgets). Evaluate under the Operations req, not the hardware rubric.",
-   "email": "laurenhagen04@gmail.com",
-   "linkedin": "https://www.linkedin.com/in/laurenhagen2004",
-   "about": "",
-   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Operations, organizational leadership, communications, event logistics, compliance, risk analysis, program administration\n\n**Agency:** Demonstrates strong initiative through leading major campus organizations, managing budgets, and driving process improvements.\n\n**Experience:** Relevant experience in operations, compliance, and organizational leadership through internships and executive roles in student and Greek organizations.\n\n**Entrepreneurship:** Exposure to startup environments and some project ownership; limited direct entrepreneurial creation or risk-taking.\n\n**Leadership:** Extensive leadership as President of a large student association, executive board officer, and lead ambassador, with responsibility for teams, events, and strategic initiatives.\n\n**Teamwork:** Strong collaboration across diverse groups, cross-functional coordination, and mentoring of peers and junior leaders.\n\n**Overall Summary:** Lauren is a high-achieving university student with significant leadership and operational experience in campus organizations and internships. She has demonstrated initiative, strong organizational skills, and the ability to manage complex logistics and teams. While direct entrepreneurial experience is limited, her exposure to startup environments and record of driving outcomes signal high potential. Overall, strong initiative and leadership with a foundation in operations and communications.\n\n**Fit for Fast-Moving Startup Teams:** High",
-   "intro_email": null
-  },
-  {
    "name": "Camila Lewis",
    "school": "CETYS",
-   "score": 15.2,
-   "confidence": "High",
-   "tier": 5,
+   "score": 77.0,
+   "confidence": "Medium",
+   "rubric": "strategic",
+   "rec": "Interview",
+   "recKey": "interview",
    "roles": [
     "Strategic Projects Intern"
    ],
    "categories": [
     {
-     "key": "Fabrication",
-     "label": "Fabrication & Prototyping",
-     "score": 0,
-     "weight": 22
-    },
-    {
-     "key": "CAD",
-     "label": "CAD Proficiency",
-     "score": 0,
-     "weight": 18
-    },
-    {
-     "key": "MechDesign",
-     "label": "Mechanical Design",
-     "score": 0,
-     "weight": 15
-    },
-    {
-     "key": "Domain",
-     "label": "Domain (UAV/robotics/SAE)",
-     "score": 0,
-     "weight": 15
-    },
-    {
-     "key": "Initiative",
-     "label": "Initiative",
-     "score": 3,
-     "weight": 12
-    },
-    {
-     "key": "English",
-     "label": "English",
+     "label": "Project Coordination & Organization",
      "score": 4,
+     "weight": 25
+    },
+    {
+     "label": "Communication & Writing",
+     "score": 4,
+     "weight": 20
+    },
+    {
+     "label": "Initiative / Ownership",
+     "score": 3,
+     "weight": 20
+    },
+    {
+     "label": "Marketing & Comms Support",
+     "score": 5,
+     "weight": 15
+    },
+    {
+     "label": "Adaptability / Generalist Range",
+     "score": 3,
      "weight": 10
     },
     {
-     "key": "Electronics",
-     "label": "Electronics Integration",
-     "score": 0,
-     "weight": 8
+     "label": "English",
+     "score": 4,
+     "weight": 10
     }
    ],
-   "note": "Applied to the Strategic Projects Intern role. Marketing / branding / event-coordination background. Evaluate under Strategic Projects, not the hardware rubric.",
+   "note": "Directly relevant for this role: marketing strategy, social media/content, event coordination, market research, bilingual. The marketing-coordination core of Strategic Projects is her strength.",
    "email": "camilaalewis@gmail.com",
    "linkedin": "https://www.linkedin.com/in/camilaalewis/",
    "about": "",
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~1 year\n\n**Skills:** Marketing strategy, social media content creation, market research, event coordination, bilingual communication (Spanish-English), Canva, Microsoft Office, Google Drive\n\n**Agency:** Demonstrates initiative through active participation in academic projects, event logistics, and content creation; seeks roles requiring responsibility and organization.\n\n**Experience:** Primarily academic and project-based, with hands-on involvement in social media, branding, and event coordination; limited direct professional work.\n\n**Entrepreneurship:** Some ownership in coordinating university events and contributing to branding strategies; no evidence of independent ventures or risk-taking beyond academic settings.\n\n**Leadership:** Led coordination of marketing for a university fair and managed communication with conference speakers, showing emerging leadership in academic contexts.\n\n**Teamwork:** Strong collaboration in group projects, event planning, and cross-functional communication with peers and industry representatives.\n\n**Overall Summary:** Camila is a proactive marketing student with solid project-based experience in content creation, event coordination, and branding. She shows initiative and responsibility, with emerging leadership skills demonstrated through academic event management. Her teamwork and communication abilities are well-developed, though her experience is largely within academic settings. Overall, she brings strong initiative and collaboration, with potential for growth in professional environments.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Early-stage roles requiring creativity, organization, and collaborative execution in marketing or content teams.\n\n**Where she is weak:** Limited direct professional and entrepreneurial experience; leadership and agency are emerging but not yet tested in high-stakes or commercial environments.",
-   "intro_email": null
+   "intro_email": {
+    "to_first": "Camila",
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Camila,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nYour marketing strategy, content, and event-coordination experience map directly onto the Strategic Projects role — helping leadership keep initiatives, marketing, and communications organized in a fast-moving startup.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+   }
+  },
+  {
+   "name": "Lauren Hagen",
+   "school": "San Diego State",
+   "score": 89.0,
+   "confidence": "High",
+   "rubric": "ops",
+   "rec": "Strong interview",
+   "recKey": "strong",
+   "roles": [
+    "Operations Intern"
+   ],
+   "categories": [
+    {
+     "label": "Operations / Logistics / Supply Chain",
+     "score": 4,
+     "weight": 25
+    },
+    {
+     "label": "Organization & Time Management",
+     "score": 5,
+     "weight": 20
+    },
+    {
+     "label": "Spreadsheets / Scheduling / Automation",
+     "score": 3,
+     "weight": 15
+    },
+    {
+     "label": "Communication",
+     "score": 5,
+     "weight": 15
+    },
+    {
+     "label": "Self-starter / Initiative",
+     "score": 5,
+     "weight": 15
+    },
+    {
+     "label": "English",
+     "score": 5,
+     "weight": 10
+    }
+   ],
+   "note": "Strong Operations fit: ran large campus organizations, managed budgets, event logistics, compliance & program administration. Supply-chain specifics are lighter, but the operational backbone is all there.",
+   "email": "laurenhagen04@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/laurenhagen2004",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Operations, organizational leadership, communications, event logistics, compliance, risk analysis, program administration\n\n**Agency:** Demonstrates strong initiative through leading major campus organizations, managing budgets, and driving process improvements.\n\n**Experience:** Relevant experience in operations, compliance, and organizational leadership through internships and executive roles in student and Greek organizations.\n\n**Entrepreneurship:** Exposure to startup environments and some project ownership; limited direct entrepreneurial creation or risk-taking.\n\n**Leadership:** Extensive leadership as President of a large student association, executive board officer, and lead ambassador, with responsibility for teams, events, and strategic initiatives.\n\n**Teamwork:** Strong collaboration across diverse groups, cross-functional coordination, and mentoring of peers and junior leaders.\n\n**Overall Summary:** Lauren is a high-achieving university student with significant leadership and operational experience in campus organizations and internships. She has demonstrated initiative, strong organizational skills, and the ability to manage complex logistics and teams. While direct entrepreneurial experience is limited, her exposure to startup environments and record of driving outcomes signal high potential. Overall, strong initiative and leadership with a foundation in operations and communications.\n\n**Fit for Fast-Moving Startup Teams:** High",
+   "intro_email": {
+    "to_first": "Lauren",
+    "subject": "USAVX — we were impressed by your application",
+    "body": "Hi Lauren,\n\nI'm reaching out from USAVX — we design autonomous unmanned aircraft systems, and your application stood out while we were reviewing candidates.\n\nRunning large campus organizations, managing budgets, and keeping complex logistics on track is exactly the operational backbone we need as we scale. Your organization and communication strengths fit this role closely.\n\nWould you be open to a short call this week or next so we can tell you more about the role and hear what you're looking for?\n\nBest,\n[Your name]\nUSAVX"
+   }
   }
  ],
- "weights": {
-  "CAD": 18,
-  "Fabrication": 22,
-  "MechDesign": 15,
-  "Domain": 15,
-  "Electronics": 8,
-  "Initiative": 12,
-  "English": 10
+ "rubrics": {
+  "hardware": [
+   [
+    "Fabrication",
+    "Fabrication & Prototyping",
+    22
+   ],
+   [
+    "CAD",
+    "CAD Proficiency",
+    18
+   ],
+   [
+    "MechDesign",
+    "Mechanical Design",
+    15
+   ],
+   [
+    "Domain",
+    "Domain (UAV / robotics / SAE)",
+    15
+   ],
+   [
+    "Initiative",
+    "Initiative",
+    12
+   ],
+   [
+    "English",
+    "English",
+    10
+   ],
+   [
+    "Electronics",
+    "Electronics Integration",
+    8
+   ]
+  ],
+  "embedded": [
+   [
+    "Bringup",
+    "HW/Embedded Bring-up (RPi, sensors, MCU)",
+    25
+   ],
+   [
+    "Electronics",
+    "Electronics & Integration",
+    18
+   ],
+   [
+    "Software",
+    "Software / Linux / Python",
+    15
+   ],
+   [
+    "Testing",
+    "Test & Debug",
+    15
+   ],
+   [
+    "Initiative",
+    "Initiative",
+    12
+   ],
+   [
+    "English",
+    "English & Documentation",
+    15
+   ]
+  ],
+  "ai": [
+   [
+    "ML",
+    "ML / LLM depth (PyTorch, RAG, fine-tuning)",
+    30
+   ],
+   [
+    "SWE",
+    "Software Engineering / Production",
+    20
+   ],
+   [
+    "Edge",
+    "Edge / Real-time Systems",
+    15
+   ],
+   [
+    "Initiative",
+    "Initiative / Research-to-product",
+    15
+   ],
+   [
+    "Domain",
+    "Autonomy / Robotics domain",
+    10
+   ],
+   [
+    "English",
+    "Communication",
+    10
+   ]
+  ],
+  "strategic": [
+   [
+    "Org",
+    "Project Coordination & Organization",
+    25
+   ],
+   [
+    "Comms",
+    "Communication & Writing",
+    20
+   ],
+   [
+    "Initiative",
+    "Initiative / Ownership",
+    20
+   ],
+   [
+    "Marketing",
+    "Marketing & Comms Support",
+    15
+   ],
+   [
+    "Range",
+    "Adaptability / Generalist Range",
+    10
+   ],
+   [
+    "English",
+    "English",
+    10
+   ]
+  ],
+  "ops": [
+   [
+    "OpsLog",
+    "Operations / Logistics / Supply Chain",
+    25
+   ],
+   [
+    "Org",
+    "Organization & Time Management",
+    20
+   ],
+   [
+    "Tools",
+    "Spreadsheets / Scheduling / Automation",
+    15
+   ],
+   [
+    "Comms",
+    "Communication",
+    15
+   ],
+   [
+    "Initiative",
+    "Self-starter / Initiative",
+    15
+   ],
+   [
+    "English",
+    "English",
+    10
+   ]
+  ]
+ },
+ "roles": {
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 10,
+  "Aerospace Mechanical Engineer": 7,
+  "Hardware / Embedded Systems Intern – AI Test & Integration": 3,
+  "AI Engineer": 1,
+  "Strategic Projects Intern": 2,
+  "Operations Intern": 1
  },
  "new_count": 0
 }
