@@ -1160,6 +1160,25 @@
    }
   },
   {
+   "name": "Noah Cornelius",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Operations Intern"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "noahac@me.com",
+   "linkedin": "https://www.linkedin.com/in/noah-cornelius-bb4b8a2a0/?isSelfProfile=true",
+   "about": "Detail-oriented, quick learner, extremely reliable\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Customer service, team leadership, task delegation, administrative support, data entry, inventory management, professional communication\n\n**Agency:** Demonstrates initiative by taking on emergency coverage, additional hours, and adapting to new roles quickly.\n\n**Experience:** Solid experience in customer-facing roles, team supervision, and administrative support, with some exposure to business operations through an internship.\n\n**Entrepreneurship:** Insufficient data.\n\n**Leadership:** Led daily operations and delegated tasks as a shift supervisor; recognized for reliability and willingness to take on responsibility.\n\n**Teamwork:** Strong record of collaboration in fast-paced environments, supporting both team and customer needs.\n\n**Overall Summary:** Noah is a motivated university student with 2–3 years of experience in customer service and team leadership roles. He has demonstrated initiative and reliability, particularly in supervisory positions, and is comfortable adapting to new challenges. While he shows emerging leadership and strong teamwork, there is limited evidence of entrepreneurial activity or deep technical experience. Overall, strong initiative and people skills with developing leadership capabilities.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Customer-facing roles, team operations, or administrative support in dynamic environments.\n\n**Where she is weak:** Limited exposure to entrepreneurship, technical work, or high-level decision-making.",
+   "intro_email": null
+  },
+  {
    "name": "Terry McKinney",
    "school": "",
    "score": null,
@@ -1371,7 +1390,7 @@
   "Hardware / Embedded Systems Intern – AI Test & Integration": 3,
   "AI Engineer": 1,
   "Strategic Projects Intern": 2,
-  "Operations Intern": 1,
+  "Operations Intern": 2,
   "Product Owner - Autonomy Systems": 1,
   "Product Manager - Autonomy Systems": 1
  },
@@ -1402,7 +1421,7 @@
    "seniority": "Entry"
   },
   "Operations Intern": {
-   "count": 1,
+   "count": 2,
    "jd": "Operations Intern - Scheduling, Vendor Management & Logistics\n\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nUSAvionix is building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\n\nWe are seeking an Operations Intern to help drive the administrative and operational backbone of our fast-growing aerospace programs. You will work directly with the operations team and leadership to ensure smooth day-to-day execution across supply management, scheduling, and vendor coordination.\n\n### What you’ll do\n- Oversee and optimize supply chain and inventory management processes\n- Coordinate scheduling for internal teams, meetings, and project milestones\n- Manage vendor relationships, contracts, and deliverables\n- Track deliverables, update internal documentation, and keep the moving parts around hardware and software builds from drifting\n- Support procurement, order tracking, and logistics\n- Assist with documentation, reporting, and process automation\n\n### What we're looking for\n- Final-year undergraduate or master’s student, or recent graduate in business, operations, or related field\n- Experience or coursework in supply chain, logistics, or operations management\n- Strong organizational and time management skills\n- Proficiency with spreadsheets, scheduling tools, and workflow automation\n- Excellent communication and problem-solving abilities\n- Self-starter who thrives in a dynamic, high-autonomy environment\n\n## Why USAVX\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll help shape the operational foundation that enables our technology to scale and succeed in the field.\n",
    "seniority": "Entry"
   },
@@ -1417,5 +1436,5 @@
    "seniority": "Mid"
   }
  },
- "new_count": 2
+ "new_count": 3
 }
