@@ -1198,6 +1198,25 @@
    "intro_email": null
   },
   {
+   "name": "Haydn Fischer",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "haydnfischer@icloud.com",
+   "linkedin": "linkedin.com/in/haydn-fischer",
+   "about": "Dear USAvionix Team,\n\nI have been obsessed with planes, rockets, cars, and anything mechanical since I was a kid. Some of my earliest memories are going to air shows with my parents and building rockets at home. That curiosity eventually led me to mechanical engineering and a passion for not just designing things, but building and testing them myself.\n\nThe Aerospace Mechanical Engineer – Airframe & Prototyping role immediately stood out to me because it closely matches the kind of engineer I am. I enjoy taking an idea from CAD to a physical part, testing it, understanding what works and what doesn't, and improving the next iteration. I have applied that process everywhere from designing and machining a pneumatic valve actuation system to developing the suspension, aerodynamics, and composite components on my race car.\n\nI am comfortable in SolidWorks and Fusion 360 and have spent significant time machining, fabricating, 3D printing, and working with composites. I like building real hardware. I am comfortable when things fail because I enjoy figuring out why they failed and using what I learned to build a better version.\n\nAerospace has always been a particular interest of mine and I am a hands-on, curious engineer who likes to move quickly, take ownership, and work alongside smart people to solve difficult problems. I believe I would bring that mindset to USAvionix and add real value to the Airframe & Mechanical Systems team.\n\nBest,\nHaydn Fischer\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~5–7 years\n\n**Skills:** Mechanical engineering, machining, fabrication, Solidworks, Fusion 360, MATLAB, composite construction, videography, digital media production, motorsports mechanics\n\n**Agency:** Demonstrates strong initiative through self-driven technical projects, founding a media company, and pursuing diverse hands-on roles.\n\n**Experience:** Deep, relevant experience in engineering, motorsports, and technical fabrication, with multiple complex projects and professional roles in high-performance environments.\n\n**Entrepreneurship:** Founded and operated a digital media company for five years; initiated and executed major engineering projects independently.\n\n**Leadership:** Led technical projects, ran water safety programs, and directed media productions; evidence of project leadership and decision-making.\n\n**Teamwork:** Collaborated with cross-functional teams in motorsports, worked closely with drivers and technicians, coached watersports, and produced media with others.\n\n**Overall Summary:** Haydn Fischer is an early-career engineer with a strong track record of hands-on technical achievement, entrepreneurial initiative, and project leadership. She combines engineering depth with creative and athletic pursuits, showing adaptability and drive. Her experience spans technical, operational, and creative domains, with clear evidence of self-starting and ownership. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Roles requiring technical versatility, rapid prototyping, hands-on engineering, and self-directed project execution in dynamic environments.\n\n**Where she is weak:** Limited evidence of managing larger teams or complex organizational leadership; most leadership is project-based or individual.",
+   "intro_email": null
+  },
+  {
    "name": "Ali Jaweed",
    "school": "",
    "score": null,
@@ -1406,7 +1425,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 10,
-  "Aerospace Mechanical Engineer": 7,
+  "Aerospace Mechanical Engineer": 8,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 3,
   "AI Engineer": 1,
   "Strategic Projects Intern": 3,
@@ -1421,7 +1440,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 7,
+   "count": 8,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -1456,5 +1475,5 @@
    "seniority": "Mid"
   }
  },
- "new_count": 4
+ "new_count": 5
 }
