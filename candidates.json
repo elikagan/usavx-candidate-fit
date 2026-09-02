@@ -1237,6 +1237,25 @@
    "intro_email": null
   },
   {
+   "name": "Muhammad Husnain",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Full Stack Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "mhus7542@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/muhammad-husnain-ashraf-55169b289/",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~3 years\n\n**Skills:** Full stack development, Laravel, PHP, MySQL, REST APIs, Vue.js, JavaScript, API integration, responsive UI, debugging, performance optimization\n\n**Agency:** Demonstrates strong initiative through remote work, end-to-end project delivery, and ownership of feature development and troubleshooting.\n\n**Experience:** Solid technical experience in full stack web development, including backend, frontend, and API integrations for real-world products and business operations.\n\n**Entrepreneurship:** Evidence of ownership in building and maintaining production systems and integrating third-party services; no direct startup or company founding experience noted.\n\n**Leadership:** Led technical implementation and ongoing product improvements; no explicit people management or formal leadership roles described.\n\n**Teamwork:** Consistent collaboration with remote teams, UI/UX designers, and cross-functional contributors; effective in distributed environments.\n\n**Overall Summary:** Muhammad Husnain Ashraf is an early-career full stack developer with approximately three years of hands-on experience in remote, product-focused roles. He has demonstrated initiative and technical depth by delivering and maintaining complex web applications, integrating third-party services, and collaborating effectively with distributed teams. While he shows strong ownership and problem-solving skills, his leadership experience is primarily technical rather than managerial. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Product-focused engineering roles requiring rapid development, ownership of features, and adaptability in remote or distributed teams.\n\n**Where she is weak:** Limited formal leadership and entrepreneurial experience; has not led teams or founded ventures.",
+   "intro_email": null
+  },
+  {
    "name": "Tobias Rayn Choudry",
    "school": "",
    "score": null,
@@ -1450,6 +1469,7 @@
   "Strategic Projects Intern": 3,
   "Operations Intern": 3,
   "Product Owner - Autonomy Systems": 1,
+  "Full Stack Engineer": 1,
   "Product Manager - Autonomy Systems": 1
  },
  "role_info": {
@@ -1488,11 +1508,16 @@
    "jd": "# Product Owner – Autonomy Systems\n### Job Description\n**Location:** San Francisco, CA. Onsite preferred.\n **Team:** USAvionix\n **Type:** Full-time\n\nWe’re building autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\nThis role is responsible for execution of the autonomy backlog. The Product Owner operates inside the engineering loop and is accountable for forward motion, clarity, and delivery across the Delta and Phalanx programs.\n\n### What you’ll do\n- Own execution of the autonomy backlog across hardware, onboard intelligence, and AI orchestration systems.\n- Translate mission goals and high-level direction into epics, stories, and acceptance criteria.\n- Work closely with engineering on a daily basis to clarify scope and unblock execution.\n- Proactively externalize work in progress using lightweight artifacts such as wireframes, flows, notes, and screenshots.\n- Maintain continuous visibility into progress without waiting for prompts from the founder or other stakeholders.\n- Drive day-to-day prioritization across the Delta (aircraft) and Phalanx (AI) programs.\n- Enforce execution-level tradeoffs between performance, cost, and schedule.\n- Validate delivered work against acceptance criteria before it is considered complete.\n- Coordinate with design to ensure operator workflows and system behavior remain aligned.\n- Communicate execution status, risks, and blockers clearly and consistently.\n\n### What we’re looking for\n- Engineering background or prior hands-on technical role strongly preferred and weighted heavily.\n- Comfortable operating inside engineering discussions and technical tradeoffs.\n- Strong systems-level understanding of software and hardware interaction.\n- Experience working directly with engineers in execution-heavy environments.\n- Demonstrated ability to move work forward independently without waiting for direction.\n- Comfortable sharing incomplete work early to drive fast feedback.\n- Strong organization and documentation discipline.\n\n### Nice to have\n- Background in robotics, aerospace, defense, or embedded systems.\n- Familiarity with Linear, Notion, Slack, and GitHub.\n- Experience in early-stage, R&D-heavy, or hardware-constrained environments.\n- Former engineer, systems lead, or technical operator.\n\n### Why USAVX\nUSAvionix builds autonomous systems that must operate under real-world constraints. In this role, you’ll work close to the engineers and close to the product, ensuring execution keeps pace with ambition and progress is always visible.\n\nIf you prefer waiting for direction, this is not the role.\nIf you proactively push work forward, it is.\n",
    "seniority": "Mid"
   },
+  "Full Stack Engineer": {
+   "count": 1,
+   "jd": "# Full Stack Engineer - Scalable Web & AI Systems\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\n\nWe’re looking for a Full Stack Engineer to help design and scale the web and backend systems powering our AI and autonomy platforms. You’ll build the real-time infrastructure that connects aircraft, AI agents, and mission control, with performance and reliability at the core.\n\n### **What you’ll do**\n- Build full-stack applications using Next.js, React, Node.js, and TypeScript.\n- Design scalable data models and APIs using MongoDB, PostgreSQL, and Redis.\n- Develop distributed workflows that manage multiple AI agents in real time.\n- Integrate internal tools and real-time telemetry pipelines.\n- Collaborate with autonomy, AI, and hardware teams to ensure seamless system interaction.\n\n### **What we’re looking for**\n- Strong background in Next.js, React, Node.js, and TypeScript.\n- Experience with MongoDB, PostgreSQL, and distributed systems.\n- Understanding of scalable architectures, caching, and data replication.\n- Familiarity with AI-assisted development tools (Cursor, Copilot).\n- Independent engineer comfortable operating in a high-autonomy environment.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n",
+   "seniority": "Mid"
+  },
   "Product Manager - Autonomy Systems": {
    "count": 1,
    "jd": "# Product Manager - Autonomy Systems\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\n\nYou’ll define and drive one of the most advanced autonomy products in development today, shaping how aircraft perceive, reason, and operate as a coordinated system.\n\n## What you’ll do\n- Define product strategy and roadmap across hardware, autonomy, and AI systems.\n- Translate mission and customer needs into technical requirements and milestones.\n- Partner with engineering to balance speed, feasibility, and product quality.\n- Lead planning and prioritization across the Delta (aircraft) and Phalanx (AI) programs.\n- Communicate progress, risks, and tradeoffs clearly across teams and leadership.\n- Work with design and operations to ensure the product experience is cohesive and scalable.\n\n## **What we’re looking for**\n- Proven ability to lead complex technical products from concept to deployment.\n- Strong organizational and communication skills.\n- Experience working across software and hardware disciplines.\n- Comfort translating between engineering detail and product goals.\n- Self-driven, adaptable, and comfortable working remotely.\n\n## **Nice to have**\n- Background in robotics, embedded systems, or AI products.\n- Familiarity with tools like Linear, Notion, or GitHub.\n- Experience in early-stage or R&D environments.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n",
    "seniority": "Mid"
   }
  },
- "new_count": 6
+ "new_count": 7
 }
