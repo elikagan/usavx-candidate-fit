@@ -1198,6 +1198,25 @@
    "intro_email": null
   },
   {
+   "name": "Lokesh T T",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "AI Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "lokeshreddythalla9@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/lokesh-reddy-thalla",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Mid-level professional\n\n**Estimated Experience:** ~6 years\n\n**Skills:** AI/ML engineering, Generative AI, LLM evaluation, MLOps, cloud-native architectures, Python, PyTorch, Kubernetes, AWS, distributed systems, model serving, data engineering\n\n**Agency:** Demonstrates strong ownership of end-to-end projects, independently architecting and deploying complex AI/ML solutions and driving measurable improvements.\n\n**Experience:** Deep, hands-on experience designing, building, and scaling enterprise AI/ML systems, especially production-grade LLMs and infrastructure optimization.\n\n**Entrepreneurship:** Shows initiative in creating new frameworks and scalable platforms, but lacks direct evidence of founding or running a business.\n\n**Leadership:** Led technical projects, defined success metrics, and coordinated cross-functional teams; leadership is emerging and primarily technical/project-based.\n\n**Teamwork:** Extensive collaboration with engineering, product, research, QA, and platform teams; effective at driving alignment and translating requirements.\n\n**Overall Summary:** Lokesh T is a mid-level AI/ML engineer with approximately six years of experience, specializing in enterprise-scale Generative AI and LLM systems. He consistently demonstrates initiative and technical depth, owning complex projects from design to production and collaborating across teams to deliver impactful solutions. Leadership experience is developing, with strengths in technical and project-based roles. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Best suited for technical lead or senior individual contributor roles in AI/ML infrastructure, MLOps, or LLM-focused teams where initiative and hands-on engineering are critical.\n\n**Where she is weak:** Limited direct evidence of entrepreneurial risk-taking or people management at scale; leadership is more technical/project-based than organizational.",
+   "intro_email": null
+  },
+  {
    "name": "Haydn Fischer",
    "school": "",
    "score": null,
@@ -1465,7 +1484,7 @@
   "Mechanical Engineering Intern – Prototyping & Test Systems": 10,
   "Aerospace Mechanical Engineer": 9,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 3,
-  "AI Engineer": 1,
+  "AI Engineer": 2,
   "Strategic Projects Intern": 3,
   "Operations Intern": 3,
   "Product Owner - Autonomy Systems": 1,
@@ -1489,7 +1508,7 @@
    "seniority": "Entry"
   },
   "AI Engineer": {
-   "count": 1,
+   "count": 2,
    "jd": "# AI Engineer - Edge Autonomy (LLM Focus)\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\nYour work will power the onboard AI agents that fly, detect, and coordinate missions in real time.\n\n## What you’ll do\n- Build and fine-tune LLM systems that power onboard decision-making for autonomous aircraft.\n- Design agentic workflows that coordinate three core AI agents onboard:\n    - Operator Agent – mission brain, planning and arbitration\n    - Pilot Agent – real-time flight and camera control\n    - Intel Agent – perception and verification\n- Develop low-latency communication protocols between these agents to ensure reliable, deterministic behavior during flight.\n- Build prompt orchestration and retrieval pipelines for situational awareness and mission control.\n- Deploy optimized models on embedded hardware that handle variable telemetry in real time.\n## What we’re looking for\n- Strong background in Python, PyTorch, and modern LLM frameworks (e.g., Hugging Face, vLLM, llama.cpp).\n- Experience with fine-tuning, RAG, embeddings, or custom model adapters.\n- Comfort building from research ideas to production-ready code.\n- Experience working with real-time or mission-critical systems.\n- Strong understanding of edge inference (quantization, optimization, GPU/CPU/NPU).\n## Nice to have\n- Familiarity with small language models (1–3B), grammar-constrained decoding, or state-space models.\n- PX4/ArduPilot/MAVLink or drone systems.\n- Vision systems (OCR, lightweight detectors) or real-time telemetry handling.\n- Experience with 3D simulation (Three.js, Cesium, or similar).\n\nThese agents don’t live in the cloud, they fly onboard, coordinating in real time to search, verify, and adapt.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n\n\n\n",
    "seniority": "Senior"
   },
@@ -1519,5 +1538,5 @@
    "seniority": "Mid"
   }
  },
- "new_count": 7
+ "new_count": 8
 }
