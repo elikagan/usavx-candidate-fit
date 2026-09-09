@@ -1256,6 +1256,25 @@
    "intro_email": null
   },
   {
+   "name": "Tirth Dabgar",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Full Stack Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "tirthdabgar203@gmail.com",
+   "linkedin": "https://linkedin.com/in/tirthdabgar",
+   "about": "I KNOW YOU ARE LOOKING FOR THE SAN FRANCISCO ONSITE BUT I LIKE TO JOIN YOUR COMPANY FOR BETTER FUTURE I AM AVAILABLE TO WORK REMOTE FOR FULLTIME\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student / Early-career developer\n\n**Estimated Experience:** ~1 year (internship and project-based)\n\n**Skills:** React.js, Next.js, JavaScript, HTML5, CSS3, Redux, REST API integration, Express.js, MongoDB, Git\n\n**Agency:** Demonstrates initiative through self-driven project work and proactive contributions to live production codebases.\n\n**Experience:** Hands-on experience with modern frontend frameworks, API integration, and Agile team participation; depth primarily in frontend development.\n\n**Entrepreneurship:** Built and shipped personal/group projects (e.g., CampusVault, Notes App), showing ownership and willingness to create new solutions.\n\n**Leadership:** Participated in sprint planning and code reviews; no direct evidence of leading teams or major decisions.\n\n**Teamwork:** Collaborated with UI/UX designers, backend developers, and Agile teams; strong cross-functional communication.\n\n**Overall Summary:** Tirth is an early-career frontend developer with solid technical skills in React.js and related technologies, demonstrated through both internship and project work. Shows initiative and ownership by building and shipping projects beyond coursework. Teamwork and collaboration are clear strengths, though leadership experience is still emerging. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Frontend or full-stack roles in early-stage teams needing hands-on builders who can quickly turn ideas into working products.\n\n**Where she is weak:** Limited professional experience and leadership exposure; depth is primarily in frontend, with only basic backend familiarity.",
+   "intro_email": null
+  },
+  {
    "name": "Muhammad Husnain",
    "school": "",
    "score": null,
@@ -1488,7 +1507,7 @@
   "Strategic Projects Intern": 3,
   "Operations Intern": 3,
   "Product Owner - Autonomy Systems": 1,
-  "Full Stack Engineer": 1,
+  "Full Stack Engineer": 2,
   "Product Manager - Autonomy Systems": 1
  },
  "role_info": {
@@ -1528,7 +1547,7 @@
    "seniority": "Mid"
   },
   "Full Stack Engineer": {
-   "count": 1,
+   "count": 2,
    "jd": "# Full Stack Engineer - Scalable Web & AI Systems\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\n\nWe’re looking for a Full Stack Engineer to help design and scale the web and backend systems powering our AI and autonomy platforms. You’ll build the real-time infrastructure that connects aircraft, AI agents, and mission control, with performance and reliability at the core.\n\n### **What you’ll do**\n- Build full-stack applications using Next.js, React, Node.js, and TypeScript.\n- Design scalable data models and APIs using MongoDB, PostgreSQL, and Redis.\n- Develop distributed workflows that manage multiple AI agents in real time.\n- Integrate internal tools and real-time telemetry pipelines.\n- Collaborate with autonomy, AI, and hardware teams to ensure seamless system interaction.\n\n### **What we’re looking for**\n- Strong background in Next.js, React, Node.js, and TypeScript.\n- Experience with MongoDB, PostgreSQL, and distributed systems.\n- Understanding of scalable architectures, caching, and data replication.\n- Familiarity with AI-assisted development tools (Cursor, Copilot).\n- Independent engineer comfortable operating in a high-autonomy environment.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n",
    "seniority": "Mid"
   },
@@ -1538,5 +1557,5 @@
    "seniority": "Mid"
   }
  },
- "new_count": 8
+ "new_count": 9
 }
