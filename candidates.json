@@ -1255,6 +1255,25 @@
    "intro_email": null
   },
   {
+   "name": "Jeffery Yaw Antwi Okyere",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Product Manager - Autonomy Systems"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "yawantwi.okyere@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/jeffery-okyere-612289316/",
+   "about": "",
+   "summary": "",
+   "intro_email": null
+  },
+  {
    "name": "Haydn Fischer",
    "school": "",
    "score": null,
@@ -1623,8 +1642,8 @@
   "Full Stack Engineer": 3,
   "Product Owner - Autonomy Systems": 1,
   "Computer Vision Engineer": 1,
-  "Talent Intern – Recruiting & Administrative Support": 1,
-  "Product Manager - Autonomy Systems": 1
+  "Product Manager - Autonomy Systems": 2,
+  "Talent Intern – Recruiting & Administrative Support": 1
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
@@ -1672,16 +1691,16 @@
    "jd": "# Computer Vision Engineer - Perception Systems\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds - without relying on the cloud.\n\nYou’ll lead the perception stack that powers onboard visual intelligence. Your work will enable aircraft to detect, track, and understand the world in real time.\n\n## What you’ll do\n- Build and deploy high-performance visual detection, tracking, and classification systems for real-time flight.\n- Integrate perception models with onboard agents (Intel, Pilot, Operator) to drive coordinated autonomy.\n- Optimize CNN and transformer-based models for embedded inference (Jetson, Hailo, or equivalent).\n- Develop pipelines for training, testing, and validating vision models using aerial and ground datasets.\n- Implement real-time sensor fusion across video, IMU, GPS, and telemetry data streams.\n- Contribute to continuous improvement of data collection, labeling, and active-learning loops.\n\n## What we're looking for\n- Strong background in computer vision, deep learning, and image/video processing.\n- Experience with modern vision architectures (YOLOv5/v8, DETR, RT-DETR, or similar).\n- Proficiency in Python and PyTorch; familiarity with TensorRT, OpenVINO, or ONNX runtimes.\n- Experience deploying optimized models on embedded hardware (NVIDIA Jetson, Hailo, etc.).\n- Understanding of multi-sensor fusion and real-time inference under constrained resources.\n\n## Nice to have\n- Experience building flight-ready or edge-deployed perception systems.\n- Familiarity with PX4/ArduPilot/MAVLink or other UAV telemetry systems.\n- Background in optical flow, 3D reconstruction, or SLAM.\n- Comfort working with aerial datasets, synthetic data generation, or 3D simulation (Three.js, Unreal, Cesium).\n- Knowledge of model compression, quantization, and real-time video encoding/streaming.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n\n",
    "seniority": "Mid"
   },
+  "Product Manager - Autonomy Systems": {
+   "count": 2,
+   "jd": "# Product Manager - Autonomy Systems\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\n\nYou’ll define and drive one of the most advanced autonomy products in development today, shaping how aircraft perceive, reason, and operate as a coordinated system.\n\n## What you’ll do\n- Define product strategy and roadmap across hardware, autonomy, and AI systems.\n- Translate mission and customer needs into technical requirements and milestones.\n- Partner with engineering to balance speed, feasibility, and product quality.\n- Lead planning and prioritization across the Delta (aircraft) and Phalanx (AI) programs.\n- Communicate progress, risks, and tradeoffs clearly across teams and leadership.\n- Work with design and operations to ensure the product experience is cohesive and scalable.\n\n## **What we’re looking for**\n- Proven ability to lead complex technical products from concept to deployment.\n- Strong organizational and communication skills.\n- Experience working across software and hardware disciplines.\n- Comfort translating between engineering detail and product goals.\n- Self-driven, adaptable, and comfortable working remotely.\n\n## **Nice to have**\n- Background in robotics, embedded systems, or AI products.\n- Familiarity with tools like Linear, Notion, or GitHub.\n- Experience in early-stage or R&D environments.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n",
+   "seniority": "Mid"
+  },
   "Talent Intern – Recruiting & Administrative Support": {
    "count": 1,
    "jd": "### Talent Intern – Recruiting & Administrative Support\n**Location:** Tijuana, Mexico (Onsite or Hybrid)\n **Team:** Talent & Company Support\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. We are an early-stage, hands-on team moving quickly across hardware, autonomy, and flight systems. As we grow, we’re building a strong pipeline of engineers and interns who want to work on real systems, not demos.\n### About The Role\nWe’re looking for a Talent Intern to support recruiting and light administrative work across the company.\nThis role is ideal for someone who enjoys working with people, staying organized, and helping teams move faster. You’ll work closely with the founding team to coordinate candidates, manage follow-ups, and keep recruiting efforts running smoothly.\nThis is not a corporate HR role. It’s a startup execution role focused on getting things done.\n### What You’ll Do\n- Coordinate candidates and internship applications\n- Review and organize incoming resumes\n- Schedule interviews and follow-ups\n- Communicate with candidates throughout the process\n- Support relationships with universities and internship programs\n- Assist with light administrative and coordination tasks as needed\n### What You Should Have\n- Currently pursuing or recently completed a degree in Psychology, Business, Human Resources, or a related field\n- Strong communication and organizational skills\n- Comfort working with multiple tasks and priorities\n- Interest in recruiting, people coordination, or startup operations\n- Reliability and attention to detail\n### Nice to Have\n- Prior experience in recruiting or HR internships\n- Experience working with spreadsheets, Airtable, or similar tools\n- Exposure to technical or engineering environments\n### Who You Are\nYou’re organized, proactive, and dependable. You like helping teams move faster and keeping things from falling through the cracks. You’re comfortable working closely with founders and adapting as priorities shift.\n### Why You’ll Love Working Here\n- Real responsibility and trust as an intern\n- Direct exposure to startup recruiting and growth\n- Opportunity to work closely with technical teams\n- Flexible scope that can grow with performance\n\n",
    "seniority": "Entry"
-  },
-  "Product Manager - Autonomy Systems": {
-   "count": 1,
-   "jd": "# Product Manager - Autonomy Systems\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\n\nYou’ll define and drive one of the most advanced autonomy products in development today, shaping how aircraft perceive, reason, and operate as a coordinated system.\n\n## What you’ll do\n- Define product strategy and roadmap across hardware, autonomy, and AI systems.\n- Translate mission and customer needs into technical requirements and milestones.\n- Partner with engineering to balance speed, feasibility, and product quality.\n- Lead planning and prioritization across the Delta (aircraft) and Phalanx (AI) programs.\n- Communicate progress, risks, and tradeoffs clearly across teams and leadership.\n- Work with design and operations to ensure the product experience is cohesive and scalable.\n\n## **What we’re looking for**\n- Proven ability to lead complex technical products from concept to deployment.\n- Strong organizational and communication skills.\n- Experience working across software and hardware disciplines.\n- Comfort translating between engineering detail and product goals.\n- Self-driven, adaptable, and comfortable working remotely.\n\n## **Nice to have**\n- Background in robotics, embedded systems, or AI products.\n- Familiarity with tools like Linear, Notion, or GitHub.\n- Experience in early-stage or R&D environments.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n",
-   "seniority": "Mid"
   }
  },
- "new_count": 15
+ "new_count": 16
 }
