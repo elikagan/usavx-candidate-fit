@@ -1294,6 +1294,25 @@
    "intro_email": null
   },
   {
+   "name": "Ishaan Dixit",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "dishaan85@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/ishaan-dixit-314707281/",
+   "about": "I am thoroughly impressed by USAvionix's achievements. I have a lot of automated and embedded experience you might find interesting. Hoping to get into touch soon.\n\nBest,\nIshaan Dixit\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** PCB design, CAD (KiCad, Solidworks, Onshape), Python, C++, Embedded systems (Raspberry Pi, ESP32), Circuit analysis, Computer vision, Robotics\n\n**Agency:** Demonstrates strong initiative through self-driven robotics projects and proactive outreach for technical guidance.\n\n**Experience:** Solid hands-on experience in electronics, embedded systems, and robotics through university teams, competitions, and independent projects; relevant technical depth for early-career roles.\n\n**Entrepreneurship:** Clear ownership of end-to-end project development, including ideation, design, implementation, and iteration.\n\n**Leadership:** Led and trained new employees as a STEM camp instructor; contributed to interdisciplinary teams and took responsibility for technical subsystems.\n\n**Teamwork:** Effective collaborator in multi-member engineering teams and cross-functional student groups; experience working with and training others.\n\n**Overall Summary:** Ishaan is a highly motivated university student with approximately two years of hands-on technical experience in robotics, electronics, and embedded systems. He shows strong initiative and ownership in both personal and team projects, with evidence of technical depth and emerging leadership. His experience is directly relevant to fast-paced technical environments, and he demonstrates both independent drive and collaborative skills. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical roles requiring rapid prototyping, hands-on electronics, and robotics development, especially in small, collaborative teams.\n\n**Where she is weak:** Limited exposure to large-scale production environments or senior-level leadership; experience is primarily academic and project-based rather than in industry settings.",
+   "intro_email": null
+  },
+  {
    "name": "Tirth Dabgar",
    "school": "",
    "score": null,
@@ -1559,7 +1578,7 @@
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 10,
   "Aerospace Mechanical Engineer": 10,
-  "Hardware / Embedded Systems Intern – AI Test & Integration": 3,
+  "Hardware / Embedded Systems Intern – AI Test & Integration": 4,
   "AI Engineer": 2,
   "Strategic Projects Intern": 3,
   "Operations Intern": 3,
@@ -1581,7 +1600,7 @@
    "seniority": "Mid"
   },
   "Hardware / Embedded Systems Intern – AI Test & Integration": {
-   "count": 3,
+   "count": 4,
    "jd": "### Hardware / Embedded Systems Intern – AI Test & Integration\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Autonomy, Hardware & AI Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform combines autonomy, onboard compute, and high-speed flight hardware. We move quickly from idea to test to iteration, with a strong bias toward systems that actually work outside the lab.\n### About The Role\nWe’re looking for a Hardware or Embedded Systems Intern to support AI system bring-up, testing, and integration across the Delta platform.\nThis is a hands-on role focused on building and validating real systems. You will work with Raspberry Pi based platforms, cameras, and AI accelerators to help bring up test setups for Delta AI and Phalanx AI modules.\nYou will not be training models or building perception algorithms from scratch. You will be helping make sure the hardware and software stack runs reliably and is easy to test and iterate on.\n### What You’ll Do\n- Bring up and configure Raspberry Pi based systems\n- Integrate cameras and basic capture pipelines\n- Build and maintain AI test harnesses and bench setups\n- Support testing of Delta AI and Phalanx AI modules\n- Document setup steps, configurations, and test procedures\n- Assist in debugging basic integration and stability issues\n### What You Should Have\n- Currently pursuing or recently completed a degree in Electrical Engineering, Computer Engineering, Mechatronics, Robotics, or similar\n- Comfort working with Linux based systems\n- Experience or interest in embedded systems or robotics\n- Familiarity with Python or C++\n- Willingness to debug and learn through hands-on testing\n### Nice to Have\n- Experience with Raspberry Pi or similar SBCs\n- Camera or sensor integration experience\n- Exposure to robotics, autonomy, or AI systems\n- Experience with basic electronics and wiring\n### Who You Are\nYou like making systems work. You’re comfortable when things are half-built and messy. You enjoy bringing hardware and software together and learning by doing.\n### Why You’ll Love Working Here\n- Real exposure to AI and autonomous systems\n- Hands-on ownership of test and integration work\n- Tight feedback loop from bench testing to flight systems\n- Opportunity to grow into deeper technical ownership over time\n\n",
    "seniority": "Entry"
   },
@@ -1626,5 +1645,5 @@
    "seniority": "Mid"
   }
  },
- "new_count": 12
+ "new_count": 13
 }
