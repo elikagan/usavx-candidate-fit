@@ -1389,6 +1389,25 @@
    "intro_email": null
   },
   {
+   "name": "Purujeet Kumar",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Strategic Projects Intern"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "purujeetkr2005@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/purujeet-kumar/",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~1 year (project-based and training)\n\n**Skills:** JavaScript, TypeScript, Python, HTML, MongoDB, PostgreSQL, NextJS, AI/ML concepts, Problem-Solving\n\n**Agency:** Demonstrates strong initiative through self-driven technical projects and independent learning.\n\n**Experience:** Built multiple end-to-end technical projects involving AI, web development, and automation; experience is hands-on but early-stage.\n\n**Entrepreneurship:** Shows ownership and risk-taking by creating original solutions (e.g., Ghost Voice, Trader OS) addressing real-world problems.\n\n**Leadership:** Led the design and delivery of projects but no evidence of formal team leadership or people management.\n\n**Teamwork:** Indicates adaptability and team player skills; no explicit cross-functional or collaborative work detailed.\n\n**Overall Summary:** Purujeet is a university student with approximately one year of hands-on experience, primarily through self-initiated projects and technical training. He demonstrates strong agency and technical capability, especially in AI, web development, and automation. While there are clear signs of ownership and problem-solving, leadership and teamwork experience are mostly implicit and not yet deeply developed. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Early-stage technical roles where self-starting, rapid prototyping, and learning are valued.\n\n**Where she is weak:** Limited professional experience, formal leadership, and evidence of working in larger or cross-functional teams.",
+   "intro_email": null
+  },
+  {
    "name": "Jacob McGowen",
    "school": "",
    "score": null,
@@ -1580,7 +1599,7 @@
   "Aerospace Mechanical Engineer": 10,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 4,
   "AI Engineer": 2,
-  "Strategic Projects Intern": 3,
+  "Strategic Projects Intern": 4,
   "Operations Intern": 3,
   "Product Owner - Autonomy Systems": 1,
   "Computer Vision Engineer": 1,
@@ -1610,7 +1629,7 @@
    "seniority": "Senior"
   },
   "Strategic Projects Intern": {
-   "count": 3,
+   "count": 4,
    "jd": "# Strategic Project Intern \n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\nUSAvionix is building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds without relying on the cloud.\nWe are looking for a Strategic Projects Intern to support leadership across internal initiatives, marketing coordination, and company projects.\nYou will work directly with the founders helping coordinate initiatives, organize information, and ensure projects remain on track.\nThis role combines project coordination, program support, marketing assistance, and administrative support in a fast-moving startup environment.\n\n### **What you’ll do**\n- Assist with project coordination and program support across company initiatives\n- Maintain project trackers and help ensure initiatives remain organized\n- Provide administrative support related to strategic projects and leadership activities\n- Help gather and organize information related to industry developments\n- Assist with preparation of presentations, reports, and communications\n- Support coordination of marketing initiatives, events, and outreach programs\n- Help organize documentation and materials across ongoing initiatives\n- Work with leadership on special projects and internal initiatives\n\n### **What we're looking for**\n- Current undergraduate student or recent graduate\n- Highly organized and detail-oriented\n- Strong communication and writing skills\n- Ability to manage multiple tasks and projects simultaneously\n- Comfortable supporting coordination and administrative tasks\n- Interest in startups, emerging technology, or aerospace\n- Proactive and comfortable working in a high-autonomy environment\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n\n",
    "seniority": "Entry"
   },
@@ -1645,5 +1664,5 @@
    "seniority": "Mid"
   }
  },
- "new_count": 13
+ "new_count": 14
 }
