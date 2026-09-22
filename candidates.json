@@ -1408,6 +1408,25 @@
    "intro_email": null
   },
   {
+   "name": "John Pilli",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "john.pilli01@student.csulb.edu",
+   "linkedin": "https://www.linkedin.com/in/john-pilli-7b10bb2b6/",
+   "about": "Available January 4 through August 31, 2027. Computer Engineering B.S., expected May 2028. Portfolio: https://johnppilli.github.io\n\nIn my STM32 BLDC actuator project, I integrated an AS5600 encoder over I2C and implemented offset calibration against the motor’s electrical angle. Working across the sensor, firmware, and motor made me appreciate how a calibration error can affect the whole control system.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Embedded systems, C/C++, SystemVerilog, PCB design (KiCad, Altium), motor control, hardware bring-up, Python, Zig, digital design, Git, Linux\n\n**Agency:** Demonstrates strong initiative by independently designing, building, and debugging complex hardware and firmware projects from scratch.\n\n**Experience:** Deep hands-on experience in embedded systems, hardware design, and firmware development; highly relevant for technical roles but primarily project-based rather than industry.\n\n**Entrepreneurship:** Clear signs of ownership and risk-taking in starting projects from blank schematics, managing board respins, and developing original solutions.\n\n**Leadership:** Led youth basketball teams as a coach and managed technical project development, including milestone planning and troubleshooting.\n\n**Teamwork:** Evidence of collaboration in coaching roles; technical projects are mostly individual, but documentation and Git usage suggest readiness for team environments.\n\n**Overall Summary:** John is a highly capable university student with deep technical skills in embedded systems, hardware design, and firmware. He consistently demonstrates initiative, ownership, and the ability to drive projects from concept to execution. Leadership is evident in both technical and extracurricular contexts, though most technical work is self-driven. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Technical roles requiring hands-on embedded, hardware, or firmware expertise, especially where self-direction and rapid prototyping are valued.\n\n**Where she is weak:** Limited industry experience and evidence of technical teamwork; most engineering work is individual and project-based rather than in a professional team setting.",
+   "intro_email": null
+  },
+  {
    "name": "Muhammad Husnain",
    "school": "",
    "score": null,
@@ -1654,7 +1673,7 @@
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 10,
   "Aerospace Mechanical Engineer": 10,
-  "Hardware / Embedded Systems Intern – AI Test & Integration": 5,
+  "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 2,
   "Strategic Projects Intern": 4,
   "Operations Intern": 3,
@@ -1676,7 +1695,7 @@
    "seniority": "Mid"
   },
   "Hardware / Embedded Systems Intern – AI Test & Integration": {
-   "count": 5,
+   "count": 6,
    "jd": "### Hardware / Embedded Systems Intern – AI Test & Integration\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Autonomy, Hardware & AI Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform combines autonomy, onboard compute, and high-speed flight hardware. We move quickly from idea to test to iteration, with a strong bias toward systems that actually work outside the lab.\n### About The Role\nWe’re looking for a Hardware or Embedded Systems Intern to support AI system bring-up, testing, and integration across the Delta platform.\nThis is a hands-on role focused on building and validating real systems. You will work with Raspberry Pi based platforms, cameras, and AI accelerators to help bring up test setups for Delta AI and Phalanx AI modules.\nYou will not be training models or building perception algorithms from scratch. You will be helping make sure the hardware and software stack runs reliably and is easy to test and iterate on.\n### What You’ll Do\n- Bring up and configure Raspberry Pi based systems\n- Integrate cameras and basic capture pipelines\n- Build and maintain AI test harnesses and bench setups\n- Support testing of Delta AI and Phalanx AI modules\n- Document setup steps, configurations, and test procedures\n- Assist in debugging basic integration and stability issues\n### What You Should Have\n- Currently pursuing or recently completed a degree in Electrical Engineering, Computer Engineering, Mechatronics, Robotics, or similar\n- Comfort working with Linux based systems\n- Experience or interest in embedded systems or robotics\n- Familiarity with Python or C++\n- Willingness to debug and learn through hands-on testing\n### Nice to Have\n- Experience with Raspberry Pi or similar SBCs\n- Camera or sensor integration experience\n- Exposure to robotics, autonomy, or AI systems\n- Experience with basic electronics and wiring\n### Who You Are\nYou like making systems work. You’re comfortable when things are half-built and messy. You enjoy bringing hardware and software together and learning by doing.\n### Why You’ll Love Working Here\n- Real exposure to AI and autonomous systems\n- Hands-on ownership of test and integration work\n- Tight feedback loop from bench testing to flight systems\n- Opportunity to grow into deeper technical ownership over time\n\n",
    "seniority": "Entry"
   },
@@ -1721,5 +1740,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 17
+ "new_count": 18
 }
