@@ -1274,6 +1274,26 @@
    "intro_email": null
   },
   {
+   "name": "Jaime Blasco",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems",
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "Jaimeblasco.tebon@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/jaime-blasco-tebon-54a64029b",
+   "about": "Also, I found something relevant while checking: USAvionix currently has a Mechanical Engineering Intern – Prototyping & Test Systems role that explicitly accepts people who are currently pursuing OR recently completed a Mechanical/Aerospace degree, with UAV experience as a nice-to-have. That could actually be another realistic application for you.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~2–3 years (project-based and academic)\n\n**Skills:** Aerospace vehicle design, UAV development, CAD (CATIA V5), composite manufacturing, 3D printing, FEA (Nastran, Patran), CFD (ANSYS Fluent), MATLAB, structural analysis, multidisciplinary engineering\n\n**Agency:** Demonstrates strong initiative through hands-on design, manufacturing, and testing of UAVs, and by leading technical projects and thesis work.\n\n**Experience:** Deep technical exposure in aerospace engineering, especially UAVs and aircraft structures, with practical experience in design, prototyping, and validation. Experience is primarily academic and project-based, not industry.\n\n**Entrepreneurship:** Evidence of ownership in leading thesis projects and co-leading a UAV team, but no direct startup or business creation experience.\n\n**Leadership:** Co-led a 50-member UAV team’s aerodynamics department and led technical subprojects, showing emerging leadership in technical and project contexts.\n\n**Teamwork:** Extensive collaboration in multidisciplinary teams, including large student engineering teams and group design projects.\n\n**Overall Summary:** Jaime Blasco is an early-career aerospace engineer with strong technical skills in UAV and aircraft design, validated through hands-on academic projects and team leadership roles. He shows initiative and ownership in driving technical outcomes and has experience collaborating in large, multidisciplinary teams. Leadership is emerging, with clear evidence of technical project direction but limited formal management. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Technical contributor or junior technical lead in aerospace, UAV, or hardware-focused startup teams that value hands-on engineering and rapid prototyping.\n\n**Where she is weak:** Limited industry experience and no direct evidence of startup, business, or product ownership beyond academic and project settings. Formal leadership and entrepreneurial exposure are still developing.",
+   "intro_email": null
+  },
+  {
    "name": "Jeffery Yaw Antwi Okyere",
    "school": "",
    "score": null,
@@ -1424,25 +1444,6 @@
    "linkedin": "https://www.linkedin.com/in/suvanwitmandal/",
    "about": "",
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Python, Machine Learning, Deep Learning, Computer Vision, PyTorch, XGBoost, scikit-learn, FastAPI, React.js, Data Analysis, Git\n\n**Agency:** Demonstrates strong initiative through independent research, self-driven technical projects, and proactive participation in hackathons and innovation competitions.\n\n**Experience:** Solid hands-on experience in building and deploying ML systems, with notable depth in technical implementation and research, but limited formal work experience.\n\n**Entrepreneurship:** Clear signs of ownership and risk-taking via independent research, hackathon participation, and innovation proposals to government bodies.\n\n**Leadership:** Evidence of peer mentoring, workshop organization, and leading technical initiatives as a Google Student Ambassador; some project leadership in research and hackathons.\n\n**Teamwork:** Strong collaboration skills shown through hackathons, mentoring peers, and organizing group events; experience working cross-functionally in competitions and student activities.\n\n**Overall Summary:** Suvanwit Mandal is a technically strong university student with significant project-based experience in machine learning, computer vision, and research. He shows high initiative, ownership, and the ability to drive outcomes independently, complemented by early leadership and teamwork skills. While formal industry experience is limited, his portfolio demonstrates depth and a proactive approach to learning and impact. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Best suited for technical roles in ML/AI, research, or product prototyping teams where self-starting, rapid learning, and hands-on execution are valued.\n\n**Where she is weak:** Limited formal industry or startup work experience; leadership experience is still developing and primarily peer- or project-based.",
-   "intro_email": null
-  },
-  {
-   "name": "Jaime Blasco",
-   "school": "",
-   "score": null,
-   "confidence": "—",
-   "rubric": null,
-   "rec": "New",
-   "recKey": "new",
-   "roles": [
-    "Aerospace Mechanical Engineer"
-   ],
-   "categories": [],
-   "note": "New application — not yet reviewed.",
-   "email": "jaimeblasco.tebon@gmail.com",
-   "linkedin": "https://www.linkedin.com/in/jaime-blasco-tebon-54a64029b",
-   "about": "I’m very passionate about UAV design and development, particularly the mechanical and structural side of aircraft. I’ve worked on UAV projects involving CAD, aerodynamics, composite manufacturing, rapid prototyping, structural integration, and testing, and I’m especially interested in roles where I can contribute directly to the design and development of real aircraft hardware.\n",
-   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Aerospace vehicle design, UAV development, CAD (CATIA V5), composite manufacturing, 3D printing, FEA (Nastran, Patran), CFD (ANSYS Fluent), MATLAB, structural analysis, multidisciplinary engineering\n\n**Agency:** Demonstrates strong initiative through hands-on design, manufacturing, and testing of UAVs, and by leading technical projects and thesis work.\n\n**Experience:** Deep technical exposure in aerospace engineering, especially UAVs, structural design, and aerodynamic validation, with practical experience in both academic and competitive team settings.\n\n**Entrepreneurship:** Evidence of ownership in leading technical projects and driving design iterations, but no direct startup or business creation experience.\n\n**Leadership:** Co-led a 50-member engineering team’s aerodynamics department and led outer-wing development in a group project, showing emerging leadership skills.\n\n**Teamwork:** Extensive collaboration in multidisciplinary teams, cross-functional project work, and effective coordination in large engineering groups.\n\n**Overall Summary:** Jaime Blasco is an early-career aerospace engineer with robust technical skills in UAV design, structural analysis, and rapid prototyping. He has demonstrated initiative and ownership in leading technical projects and collaborating within large, multidisciplinary teams. Leadership experience is emerging, primarily in academic and project-based contexts. No direct entrepreneurial or startup experience, but strong signals of agency and technical depth. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Technical contributor or junior technical lead in aerospace, UAV, or hardware-focused teams needing hands-on engineering and rapid prototyping.\n\n**Where she is weak:** Limited direct industry or startup experience; leadership and entrepreneurial skills are still developing.",
    "intro_email": null
   },
   {
@@ -1709,7 +1710,7 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 11,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 12,
   "Aerospace Mechanical Engineer": 11,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 2,
@@ -1723,7 +1724,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 11,
+   "count": 12,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
