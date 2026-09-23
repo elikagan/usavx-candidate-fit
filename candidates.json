@@ -1427,6 +1427,25 @@
    "intro_email": null
   },
   {
+   "name": "Jaime Blasco",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "jaimeblasco.tebon@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/jaime-blasco-tebon-54a64029b",
+   "about": "I’m very passionate about UAV design and development, particularly the mechanical and structural side of aircraft. I’ve worked on UAV projects involving CAD, aerodynamics, composite manufacturing, rapid prototyping, structural integration, and testing, and I’m especially interested in roles where I can contribute directly to the design and development of real aircraft hardware.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Aerospace vehicle design, UAV development, CAD (CATIA V5), composite manufacturing, 3D printing, FEA (Nastran, Patran), CFD (ANSYS Fluent), MATLAB, structural analysis, multidisciplinary engineering\n\n**Agency:** Demonstrates strong initiative through hands-on design, manufacturing, and testing of UAVs, and by leading technical projects and thesis work.\n\n**Experience:** Deep technical exposure in aerospace engineering, especially UAVs, structural design, and aerodynamic validation, with practical experience in both academic and competitive team settings.\n\n**Entrepreneurship:** Evidence of ownership in leading technical projects and driving design iterations, but no direct startup or business creation experience.\n\n**Leadership:** Co-led a 50-member engineering team’s aerodynamics department and led outer-wing development in a group project, showing emerging leadership skills.\n\n**Teamwork:** Extensive collaboration in multidisciplinary teams, cross-functional project work, and effective coordination in large engineering groups.\n\n**Overall Summary:** Jaime Blasco is an early-career aerospace engineer with robust technical skills in UAV design, structural analysis, and rapid prototyping. He has demonstrated initiative and ownership in leading technical projects and collaborating within large, multidisciplinary teams. Leadership experience is emerging, primarily in academic and project-based contexts. No direct entrepreneurial or startup experience, but strong signals of agency and technical depth. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Technical contributor or junior technical lead in aerospace, UAV, or hardware-focused teams needing hands-on engineering and rapid prototyping.\n\n**Where she is weak:** Limited direct industry or startup experience; leadership and entrepreneurial skills are still developing.",
+   "intro_email": null
+  },
+  {
    "name": "John Pilli",
    "school": "",
    "score": null,
@@ -1691,7 +1710,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 11,
-  "Aerospace Mechanical Engineer": 10,
+  "Aerospace Mechanical Engineer": 11,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 2,
   "Strategic Projects Intern": 4,
@@ -1709,7 +1728,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 10,
+   "count": 11,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -1759,5 +1778,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 19
+ "new_count": 20
 }
