@@ -1293,6 +1293,25 @@
    "intro_email": null
   },
   {
+   "name": "Francesca Friedman",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "runhappyfrankie@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/francesca-friedman/",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years (project-based and academic)\n\n**Skills:** CAD (Onshape, Solidworks), 3D printing, C++, C, Python, drone operation, electronics integration, ArcGIS, Drone2Map, peer advising\n\n**Agency:** Demonstrates initiative through self-driven technical projects and active participation in research and competitions.\n\n**Experience:** Hands-on experience in robotics, drone technology, and mechatronics through academic projects, research, and team roles; depth is appropriate for current career stage.\n\n**Entrepreneurship:** Evidence of ownership and risk-taking in personal technical projects; no formal entrepreneurial ventures.\n\n**Leadership:** Peer Advisor role involves guiding and solving complex student issues, indicating emerging leadership and responsibility.\n\n**Teamwork:** Strong collaboration in university rocket team and peer advising, with cross-functional exposure in technical and interpersonal contexts.\n\n**Overall Summary:** Francesca is a robotics engineering student with a solid foundation in CAD, programming, and hands-on technical projects. She shows strong initiative through self-directed builds and research, and is developing leadership skills via peer advising. Teamwork is a clear strength, with experience in both technical and advisory group settings. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Early-stage technical roles requiring hands-on prototyping, robotics, or drone expertise, especially where self-starting and adaptability are valued.\n\n**Where she is weak:** Limited professional experience and no evidence of formal startup or entrepreneurial ventures; leadership experience is still developing.",
+   "intro_email": null
+  },
+  {
    "name": "Haydn Fischer",
    "school": "",
    "score": null,
@@ -1671,7 +1690,7 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 10,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 11,
   "Aerospace Mechanical Engineer": 10,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 2,
@@ -1685,7 +1704,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 10,
+   "count": 11,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
@@ -1740,5 +1759,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 18
+ "new_count": 19
 }
