@@ -1428,6 +1428,25 @@
    "intro_email": null
   },
   {
+   "name": "Swapnil Gautam",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Computer Vision Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "swapnilgtm04@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/swapnil-gautam/",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Mid-level professional\n\n**Estimated Experience:** ~5 years\n\n**Skills:** Computer vision (object detection, segmentation, pose estimation, OCR), deep learning (PyTorch, TensorFlow, YOLO, Vision-Language Models), model optimization (ONNX, TensorRT, CUDA, quantization), edge deployment (NVIDIA Jetson), Python, C++, cloud (AWS, Azure ML, Firebase), MLOps, LLMs, RAG, Generative AI\n\n**Agency:** Demonstrates strong initiative by architecting platforms, leading end-to-end development, and independently building and optimizing production-grade systems across multiple companies.\n\n**Experience:** Deep, hands-on experience in designing, deploying, and optimizing computer vision and machine learning pipelines for real-time, edge, and industrial applications; proven ability to deliver production solutions and performance improvements.\n\n**Entrepreneurship:** Clear ownership and risk-taking as a founding AI engineer, leading product development and technical direction for a startup, and driving measurable business outcomes.\n\n**Leadership:** Led and mentored teams (notably a team of 4 ML engineers), drove technical decisions, and managed impactful deployments that improved key business metrics.\n\n**Teamwork:** Extensive collaboration with cross-functional teams (product, engineering, operations) to translate research into scalable solutions and support production deployments.\n\n**Overall Summary:** Swapnil Gautam is a mid-level computer vision engineer with approximately five years of experience, including founding engineer roles and leadership of technical teams. He has repeatedly demonstrated initiative, technical depth, and the ability to deliver production-ready AI solutions in fast-paced environments. His background shows strong ownership, cross-functional collaboration, and measurable impact on business outcomes. Overall, strong initiative and technical depth with proven leadership and entrepreneurial skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Technical lead or founding engineer roles in AI/ML startups, especially those building real-time or edge AI products.\n\n**Where she is weak:** Limited evidence of large-scale organizational leadership or experience scaling teams beyond small groups; less exposure to non-technical business functions.",
+   "intro_email": null
+  },
+  {
    "name": "Suvanwit Mandal",
    "school": "",
    "score": null,
@@ -1718,7 +1737,7 @@
   "Operations Intern": 3,
   "Full Stack Engineer": 3,
   "Product Owner - Autonomy Systems": 1,
-  "Computer Vision Engineer": 1,
+  "Computer Vision Engineer": 2,
   "Product Manager - Autonomy Systems": 2,
   "Talent Intern – Recruiting & Administrative Support": 1
  },
@@ -1764,7 +1783,7 @@
    "seniority": "Mid"
   },
   "Computer Vision Engineer": {
-   "count": 1,
+   "count": 2,
    "jd": "# Computer Vision Engineer - Perception Systems\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds - without relying on the cloud.\n\nYou’ll lead the perception stack that powers onboard visual intelligence. Your work will enable aircraft to detect, track, and understand the world in real time.\n\n## What you’ll do\n- Build and deploy high-performance visual detection, tracking, and classification systems for real-time flight.\n- Integrate perception models with onboard agents (Intel, Pilot, Operator) to drive coordinated autonomy.\n- Optimize CNN and transformer-based models for embedded inference (Jetson, Hailo, or equivalent).\n- Develop pipelines for training, testing, and validating vision models using aerial and ground datasets.\n- Implement real-time sensor fusion across video, IMU, GPS, and telemetry data streams.\n- Contribute to continuous improvement of data collection, labeling, and active-learning loops.\n\n## What we're looking for\n- Strong background in computer vision, deep learning, and image/video processing.\n- Experience with modern vision architectures (YOLOv5/v8, DETR, RT-DETR, or similar).\n- Proficiency in Python and PyTorch; familiarity with TensorRT, OpenVINO, or ONNX runtimes.\n- Experience deploying optimized models on embedded hardware (NVIDIA Jetson, Hailo, etc.).\n- Understanding of multi-sensor fusion and real-time inference under constrained resources.\n\n## Nice to have\n- Experience building flight-ready or edge-deployed perception systems.\n- Familiarity with PX4/ArduPilot/MAVLink or other UAV telemetry systems.\n- Background in optical flow, 3D reconstruction, or SLAM.\n- Comfort working with aerial datasets, synthetic data generation, or 3D simulation (Three.js, Unreal, Cesium).\n- Knowledge of model compression, quantization, and real-time video encoding/streaming.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n\n",
    "seniority": "Mid"
   },
@@ -1779,5 +1798,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 20
+ "new_count": 21
 }
