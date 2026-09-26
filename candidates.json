@@ -1294,6 +1294,25 @@
    "intro_email": null
   },
   {
+   "name": "Troy Hall",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "troydhall06@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/troy-hall-a20111309",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~1–2 years (project-based and research experience)\n\n**Skills:** Aerospace engineering, SolidWorks, MATLAB/Simulink, Python, ANSYS, 3D printing, machining, instrumentation, motion control, DAQ systems\n\n**Agency:** Demonstrates strong initiative through hands-on design, fabrication, and validation of complex systems; independently developed and integrated hardware/software solutions for research and team projects.\n\n**Experience:** Deep technical exposure in aerospace systems, including research lab instrumentation, high-powered rocketry, and model rocket design; experience spans simulation, analysis, and manufacturing.\n\n**Entrepreneurship:** Evidence of ownership in redesigning components for cost reduction and leading technical development, but no direct startup or business creation experience.\n\n**Leadership:** Co-led a technical team for high-powered rocketry, led development of critical subsystems, and served as a teaching assistant supporting large student groups.\n\n**Teamwork:** Extensive collaboration in research, engineering teams, and instructional roles; validated peer designs and supported cross-functional student groups.\n\n**Overall Summary:** Troy Hall is a high-performing university student with significant hands-on technical experience in aerospace engineering. He has demonstrated initiative and ownership in both research and team settings, with a track record of leading technical projects and supporting peers. While his experience is primarily academic and project-based, he shows strong potential for technical leadership and rapid learning. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Technical roles requiring hands-on engineering, rapid prototyping, and collaborative problem-solving in early-stage or research-driven environments.\n\n**Where she is weak:** Limited exposure to commercial environments, business operations, or full product lifecycle ownership outside of academic projects.",
+   "intro_email": null
+  },
+  {
    "name": "Jeffery Yaw Antwi Okyere",
    "school": "",
    "score": null,
@@ -1729,7 +1748,7 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 12,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 13,
   "Aerospace Mechanical Engineer": 11,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 2,
@@ -1743,7 +1762,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 12,
+   "count": 13,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
@@ -1798,5 +1817,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 21
+ "new_count": 22
 }
