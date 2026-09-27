@@ -1351,6 +1351,25 @@
    "intro_email": null
   },
   {
+   "name": "Tengfei Gong",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "AI Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "tengfeigong@gmail.com",
+   "linkedin": "www.linkedin.com/in/tony-gong",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Mid-level professional\n\n**Estimated Experience:** 7–8 years\n\n**Skills:** Machine learning, deep learning, LLM/VLM systems, Python, SQL, PySpark, PyTorch, TensorFlow, cloud/MLOps (AWS, Docker, Kafka), data pipelines, statistical analysis, supply chain analytics\n\n**Agency:** Demonstrates strong initiative by independently building and deploying production ML systems, designing frameworks, and leading impactful projects.\n\n**Experience:** Deep, hands-on technical experience in building and scaling multimodal ML pipelines, deploying real-time inference APIs, and integrating foundational models in both startup and corporate environments.\n\n**Entrepreneurship:** Evidence of ownership and risk-taking through end-to-end system design and deployment; no direct startup founding experience.\n\n**Leadership:** Led cross-functional projects, defined release frameworks, managed analytics, and mentored as a graduate student instructor.\n\n**Teamwork:** Strong collaboration across engineering, operations, and analytics teams; effective in diverse, cross-functional settings.\n\n**Overall Summary:** Tengfei (Tony) Gong is a senior-level data scientist and ML engineer with extensive experience in building and deploying advanced ML systems in production. He shows strong initiative, technical depth, and a track record of driving measurable impact through both individual and collaborative efforts. Leadership is evident in project ownership and cross-functional influence, with emerging mentorship signals. Overall, strong initiative and technical depth with established leadership and teamwork skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** High-impact technical roles requiring ownership of ML/AI systems, rapid prototyping, and scaling in data-driven product teams.\n\n**Where she is weak:** Limited direct evidence of startup founding or executive-level entrepreneurship; less emphasis on commercial go-to-market or customer-facing experience.",
+   "intro_email": null
+  },
+  {
    "name": "Haydn Fischer",
    "school": "",
    "score": null,
@@ -1751,7 +1770,7 @@
   "Mechanical Engineering Intern – Prototyping & Test Systems": 13,
   "Aerospace Mechanical Engineer": 11,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
-  "AI Engineer": 2,
+  "AI Engineer": 3,
   "Strategic Projects Intern": 4,
   "Operations Intern": 3,
   "Full Stack Engineer": 3,
@@ -1777,7 +1796,7 @@
    "seniority": "Entry"
   },
   "AI Engineer": {
-   "count": 2,
+   "count": 3,
    "jd": "# AI Engineer - Edge Autonomy (LLM Focus)\n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\n\nWe’re building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds, without relying on the cloud.\nYour work will power the onboard AI agents that fly, detect, and coordinate missions in real time.\n\n## What you’ll do\n- Build and fine-tune LLM systems that power onboard decision-making for autonomous aircraft.\n- Design agentic workflows that coordinate three core AI agents onboard:\n    - Operator Agent – mission brain, planning and arbitration\n    - Pilot Agent – real-time flight and camera control\n    - Intel Agent – perception and verification\n- Develop low-latency communication protocols between these agents to ensure reliable, deterministic behavior during flight.\n- Build prompt orchestration and retrieval pipelines for situational awareness and mission control.\n- Deploy optimized models on embedded hardware that handle variable telemetry in real time.\n## What we’re looking for\n- Strong background in Python, PyTorch, and modern LLM frameworks (e.g., Hugging Face, vLLM, llama.cpp).\n- Experience with fine-tuning, RAG, embeddings, or custom model adapters.\n- Comfort building from research ideas to production-ready code.\n- Experience working with real-time or mission-critical systems.\n- Strong understanding of edge inference (quantization, optimization, GPU/CPU/NPU).\n## Nice to have\n- Familiarity with small language models (1–3B), grammar-constrained decoding, or state-space models.\n- PX4/ArduPilot/MAVLink or drone systems.\n- Vision systems (OCR, lightweight detectors) or real-time telemetry handling.\n- Experience with 3D simulation (Three.js, Cesium, or similar).\n\nThese agents don’t live in the cloud, they fly onboard, coordinating in real time to search, verify, and adapt.\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n\n\n\n",
    "seniority": "Senior"
   },
@@ -1817,5 +1836,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 22
+ "new_count": 23
 }
