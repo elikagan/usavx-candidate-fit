@@ -1428,6 +1428,25 @@
    "intro_email": null
   },
   {
+   "name": "Franklin Gurney",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "franklin.gurney@gmail.com",
+   "linkedin": "N/A.com",
+   "about": "I am the \"hands-on\" guy in my current team, and looking forward to building things that fly\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Mid-level professional\n\n**Estimated Experience:** 8–10 years\n\n**Skills:** Mechanical design, CAD (SolidWorks, Fusion, Onshape), prototyping, fabrication, DFM, project ownership, AI workflow integration, technical documentation, field construction, rapid problem solving\n\n**Agency:** Demonstrates strong initiative and ownership, leading projects from concept to release and independently managing complex assemblies.\n\n**Experience:** Deep, hands-on technical experience in mechanical design and manufacturing at IBM, with broad practical skills in construction, prototyping, and technical project execution.\n\n**Entrepreneurship:** Clear evidence of ownership and risk-taking, including designing and building an off-grid tiny house, running independent construction projects, and filing multiple patents.\n\n**Leadership:** Led full-scope design projects, managed interdisciplinary reviews, and provided technical support to distributed teams.\n\n**Teamwork:** Regular cross-functional collaboration with vendors, manufacturing partners, and distributed engineering teams; experience supporting and interfacing with multiple stakeholders.\n\n**Overall Summary:** Franklin Gurney is a mid-level mechanical designer with approximately 8–10 years of experience spanning hardware design at IBM, independent construction, and technical side projects. He shows strong initiative, technical depth, and a track record of project ownership and practical problem solving. Leadership is demonstrated through project management and technical support roles, with additional entrepreneurial signals from patents and self-driven builds. Teamwork and cross-functional collaboration are evident throughout his experience. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Roles requiring hands-on technical ownership, rapid prototyping, and cross-disciplinary problem solving in hardware or product-focused teams.\n\n**Where she is weak:** Limited evidence of formal people management or scaling teams; less direct experience in software or digital product leadership.",
+   "intro_email": null
+  },
+  {
    "name": "Ishaan Dixit",
    "school": "",
    "score": null,
@@ -1768,7 +1787,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 13,
-  "Aerospace Mechanical Engineer": 11,
+  "Aerospace Mechanical Engineer": 12,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 3,
   "Strategic Projects Intern": 4,
@@ -1786,7 +1805,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 11,
+   "count": 12,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -1836,5 +1855,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 23
+ "new_count": 24
 }
