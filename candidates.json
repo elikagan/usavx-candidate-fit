@@ -1447,6 +1447,25 @@
    "intro_email": null
   },
   {
+   "name": "Kenneth Kuang",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "kennethkuang36@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/kennethkuang36/",
+   "about": "Portfolio - https://kennethk36.github.io/kennethkuang.github.io/\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Mechanical engineering, data science, CAD (Solidworks, Fusion360, Siemens NX), Python, manufacturing process improvement, computer vision, embedded systems\n\n**Agency:** Demonstrates strong initiative through founding clubs, leading technical projects, and independently driving process improvements in internships.\n\n**Experience:** Hands-on technical experience in manufacturing engineering, robotics, and computer vision projects; relevant internships and project-based work in both industry and academic settings.\n\n**Entrepreneurship:** Clear signs of ownership and risk-taking as founder of two clubs and leader of technical initiatives.\n\n**Leadership:** Held multiple leadership roles including President, Vice President, and Co-Founder in student organizations; led Kaizen event and outreach efforts.\n\n**Teamwork:** Extensive collaboration in cross-functional teams for NASA L’SPACE, SEDS, and club projects; hosted events and worked closely with operators and peers.\n\n**Overall Summary:** Kenneth is an ambitious university student with approximately two years of hands-on technical and leadership experience. He has demonstrated initiative through founding and leading clubs, driving process improvements in internships, and executing complex technical projects. His background shows a blend of engineering, data science, and practical problem-solving, with strong signals of ownership and teamwork. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical roles requiring self-starters who can lead projects, iterate quickly, and collaborate across functions.\n\n**Where she is weak:** Limited depth in industry experience and exposure to large-scale product delivery; leadership experience is primarily in academic and extracurricular settings.",
+   "intro_email": null
+  },
+  {
    "name": "Ishaan Dixit",
    "school": "",
    "score": null,
@@ -1786,7 +1805,7 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 13,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 14,
   "Aerospace Mechanical Engineer": 12,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 3,
@@ -1800,7 +1819,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 13,
+   "count": 14,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
@@ -1855,5 +1874,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 24
+ "new_count": 25
 }
