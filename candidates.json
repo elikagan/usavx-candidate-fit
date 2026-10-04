@@ -1542,6 +1542,25 @@
    "intro_email": null
   },
   {
+   "name": "Cody Rudman",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "codyrudman@gmail.com",
+   "linkedin": "www.linkedin.com/in/cody-rudman",
+   "about": "I know I have the experience you are looking for. I have strong fundamentals in prototyping and CAD and I believe the best way to test something is to build it and break it.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Mechanical design, SolidWorks, FEA, 3D printing, PCB design, CAD, rapid prototyping, MATLAB, Python\n\n**Agency:** Demonstrates strong initiative by independently leading technical projects from concept to prototype and driving product development in both academic and internship settings.\n\n**Experience:** Solid hands-on mechanical engineering experience with depth in technical execution and prototyping, including work on UAV systems, robotics, and safety devices.\n\n**Entrepreneurship:** Clear evidence of ownership and risk-taking through leading ground-up product development, custom PCB assembly, and pursuing innovative solutions for competitions and real-world use.\n\n**Leadership:** Led teams as project lead, onboarding officer, and technical lead; mentored over 40 peers and directed technical decisions in club and academic projects.\n\n**Teamwork:** Strong collaboration skills shown through mentoring, cross-functional club work, and leading group projects with measurable outcomes.\n\n**Overall Summary:** Cody Rudman is an advanced university student with robust hands-on engineering experience, technical leadership, and a clear record of initiative. He has led multiple technical teams, driven product development from concept to prototype, and mentored peers in both academic and extracurricular settings. His work spans UAVs, robotics, and safety devices, with a focus on practical, manufacturable solutions. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical roles requiring hands-on prototyping, rapid iteration, and technical leadership in hardware or robotics-focused teams.\n\n**Where she is weak:** Limited industry experience beyond internships; leadership experience is primarily academic and club-based rather than in professional environments.",
+   "intro_email": null
+  },
+  {
    "name": "John Pilli",
    "school": "",
    "score": null,
@@ -1825,7 +1844,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 14,
-  "Aerospace Mechanical Engineer": 13,
+  "Aerospace Mechanical Engineer": 14,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 6,
   "AI Engineer": 3,
   "Strategic Projects Intern": 4,
@@ -1843,7 +1862,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 13,
+   "count": 14,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -1893,5 +1912,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 26
+ "new_count": 27
 }
