@@ -1504,6 +1504,25 @@
    "intro_email": null
   },
   {
+   "name": "KEVIN OSORIO",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Talent Intern – Recruiting & Administrative Support"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "kevinof@cetys.edu.mx",
+   "linkedin": "www.linkedin.com/in/kevin-osorio-b378ba2b4",
+   "about": "Hi! I’m a Mechatronics Engineering student at CETYS in Tijuana, and I’d love to be part of USAvionix. Through several years in sales I’ve built strong administrative and coordination skills: scheduling, following up, keeping records organized and managing many tasks at once without letting anything slip. My industrial internship at JAE Electronics also gave me a solid understanding of engineering roles, so I can communicate easily with both candidates and engineers. Long term, if there’s ever an opportunity to support the engineering team from Tijuana, I’d be excited to contribute. Thank you for your consideration!\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Coordination, organization, client communication, bilingual (Spanish/English), automation, technical fluency, Excel/Google Sheets, project tracking, embedded systems\n\n**Agency:** Demonstrates initiative by managing full sales cycles, organizing academic projects, and proactively coordinating with diverse stakeholders.\n\n**Experience:** Relevant hands-on exposure to automation in an industrial setting, technical project work, and client-facing roles; depth is early-career but practical.\n\n**Entrepreneurship:** Some ownership shown in sales (end-to-end process management) and academic project leadership; no evidence of founding or high-risk ventures.\n\n**Leadership:** Led or organized team projects and managed client relationships, but no formal people management or high-impact leadership roles yet.\n\n**Teamwork:** Strong evidence of collaboration in cross-functional teams, academic groups, and bilingual environments.\n\n**Overall Summary:** Kevin is a proactive and organized mechatronics engineering student with a blend of technical and client-facing experience. He has managed sales processes independently, contributed to automation projects, and worked effectively in teams. While his leadership and entrepreneurial exposure are still developing, he shows strong initiative, adaptability, and communication skills. Overall, strong initiative and technical breadth with emerging leadership capabilities.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical or operations roles requiring coordination, technical fluency, and client or team interaction.\n\n**Where she is weak:** Limited depth in technical specialization and formal leadership; entrepreneurial experience is light and mostly within structured environments.",
+   "intro_email": null
+  },
+  {
    "name": "Franklin Gurney",
    "school": "",
    "score": null,
@@ -1929,7 +1948,7 @@
   "Full Stack Engineer": 3,
   "Product Owner - Autonomy Systems": 1,
   "Product Manager - Autonomy Systems": 3,
-  "Talent Intern – Recruiting & Administrative Support": 1
+  "Talent Intern – Recruiting & Administrative Support": 2
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
@@ -1983,10 +2002,10 @@
    "seniority": "Mid"
   },
   "Talent Intern – Recruiting & Administrative Support": {
-   "count": 1,
+   "count": 2,
    "jd": "### Talent Intern – Recruiting & Administrative Support\n**Location:** Tijuana, Mexico (Onsite or Hybrid)\n **Team:** Talent & Company Support\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. We are an early-stage, hands-on team moving quickly across hardware, autonomy, and flight systems. As we grow, we’re building a strong pipeline of engineers and interns who want to work on real systems, not demos.\n### About The Role\nWe’re looking for a Talent Intern to support recruiting and light administrative work across the company.\nThis role is ideal for someone who enjoys working with people, staying organized, and helping teams move faster. You’ll work closely with the founding team to coordinate candidates, manage follow-ups, and keep recruiting efforts running smoothly.\nThis is not a corporate HR role. It’s a startup execution role focused on getting things done.\n### What You’ll Do\n- Coordinate candidates and internship applications\n- Review and organize incoming resumes\n- Schedule interviews and follow-ups\n- Communicate with candidates throughout the process\n- Support relationships with universities and internship programs\n- Assist with light administrative and coordination tasks as needed\n### What You Should Have\n- Currently pursuing or recently completed a degree in Psychology, Business, Human Resources, or a related field\n- Strong communication and organizational skills\n- Comfort working with multiple tasks and priorities\n- Interest in recruiting, people coordination, or startup operations\n- Reliability and attention to detail\n### Nice to Have\n- Prior experience in recruiting or HR internships\n- Experience working with spreadsheets, Airtable, or similar tools\n- Exposure to technical or engineering environments\n### Who You Are\nYou’re organized, proactive, and dependable. You like helping teams move faster and keeping things from falling through the cracks. You’re comfortable working closely with founders and adapting as priorities shift.\n### Why You’ll Love Working Here\n- Real responsibility and trust as an intern\n- Direct exposure to startup recruiting and growth\n- Opportunity to work closely with technical teams\n- Flexible scope that can grow with performance\n\n",
    "seniority": "Entry"
   }
  },
- "new_count": 31
+ "new_count": 32
 }
