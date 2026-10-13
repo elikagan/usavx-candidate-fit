@@ -1331,6 +1331,25 @@
    "intro_email": null
   },
   {
+   "name": "Brian Ngo",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "brianngo2003@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/brianpngo",
+   "about": "I am completing my MS in Mechanical Engineering at UC San Diego, with expected graduation June 12, 2027, and am available to start the week after graduation. I hold a BS in Biomedical Engineering from UC Irvine. My Tactus AI robotics internship involved CAD-to-prototype development of a quarter-turn wrist interface and servo-driven tool station, Python calibration, debugging docking failures, and assembly and test documentation. I use SOLIDWORKS (CSWA), Fusion 360, MATLAB, Python, FDM printing, and hands-on fabrication. I would welcome the opportunity to apply this experience to mechanical components, test fixtures, and prototype iteration while learning aircraft-specific requirements. Portfolio: https://mrbrianngo.github.io/\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer (graduate student)\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Robotics, mechanical design, CAD (SOLIDWORKS, Fusion 360), Python, MATLAB, prototyping, electromechanical systems, medical device design, technical documentation\n\n**Agency:** Demonstrates strong initiative through independent problem-solving, revising approaches after failures, and proactively documenting and improving processes.\n\n**Experience:** Hands-on experience in robotics, medical device prototyping, and simulation with relevant technical depth in both academic and industry settings.\n\n**Entrepreneurship:** Evidence of ownership in leading technical proposals, co-authoring reports, and driving project deliverables; some risk-taking in multidisciplinary projects.\n\n**Leadership:** Led meetings, coordinated task plans, co-presented for teams, and authored technical documentation; impact primarily at the project and team level.\n\n**Teamwork:** Strong collaboration with cross-functional teams, clinical advisors, and mentors; integrates feedback and aligns with teammates on goals.\n\n**Overall Summary:** Brian Ngo is an early-career engineer with a robust portfolio in robotics and medical device projects, showing technical depth, initiative, and adaptability. He has led and contributed to multidisciplinary teams, demonstrating ownership and a proactive approach to problem-solving. Leadership experience is emerging and primarily at the project level, but he consistently drives outcomes and integrates feedback. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Well-suited for technical roles in robotics, hardware prototyping, or early-stage product development where hands-on skills, adaptability, and cross-functional teamwork are valued.\n\n**Where she is weak:** Limited experience in formal leadership roles or managing larger teams; entrepreneurial exposure is primarily within academic and project contexts rather than startups or ventures.",
+   "intro_email": null
+  },
+  {
    "name": "Hemant Baghel",
    "school": "",
    "score": null,
@@ -1996,7 +2015,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 15,
-  "Aerospace Mechanical Engineer": 14,
+  "Aerospace Mechanical Engineer": 15,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 7,
   "AI Engineer": 3,
   "Strategic Projects Intern": 4,
@@ -2014,7 +2033,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 14,
+   "count": 15,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -2064,5 +2083,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 35
+ "new_count": 36
 }
