@@ -1789,6 +1789,25 @@
    "intro_email": null
   },
   {
+   "name": "Ethan Descamps",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "ethandescamps@berkeley.edu",
+   "linkedin": "https://www.linkedin.com/in/ethan-descamps",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–2.5 years\n\n**Skills:** Mechanical engineering, CAD, FEA, rapid prototyping, DFM, 3D printing, PCB design, Python, Matlab, SolidWorks, ANSYS, Siemens NX, cross-functional collaboration\n\n**Agency:** Demonstrates strong initiative through leading product development, independently reverse engineering devices, and driving DFM improvements in academic and industry settings.\n\n**Experience:** Deep hands-on technical experience in mechanical engineering, product development, and prototyping, with exposure to both medical devices and motorsports engineering; experience spans R&D, design, and manufacturing workflows.\n\n**Entrepreneurship:** Clear evidence of ownership and creation in personal projects and in leading design iterations for new products.\n\n**Leadership:** Led product development efforts, supervised makerspace users, and drove cross-functional engineering projects; some experience in guiding teams and facilitating technical decisions.\n\n**Teamwork:** Strong collaboration with clinicians, engineers, and cross-functional teams; supported and trained over 200 makerspace users, indicating strong interpersonal and teamwork skills.\n\n**Overall Summary:** Ethan is a highly capable university-level mechanical engineer with significant hands-on experience in both industry and academic settings. He shows strong initiative, technical depth, and a clear ability to drive projects from concept to execution. Leadership and teamwork are evident through both formal and informal roles, and he demonstrates entrepreneurial drive through independent projects. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where he fits:** Early-stage technical roles requiring hands-on engineering, rapid prototyping, and cross-functional collaboration; environments valuing initiative and ownership.\n\n**Where he is weak:** Limited long-term or senior-level leadership experience; depth in business or product strategy not demonstrated.",
+   "intro_email": null
+  },
+  {
    "name": "Haogen Huang",
    "school": "",
    "score": null,
@@ -2015,7 +2034,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 15,
-  "Aerospace Mechanical Engineer": 15,
+  "Aerospace Mechanical Engineer": 16,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 7,
   "AI Engineer": 3,
   "Strategic Projects Intern": 4,
@@ -2033,7 +2052,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 15,
+   "count": 16,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -2083,5 +2102,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 36
+ "new_count": 37
 }
