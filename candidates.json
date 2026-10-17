@@ -1599,6 +1599,25 @@
    "intro_email": null
   },
   {
+   "name": "Ava Harrington",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Strategic Projects Intern"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "avamai07@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/ava-mai/",
+   "about": "I'm a freshman studying finance at Virginia Tech, graduating in May 2029, and I'm applying for a San Francisco internship in May-August 2027. I have housing in SF and can work full time during the summer.\n\nI would like to help keep projects organized and learn how a small team works directly with its founders. As COO of Artiscent, a student business simulation, I coordinated finance, marketing and sales work, helped with trade shows and wrote a 20-page business plan. As NHS treasurer, I maintained Excel records for collections and expenses and helped track roughly $10,000 in fundraising.\n\nThose experiences were at school, and I am looking to build on them through research, project tracking and presentation work. I don't have an aerospace background, but I would be ready to learn the business and help with the day-to-day coordination this role describes.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~1–2 years\n\n**Skills:** Financial analysis, Excel modeling, business planning, market research, M&A case analysis, customer service\n\n**Agency:** Demonstrates strong initiative through independent finance projects, self-driven case studies, and proactive participation in simulations and leadership roles.\n\n**Experience:** Early-stage, with hands-on exposure to financial modeling, M&A analysis, and business operations through academic projects, simulations, and retail roles.\n\n**Entrepreneurship:** Shows clear entrepreneurial interest and ownership by leading a simulated company, writing a business plan, and advising younger teams.\n\n**Leadership:** Led as COO in a business simulation, managed cross-functional goals, represented the company at events, and served as treasurer for a large student organization.\n\n**Teamwork:** Collaborated with peers in leadership, retail, and project settings; worked cross-functionally and supported group goals in both academic and work environments.\n\n**Overall Summary:** Ava is an ambitious university student with early but diverse experience in finance, business analysis, and leadership. She takes initiative, pursues independent projects, and has demonstrated ownership and impact in both simulated and real-world settings. Her leadership and teamwork skills are emerging, with a strong foundation in business fundamentals. Overall, strong initiative and analytical skills with early-stage leadership experience.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Analytical, project-driven roles where initiative and learning agility are valued; early-stage business or finance teams seeking high-potential talent.\n\n**Where she is weak:** Limited real-world professional experience and depth; leadership and technical skills are still developing beyond simulations and academic projects.",
+   "intro_email": null
+  },
+  {
    "name": "KEVIN OSORIO",
    "school": "",
    "score": null,
@@ -2056,7 +2075,7 @@
   "Aerospace Mechanical Engineer": 16,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 8,
   "AI Engineer": 3,
-  "Strategic Projects Intern": 4,
+  "Strategic Projects Intern": 5,
   "Operations Intern": 6,
   "Computer Vision Engineer": 3,
   "Full Stack Engineer": 3,
@@ -2086,7 +2105,7 @@
    "seniority": "Senior"
   },
   "Strategic Projects Intern": {
-   "count": 4,
+   "count": 5,
    "jd": "# Strategic Project Intern \n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\nUSAvionix is building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds without relying on the cloud.\nWe are looking for a Strategic Projects Intern to support leadership across internal initiatives, marketing coordination, and company projects.\nYou will work directly with the founders helping coordinate initiatives, organize information, and ensure projects remain on track.\nThis role combines project coordination, program support, marketing assistance, and administrative support in a fast-moving startup environment.\n\n### **What you’ll do**\n- Assist with project coordination and program support across company initiatives\n- Maintain project trackers and help ensure initiatives remain organized\n- Provide administrative support related to strategic projects and leadership activities\n- Help gather and organize information related to industry developments\n- Assist with preparation of presentations, reports, and communications\n- Support coordination of marketing initiatives, events, and outreach programs\n- Help organize documentation and materials across ongoing initiatives\n- Work with leadership on special projects and internal initiatives\n\n### **What we're looking for**\n- Current undergraduate student or recent graduate\n- Highly organized and detail-oriented\n- Strong communication and writing skills\n- Ability to manage multiple tasks and projects simultaneously\n- Comfortable supporting coordination and administrative tasks\n- Interest in startups, emerging technology, or aerospace\n- Proactive and comfortable working in a high-autonomy environment\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n\n",
    "seniority": "Entry"
   },
@@ -2121,5 +2140,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 38
+ "new_count": 39
 }
