@@ -1751,6 +1751,25 @@
    "intro_email": null
   },
   {
+   "name": "Chase Harris Turmail",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "chaseturmail1@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/chase-turmail-b65b7a387/",
+   "about": "I’m particularly interested in taking prototype hardware from CAD through assembly and testing on the Delta platform. At Imaging Engineering, I independently redesigned a precision collimator in Fusion 360 and built two physical prototypes, refining component interfaces, clearances, and assembly access. I’ve also machined and assembled a functioning compressed-air engine and built a LabVIEW strain-measurement setup. My independent UAV project has strengthened my understanding of aircraft design and stability. I’d bring practical CAD and fabrication skills, careful attention to how parts fit together, and a willingness to build, troubleshoot, and iterate. My project portfolio is available at chaseturmail.com.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~1 year\n\n**Skills:** Mechanical and aerospace engineering, CAD (Fusion 360, SolidWorks), prototyping, fabrication, LabVIEW, MATLAB, Python, technical analysis, hands-on assembly\n\n**Agency:** Demonstrates strong initiative through independent redesigns, ownership of prototyping, and self-driven engineering projects.\n\n**Experience:** Relevant hands-on experience in mechanical design, prototyping, and analysis; depth shown in both professional and independent technical work.\n\n**Entrepreneurship:** Clear signs of ownership and risk-taking via independent UAV and turbojet projects, as well as leading design decisions in internships.\n\n**Leadership:** Led technical decisions and project execution but limited evidence of formal people management.\n\n**Teamwork:** Evidence of collaboration in lab and internship settings; strong ability to integrate with technical teams.\n\n**Overall Summary:** Chase Turmail is a high-performing university student with a strong technical foundation in mechanical and aerospace engineering. He shows notable initiative and ownership through both professional and independent projects, with hands-on skills in prototyping and analysis. Leadership is emerging, primarily through technical decision-making rather than formal management. Teamwork and collaboration are evident in lab and internship experiences. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical roles requiring hands-on engineering, rapid prototyping, and self-driven problem solving.\n\n**Where she is weak:** Limited formal leadership and people management experience; still building depth in industry-scale project delivery.",
+   "intro_email": null
+  },
+  {
    "name": "Cody Rudman",
    "school": "",
    "score": null,
@@ -2090,7 +2109,7 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 16,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 17,
   "Aerospace Mechanical Engineer": 16,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 8,
   "AI Engineer": 3,
@@ -2104,7 +2123,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 16,
+   "count": 17,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
@@ -2159,5 +2178,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 40
+ "new_count": 41
 }
