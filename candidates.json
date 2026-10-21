@@ -1770,6 +1770,26 @@
    "intro_email": null
   },
   {
+   "name": "Chunxi Han",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems",
+    "Hardware / Embedded Systems Intern – AI Test & Integration"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "simonhcx@gmail.com",
+   "linkedin": "https://www.linkedin.com/in/chunxi-han-a1934438a/?isSelfProfile=true",
+   "about": "I'm a Purdue University undergraduate studying Unmanned Aerial Systems and Robotics Engineering Technology, with a strong interest in autonomous aircraft, embedded systems, and hardware-software integration. Through my UAS and robotics projects, I've gained experience building and programming robotic systems using C++, Python, and sensor-based control, as well as working with drones, GNSS/RTK systems, and autonomous navigation concepts. I'm also learning ROS 2 and SLAM for autonomous localization and mapping. I'm excited to contribute my hands-on problem-solving skills to USAVIONIX by helping integrate, test, and debug hardware and software systems, while developing deeper experience with embedded platforms and AI system integration.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Mechanical design (SolidWorks, Fusion 360, Onshape), robotics (C/C++, Python, MATLAB, PROS, PID control, odometry), UAS & flight systems (Betaflight, DJI Terra, UGCS, GNSS/RTK), data analysis (SPSS, regression), autonomous systems\n\n**Agency:** Demonstrates strong initiative through self-driven engineering projects, competition participation, and technical skill development outside coursework.\n\n**Experience:** Deep hands-on experience in robotics, UAS, and mechanical design through competitive teams, research, and technical projects; strong alignment with technical and engineering roles.\n\n**Entrepreneurship:** Evidence of ownership and risk-taking in leading design, programming, and integration efforts for novel robotics and UAS solutions; proactive in competition and research environments.\n\n**Leadership:** Led technical design and programming for robotics teams; contributed to R&D and project outcomes, but limited evidence of formal people management.\n\n**Teamwork:** Extensive collaboration in multidisciplinary teams (engineering, research, competition); strong record of cross-functional project execution and peer recognition (awards).\n\n**Overall Summary:** Simon is a high-performing university student with significant hands-on experience in robotics, UAS, and mechanical design. He consistently takes initiative, drives technical outcomes, and demonstrates ownership in both competitive and research settings. Leadership is emerging, primarily through technical direction and project execution rather than formal management. Teamwork and collaboration are clear strengths, supported by awards and successful project delivery. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Technical contributor or early-stage builder in robotics, autonomy, or hardware-focused teams; excels in hands-on, project-driven environments requiring rapid prototyping and cross-functional collaboration.\n\n**Where she is weak:** Limited formal leadership or people management experience; early in professional career with most experience from academic and extracurricular projects.",
+   "intro_email": null
+  },
+  {
    "name": "Cody Rudman",
    "school": "",
    "score": null,
@@ -2109,9 +2129,9 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 17,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 18,
   "Aerospace Mechanical Engineer": 16,
-  "Hardware / Embedded Systems Intern – AI Test & Integration": 8,
+  "Hardware / Embedded Systems Intern – AI Test & Integration": 9,
   "AI Engineer": 3,
   "Strategic Projects Intern": 5,
   "Operations Intern": 6,
@@ -2123,7 +2143,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 17,
+   "count": 18,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
@@ -2133,7 +2153,7 @@
    "seniority": "Mid"
   },
   "Hardware / Embedded Systems Intern – AI Test & Integration": {
-   "count": 8,
+   "count": 9,
    "jd": "### Hardware / Embedded Systems Intern – AI Test & Integration\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Autonomy, Hardware & AI Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform combines autonomy, onboard compute, and high-speed flight hardware. We move quickly from idea to test to iteration, with a strong bias toward systems that actually work outside the lab.\n### About The Role\nWe’re looking for a Hardware or Embedded Systems Intern to support AI system bring-up, testing, and integration across the Delta platform.\nThis is a hands-on role focused on building and validating real systems. You will work with Raspberry Pi based platforms, cameras, and AI accelerators to help bring up test setups for Delta AI and Phalanx AI modules.\nYou will not be training models or building perception algorithms from scratch. You will be helping make sure the hardware and software stack runs reliably and is easy to test and iterate on.\n### What You’ll Do\n- Bring up and configure Raspberry Pi based systems\n- Integrate cameras and basic capture pipelines\n- Build and maintain AI test harnesses and bench setups\n- Support testing of Delta AI and Phalanx AI modules\n- Document setup steps, configurations, and test procedures\n- Assist in debugging basic integration and stability issues\n### What You Should Have\n- Currently pursuing or recently completed a degree in Electrical Engineering, Computer Engineering, Mechatronics, Robotics, or similar\n- Comfort working with Linux based systems\n- Experience or interest in embedded systems or robotics\n- Familiarity with Python or C++\n- Willingness to debug and learn through hands-on testing\n### Nice to Have\n- Experience with Raspberry Pi or similar SBCs\n- Camera or sensor integration experience\n- Exposure to robotics, autonomy, or AI systems\n- Experience with basic electronics and wiring\n### Who You Are\nYou like making systems work. You’re comfortable when things are half-built and messy. You enjoy bringing hardware and software together and learning by doing.\n### Why You’ll Love Working Here\n- Real exposure to AI and autonomous systems\n- Hands-on ownership of test and integration work\n- Tight feedback loop from bench testing to flight systems\n- Opportunity to grow into deeper technical ownership over time\n\n",
    "seniority": "Entry"
   },
@@ -2178,5 +2198,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 41
+ "new_count": 42
 }
