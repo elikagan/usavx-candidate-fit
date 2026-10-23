@@ -1675,6 +1675,25 @@
    "intro_email": null
   },
   {
+   "name": "Steven Velasquez",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "Stevenvel562@gmail.com",
+   "linkedin": "www.linkedin.com/in/steven-vel",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Mechanical design, CAD (SolidWorks), FEA, fabrication (3D printing, machining), thermal/fluid analysis, materials testing, process automation\n\n**Agency:** Demonstrates strong initiative by independently designing and implementing production tooling, developing automated equipment, and founding a makers club.\n\n**Experience:** Hands-on engineering experience in both industry and technical projects, with direct impact on manufacturing efficiency and product development.\n\n**Entrepreneurship:** Founded and mentored an engineering club, showing ownership and willingness to create new opportunities.\n\n**Leadership:** Led the FSAE electric powertrain team and mentored students, indicating project and people leadership.\n\n**Teamwork:** Collaborated with production technicians, cross-functional student teams, and mentored peers, reflecting strong interpersonal and teamwork skills.\n\n**Overall Summary:** Steven is an early-career mechanical engineer with a robust mix of industry and project-based experience. He has demonstrated initiative through process improvements and founding a makers club, and has led technical teams to deliver tangible results. His skills span design, fabrication, and testing, with clear evidence of leadership and teamwork. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Roles requiring hands-on engineering, rapid prototyping, and technical leadership in small, agile teams.\n\n**Where she is weak:** Limited long-term industry experience and exposure to large-scale organizational processes.",
+   "intro_email": null
+  },
+  {
    "name": "Ishaan Dixit",
    "school": "",
    "score": null,
@@ -2130,7 +2149,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 18,
-  "Aerospace Mechanical Engineer": 16,
+  "Aerospace Mechanical Engineer": 17,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 9,
   "AI Engineer": 3,
   "Strategic Projects Intern": 5,
@@ -2148,7 +2167,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 16,
+   "count": 17,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -2198,5 +2217,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 42
+ "new_count": 43
 }
