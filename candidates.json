@@ -1885,6 +1885,25 @@
    "intro_email": null
   },
   {
+   "name": "soma kohaya",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "somakohaya@gmail.com",
+   "linkedin": "www.linkedin.com/in/soma-kohaya-32486b335",
+   "about": "I have a project portfolio that I would like to submit, if that is of interest please reach out.\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~4–5 years\n\n**Skills:** Mechanical design, CAD (SolidWorks, Fusion360), rapid prototyping, fabrication, vehicle and UAS systems, bilingual (English/Japanese)\n\n**Agency:** Demonstrates strong initiative through founding two service businesses and leading technical projects independently.\n\n**Experience:** Deep hands-on experience in mechanical design, prototyping, and fabrication, with relevant internships at NASA and Toyota Research Institute, plus significant project leadership in Formula SAE.\n\n**Entrepreneurship:** Clear entrepreneurial drive—founded and operated both a mobile bike repair and an independent car repair service, managing all aspects from service delivery to customer acquisition.\n\n**Leadership:** Led technical subsystems (Formula SAE), mechanical design (NASA UAS project), and managed business operations for personal ventures.\n\n**Teamwork:** Collaborated with cross-functional teams at NASA and Toyota, and built customer relationships in service businesses.\n\n**Overall Summary:** Soma Kohaya is a university student with substantial hands-on and entrepreneurial experience, combining technical depth in mechanical engineering with real-world project leadership. He has demonstrated initiative by founding two service businesses and leading technical efforts in both academic and professional settings. His experience spans rapid prototyping, design, and cross-functional collaboration, with emerging leadership skills and a strong record of driving outcomes. Overall, strong initiative and technical depth with clear entrepreneurial and leadership potential.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical roles requiring hands-on engineering, rapid prototyping, and initiative; environments valuing entrepreneurial mindset and self-direction.\n\n**Where she is weak:** Limited exposure to large-scale organizational leadership and advanced technical specialization; still early in formal engineering education.",
+   "intro_email": null
+  },
+  {
    "name": "Raag Gajjar",
    "school": "",
    "score": null,
@@ -2205,7 +2224,7 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 19,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 20,
   "Aerospace Mechanical Engineer": 19,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 9,
   "AI Engineer": 3,
@@ -2219,7 +2238,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 19,
+   "count": 20,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
@@ -2274,5 +2293,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 46
+ "new_count": 47
 }
