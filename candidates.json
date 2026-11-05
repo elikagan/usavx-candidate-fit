@@ -1217,6 +1217,26 @@
    "intro_email": null
   },
   {
+   "name": "Aiden Cambra",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems",
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "aiden.cambra@sjsu.edu",
+   "linkedin": "https://www.linkedin.com/in/aiden-c-712755206/",
+   "about": "Dear Hiring Team,\n\nUSAvionix needs engineers who can turn CAD into working parts and use test results to improve the next build. I bring complete mechanical prototype ownership, electromechanical integration and semiconductor production experience grounded in measurements and troubleshooting.\n\nI led and personally executed the full SOLIDWORKS design, drawings, 3D-printed and resin-cast fabrication, assembly and testing of a filtration prototype. Its guided piston, alignment and six O-ring seals required practical fit and sealing revisions based on the hardware I built. I also designed and built the FireBot rover, integrated Raspberry Pi wireless video and MATLAB temperature telemetry, and repaired a camera power-delivery fault.\n\nAt Lam Research, my Assembler III contract role includes ownership of specialized optical testing and equipment calibration. I drove a camera-alignment process change using drawings, part measurements, tolerance checks and repeated physical tests. For a separate engineering project, I built the complete LabVIEW acquisition workflow and personally conducted the experiment.\n\nI expect to complete my B.S. in Mechanical Engineering at San Jose State University in December 2026 and am available full time in January 2027. Based in Fremont, I can work onsite or hybrid in San Francisco. I would bring USAvionix a practical design, build and test approach as your aircraft prototypes evolve.\n\nSincerely,\nAiden Cambra\n",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Mechanical design, prototyping, SOLIDWORKS, 3D printing, LabVIEW, MATLAB, Python, hardware integration, sensor testing, data acquisition, troubleshooting\n\n**Agency:** Demonstrates strong initiative by independently designing, building, and iterating on multiple engineering projects; drove process changes and owned technical workflows in both academic and industry settings.\n\n**Experience:** Hands-on experience with mechanical and mechatronic systems, including leading the design and fabrication of prototypes, developing data acquisition systems, and implementing process improvements in a contract engineering role.\n\n**Entrepreneurship:** Clear signs of ownership and risk-taking through end-to-end project leadership, from concept to prototype, and by driving adoption of new processes and tools.\n\n**Leadership:** Led several engineering projects as project lead, making key technical decisions, managing project execution, and producing documentation.\n\n**Teamwork:** Evidence of collaboration in both academic teams and industry, including cross-functional process changes and production support.\n\n**Overall Summary:** Aiden is an advanced university student with approximately two years of hands-on engineering experience, combining technical depth in mechanical design and prototyping with strong initiative and ownership. He has repeatedly led projects from concept through execution, demonstrating both leadership and technical problem-solving. His experience spans both academic and industry environments, with a focus on practical outcomes and process improvement. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical roles requiring hands-on prototyping, rapid iteration, and ownership of engineering outcomes.\n\n**Where she is weak:** Limited exposure to large-scale team leadership or commercial product delivery; experience is primarily academic and early-career industry.",
+   "intro_email": null
+  },
+  {
    "name": "Noah Cornelius",
    "school": "",
    "score": null,
@@ -1710,25 +1730,6 @@
    "linkedin": "www.linkedin.com/in/kevin-osorio-b378ba2b4",
    "about": "Hi! I’m a Mechatronics Engineering student at CETYS in Tijuana, and I’d love to be part of USAvionix. Through several years in sales I’ve built strong administrative and coordination skills: scheduling, following up, keeping records organized and managing many tasks at once without letting anything slip. My industrial internship at JAE Electronics also gave me a solid understanding of engineering roles, so I can communicate easily with both candidates and engineers. Long term, if there’s ever an opportunity to support the engineering team from Tijuana, I’d be excited to contribute. Thank you for your consideration!\n",
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2–3 years\n\n**Skills:** Coordination, organization, client communication, bilingual (Spanish/English), automation, technical fluency, Excel/Google Sheets, project tracking, embedded systems\n\n**Agency:** Demonstrates initiative by managing full sales cycles, organizing academic projects, and proactively coordinating with diverse stakeholders.\n\n**Experience:** Relevant hands-on exposure to automation in an industrial setting, technical project work, and client-facing roles; depth is early-career but practical.\n\n**Entrepreneurship:** Some ownership shown in sales (end-to-end process management) and academic project leadership; no evidence of founding or high-risk ventures.\n\n**Leadership:** Led or organized team projects and managed client relationships, but no formal people management or high-impact leadership roles yet.\n\n**Teamwork:** Strong evidence of collaboration in cross-functional teams, academic groups, and bilingual environments.\n\n**Overall Summary:** Kevin is a proactive and organized mechatronics engineering student with a blend of technical and client-facing experience. He has managed sales processes independently, contributed to automation projects, and worked effectively in teams. While his leadership and entrepreneurial exposure are still developing, he shows strong initiative, adaptability, and communication skills. Overall, strong initiative and technical breadth with emerging leadership capabilities.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical or operations roles requiring coordination, technical fluency, and client or team interaction.\n\n**Where she is weak:** Limited depth in technical specialization and formal leadership; entrepreneurial experience is light and mostly within structured environments.",
-   "intro_email": null
-  },
-  {
-   "name": "Aiden Cambra",
-   "school": "",
-   "score": null,
-   "confidence": "—",
-   "rubric": null,
-   "rec": "New",
-   "recKey": "new",
-   "roles": [
-    "Aerospace Mechanical Engineer"
-   ],
-   "categories": [],
-   "note": "New application — not yet reviewed.",
-   "email": "aiden.cambra@sjsu.edu",
-   "linkedin": "https://www.linkedin.com/in/aiden-c-712755206/",
-   "about": "Dear Hiring Team,\n\nUSAvionix needs engineers who can turn CAD into working parts and use test results to improve the next build. I bring complete mechanical prototype ownership, electromechanical integration and semiconductor production experience grounded in measurements and troubleshooting.\n\nI led and personally executed the full SOLIDWORKS design, drawings, 3D-printed and resin-cast fabrication, assembly and testing of a filtration prototype. Its guided piston, alignment and six O-ring seals required practical fit and sealing revisions based on the hardware I built. I also designed and built the FireBot rover, integrated Raspberry Pi wireless video and MATLAB temperature telemetry, and repaired a camera power-delivery fault.\n\nAt Lam Research, my Assembler III contract role includes ownership of specialized optical testing and equipment calibration. I drove a camera-alignment process change using drawings, part measurements, tolerance checks and repeated physical tests. For a separate engineering project, I built the complete LabVIEW acquisition workflow and personally conducted the experiment.\n\nI expect to complete my B.S. in Mechanical Engineering at San Jose State University in December 2026 and am available full time in January 2027. Based in Fremont, I can work onsite or hybrid in San Francisco. I would bring USAvionix a practical design, build and test approach as your aircraft prototypes evolve.\n\nSincerely,\nAiden Cambra\n",
-   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Mechanical design, prototyping, SOLIDWORKS, 3D printing, LabVIEW, MATLAB, Python, hardware integration, sensor testing, data acquisition, troubleshooting\n\n**Agency:** Demonstrates strong initiative by independently designing, building, and iterating on multiple engineering projects; drove process changes and owned technical workflows in both academic and industry settings.\n\n**Experience:** Hands-on experience with mechanical and mechatronic systems, including leading the design and fabrication of prototypes, developing data acquisition systems, and implementing process improvements in a contract engineering role.\n\n**Entrepreneurship:** Clear signs of ownership and risk-taking through end-to-end project leadership, from concept to prototype, and by driving adoption of new processes and tools.\n\n**Leadership:** Led several engineering projects as project lead, making key technical decisions, managing project execution, and producing documentation.\n\n**Teamwork:** Evidence of collaboration in both academic teams and industry, including cross-functional process changes and production support.\n\n**Overall Summary:** Aiden is an advanced university student with approximately two years of hands-on engineering experience, combining technical depth in mechanical design and prototyping with strong initiative and ownership. He has repeatedly led projects from concept through execution, demonstrating both leadership and technical problem-solving. His experience spans both academic and industry environments, with a focus on practical outcomes and process improvement. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical roles requiring hands-on prototyping, rapid iteration, and ownership of engineering outcomes.\n\n**Where she is weak:** Limited exposure to large-scale team leadership or commercial product delivery; experience is primarily academic and early-career industry.",
    "intro_email": null
   },
   {
@@ -2262,7 +2263,7 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 20,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 21,
   "Aerospace Mechanical Engineer": 19,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 10,
   "AI Engineer": 3,
@@ -2276,7 +2277,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 20,
+   "count": 21,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
