@@ -1618,6 +1618,25 @@
    "intro_email": null
   },
   {
+   "name": "Andrea Vitale",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "andreavitale46@gmail.com",
+   "linkedin": "www.linkedin.com/in/andrea-vitale-b89a75289",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student (MSc in progress, BSc completed)\n\n**Estimated Experience:** ~1–2 years\n\n**Skills:** Flight mechanics, aircraft design, simulation (MATLAB, Python), UAV prototyping, CAD (CATIA), system-of-systems analysis\n\n**Agency:** Demonstrates strong initiative through independent development of simulation frameworks, proposing design improvements, and extending research beyond thesis requirements.\n\n**Experience:** Deep technical exposure in aeronautical engineering projects, including hands-on UAV design, simulation, and benchmarking against real-world data; limited formal industry experience.\n\n**Entrepreneurship:** Some ownership shown in leading technical projects and extending research for future publication, but no evidence of startup or business creation.\n\n**Leadership:** Led technical aspects of projects, guided student teams as a teaching assistant, and contributed to decision-making in design and simulation contexts.\n\n**Teamwork:** Effective collaborator in multidisciplinary university teams, supporting peers and contributing to group project outcomes.\n\n**Overall Summary:** Andrea Vitale is an advanced university student with robust technical skills in flight mechanics, simulation, and aircraft systems. He shows initiative in research and project work, with evidence of leadership in academic and team settings. While his experience is primarily academic, he demonstrates strong potential for technical roles in fast-paced environments. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Technical roles in aerospace simulation, flight dynamics, or early-stage engineering teams needing hands-on contributors with research and prototyping skills.\n\n**Where she is weak:** Limited industry and entrepreneurial experience; leadership is emerging but not yet tested in commercial or high-pressure startup contexts.",
+   "intro_email": null
+  },
+  {
    "name": "Haydn Fischer",
    "school": "",
    "score": null,
@@ -1825,6 +1844,25 @@
    "linkedin": "https://linkedin.com/in/tirthdabgar",
    "about": "I KNOW YOU ARE LOOKING FOR THE SAN FRANCISCO ONSITE BUT I LIKE TO JOIN YOUR COMPANY FOR BETTER FUTURE I AM AVAILABLE TO WORK REMOTE FOR FULLTIME\n",
    "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student / Early-career developer\n\n**Estimated Experience:** ~1 year (internship and project-based)\n\n**Skills:** React.js, Next.js, JavaScript, HTML5, CSS3, Redux, REST API integration, Express.js, MongoDB, Git\n\n**Agency:** Demonstrates initiative through self-driven project work and proactive contributions to live production codebases.\n\n**Experience:** Hands-on experience with modern frontend frameworks, API integration, and Agile team participation; depth primarily in frontend development.\n\n**Entrepreneurship:** Built and shipped personal/group projects (e.g., CampusVault, Notes App), showing ownership and willingness to create new solutions.\n\n**Leadership:** Participated in sprint planning and code reviews; no direct evidence of leading teams or major decisions.\n\n**Teamwork:** Collaborated with UI/UX designers, backend developers, and Agile teams; strong cross-functional communication.\n\n**Overall Summary:** Tirth is an early-career frontend developer with solid technical skills in React.js and related technologies, demonstrated through both internship and project work. Shows initiative and ownership by building and shipping projects beyond coursework. Teamwork and collaboration are clear strengths, though leadership experience is still emerging. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Frontend or full-stack roles in early-stage teams needing hands-on builders who can quickly turn ideas into working products.\n\n**Where she is weak:** Limited professional experience and leadership exposure; depth is primarily in frontend, with only basic backend familiarity.",
+   "intro_email": null
+  },
+  {
+   "name": "Connor Neumann",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "connormneu@gmail.com",
+   "linkedin": "www.linkedin.com/in/connor-neumann",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~1–2 years\n\n**Skills:** SolidWorks, Autodesk Inventor, Open Rocket, mechanical design, CAD modeling, customer service, woodworking\n\n**Agency:** Demonstrates initiative by co-founding a woodworking business and independently managing design, sales, and marketing.\n\n**Experience:** Hands-on technical experience in CAD modeling and mechanical design; primary work experience in service roles with some technical project exposure.\n\n**Entrepreneurship:** Clear evidence as a co-founder, handling both product development and business operations.\n\n**Leadership:** Some leadership shown in co-founding and operating a business; no formal team leadership roles indicated.\n\n**Teamwork:** Strong teamwork and collaboration skills highlighted through service roles and active participation in engineering and aviation clubs.\n\n**Overall Summary:** Connor is an early-stage university student with foundational technical skills in mechanical engineering and CAD, complemented by real-world customer-facing experience. He has shown initiative and entrepreneurial drive by co-founding a business and managing multiple aspects of its operation. While his technical and leadership experience is still developing, he demonstrates strong teamwork and engagement in professional communities. Overall, strong initiative and practical skills with emerging technical depth and leadership potential.\n\n**Fit for Fast-Moving Startup Teams:** Moderate\n\n**Where she fits:** Early-stage technical or operations roles where initiative, adaptability, and willingness to learn are valued.\n\n**Where she is weak:** Limited depth in technical or leadership experience; not yet tested in high-responsibility or high-ambiguity environments.",
    "intro_email": null
   },
   {
@@ -2263,8 +2301,8 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 21,
-  "Aerospace Mechanical Engineer": 19,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 22,
+  "Aerospace Mechanical Engineer": 20,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 10,
   "AI Engineer": 3,
   "Strategic Projects Intern": 5,
@@ -2277,12 +2315,12 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 21,
+   "count": 22,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 19,
+   "count": 20,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -2332,5 +2370,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 49
+ "new_count": 51
 }
