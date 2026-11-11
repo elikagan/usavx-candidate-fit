@@ -1637,6 +1637,26 @@
    "intro_email": null
   },
   {
+   "name": "Kenn McNeill",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Mechanical Engineering Intern – Prototyping & Test Systems",
+    "Strategic Projects Intern"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "kenn.mcneill@mail.utoronto.ca",
+   "linkedin": "https://www.linkedin.com/in/kenn-mcneill/",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** University student\n\n**Estimated Experience:** ~2 years\n\n**Skills:** Mechanical engineering, CAD (CATIA, SolidWorks, AutoCAD), CFD (Star-CCM+), Ansys, Python, MATLAB, manufacturing processes, project management, Japanese\n\n**Agency:** Demonstrates strong initiative through leadership roles, project ownership, and co-founding an organization. Independently drove technical and organizational outcomes in multiple settings.\n\n**Experience:** Deep hands-on experience in technical design, simulation, manufacturing, and validation through Formula SAE, internships, and engineering projects. Exposure to real-world engineering constraints and cross-functional collaboration.\n\n**Entrepreneurship:** Clear evidence of entrepreneurship as co-founder of a student organization, fundraising, and building industry partnerships.\n\n**Leadership:** Led a 20-member technical team, managed budgets, coordinated cross-functional teams, and held VP role in a student organization.\n\n**Teamwork:** Extensive collaboration with diverse engineering teams and external partners; established operational structures and communication protocols.\n\n**Overall Summary:** Kenn is a high-performing university student with significant technical and leadership experience for his career stage. He has led engineering teams, managed budgets, and co-founded an organization, showing both initiative and ownership. His hands-on project work and ability to collaborate across functions indicate strong fit for dynamic environments. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Early-stage technical or operations roles requiring initiative, technical rigor, and cross-functional teamwork.\n\n**Where she is weak:** Limited full-time industry experience and exposure to high-stakes commercial environments; leadership experience is primarily in academic or extracurricular settings.",
+   "intro_email": null
+  },
+  {
    "name": "Andrea Vitale",
    "school": "",
    "score": null,
@@ -2320,11 +2340,11 @@
   ]
  },
  "roles": {
-  "Mechanical Engineering Intern – Prototyping & Test Systems": 22,
+  "Mechanical Engineering Intern – Prototyping & Test Systems": 23,
   "Aerospace Mechanical Engineer": 20,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 10,
   "AI Engineer": 3,
-  "Strategic Projects Intern": 5,
+  "Strategic Projects Intern": 6,
   "Operations Intern": 7,
   "Computer Vision Engineer": 3,
   "Full Stack Engineer": 3,
@@ -2334,7 +2354,7 @@
  },
  "role_info": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": {
-   "count": 22,
+   "count": 23,
    "jd": "### Mechanical Engineering Intern – Prototyping & Test Systems\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft designed to operate in real-world missions. Our Delta platform moves quickly through prototype cycles, combining autonomy, compute, and flight hardware. This work is hands-on, fast-moving, and focused on building systems that actually fly.\n### About The Role\nWe’re looking for a Mechanical Engineering Intern to support prototyping, test setups, and mechanical integration across the Delta platform.\nThis is a hands-on role. You will design, build, assemble, and iterate physical hardware used for testing and early flight development. You’ll work closely with engineers across autonomy, hardware, and avionics teams, helping turn concepts into real, testable systems.\nThis role is ideal for someone who learns by building and wants real exposure to aerospace-adjacent hardware development.\n### What You’ll Do\n- Design and build mechanical test rigs and fixtures\n- Create CAD models and assemblies for prototype hardware\n- Assemble and integrate mechanical components and housings\n- Support ground testing and test setup preparation\n- Iterate designs based on test results and feedback\n- Help keep prototype hardware organized, accessible, and testable\n### What You Should Have\n- Currently pursuing or recently completed a degree in Mechanical Engineering, Aerospace Engineering, or similar\n- Comfort with CAD tools such as SolidWorks or Fusion 360\n- Interest in hands-on prototyping and physical systems\n- Willingness to assemble, disassemble, and iterate hardware\n- Curiosity and a bias toward action\n### Nice to Have\n- Experience with 3D printing, light machining, or composites\n- Experience building mechanical fixtures or test setups\n- UAV, robotics, or hardware project experience\n### Who You Are\nYou like building real things. You care about how parts fit together and how systems are tested. You’re not afraid to get your hands dirty, learn quickly, and improve designs through iteration.\n### Why You’ll Love Working Here\n- Real ownership as an intern\n- Direct exposure to flight hardware and testing\n- Tight feedback loop from CAD to physical systems\n- Small team with meaningful impact\n\n",
    "seniority": "Entry"
   },
@@ -2354,7 +2374,7 @@
    "seniority": "Senior"
   },
   "Strategic Projects Intern": {
-   "count": 5,
+   "count": 6,
    "jd": "# Strategic Project Intern \n**Location:** San Francisco, CA - Onsite (Flexible)\n**Team:** USAvionix\n**Type:** Full-time\nUSAvionix is building a new generation of autonomous ISR aircraft capable of sensing, deciding, and acting in milliseconds without relying on the cloud.\nWe are looking for a Strategic Projects Intern to support leadership across internal initiatives, marketing coordination, and company projects.\nYou will work directly with the founders helping coordinate initiatives, organize information, and ensure projects remain on track.\nThis role combines project coordination, program support, marketing assistance, and administrative support in a fast-moving startup environment.\n\n### **What you’ll do**\n- Assist with project coordination and program support across company initiatives\n- Maintain project trackers and help ensure initiatives remain organized\n- Provide administrative support related to strategic projects and leadership activities\n- Help gather and organize information related to industry developments\n- Assist with preparation of presentations, reports, and communications\n- Support coordination of marketing initiatives, events, and outreach programs\n- Help organize documentation and materials across ongoing initiatives\n- Work with leadership on special projects and internal initiatives\n\n### **What we're looking for**\n- Current undergraduate student or recent graduate\n- Highly organized and detail-oriented\n- Strong communication and writing skills\n- Ability to manage multiple tasks and projects simultaneously\n- Comfortable supporting coordination and administrative tasks\n- Interest in startups, emerging technology, or aerospace\n- Proactive and comfortable working in a high-autonomy environment\n\n## **Why USAVX**\nUSAvionix builds autonomous systems that act faster and smarter than the threat. In this role, you’ll own one of our core technologies - shaping how autonomy is coordinated, deployed, and trusted in the field.\n\n",
    "seniority": "Entry"
   },
@@ -2389,5 +2409,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 52
+ "new_count": 53
 }
