@@ -1275,6 +1275,25 @@
    "intro_email": null
   },
   {
+   "name": "Naman",
+   "school": "",
+   "score": null,
+   "confidence": "—",
+   "rubric": null,
+   "rec": "New",
+   "recKey": "new",
+   "roles": [
+    "Aerospace Mechanical Engineer"
+   ],
+   "categories": [],
+   "note": "New application — not yet reviewed.",
+   "email": "namanshetty29@vt.edu",
+   "linkedin": "https://www.linkedin.com/in/naman-kumar-shetty/",
+   "about": "",
+   "summary": "Resume Evaluation Summary\n\n**Career Stage:** Early-career engineer\n\n**Estimated Experience:** ~3–4 years\n\n**Skills:** Flight dynamics, MATLAB/Simulink, aircraft simulation, aerodynamic modeling, control systems, vibration testing, CFD, UAV integration, thermal systems, technical communication\n\n**Agency:** Demonstrates strong initiative through independent projects, self-driven simulator development, and proactive troubleshooting in academic and industry settings.\n\n**Experience:** Deep technical experience in aerospace engineering, including hands-on modeling, simulation, testing, and integration across academic research, internships, and independent work.\n\n**Entrepreneurship:** Evidence of ownership in leading independent research projects and developing reusable simulation frameworks; some risk-taking in tackling open-ended, complex problems.\n\n**Leadership:** Led technical efforts, guided 120+ students as a teaching assistant, and contributed to published research. Leadership is primarily technical and project-based.\n\n**Teamwork:** Collaborated with cross-functional teams on CubeSat projects, worked with research collaborators and industry, and supported multidisciplinary engineering teams.\n\n**Overall Summary:** Naman Kumar Shetty is an early-career aerospace engineer with approximately 3–4 years of experience spanning simulation, modeling, and experimental research. He shows strong initiative, technical depth, and the ability to drive independent and collaborative projects. Leadership is emerging through technical mentorship and project ownership, with clear evidence of teamwork and communication. Overall, strong initiative and technical depth with emerging leadership skills.\n\n**Fit for Fast-Moving Startup Teams:** High\n\n**Where she fits:** Technical roles requiring modeling, simulation, and rapid prototyping in aerospace or robotics; environments valuing self-starters who can independently deliver and collaborate across functions.\n\n**Where she is weak:** Limited formal people management and startup/entrepreneurial company experience; leadership is primarily technical and project-based rather than organizational.",
+   "intro_email": null
+  },
+  {
    "name": "Jaime Blasco Tebon",
    "school": "",
    "score": null,
@@ -2360,7 +2379,7 @@
  },
  "roles": {
   "Mechanical Engineering Intern – Prototyping & Test Systems": 23,
-  "Aerospace Mechanical Engineer": 20,
+  "Aerospace Mechanical Engineer": 21,
   "Hardware / Embedded Systems Intern – AI Test & Integration": 11,
   "AI Engineer": 3,
   "Strategic Projects Intern": 6,
@@ -2378,7 +2397,7 @@
    "seniority": "Entry"
   },
   "Aerospace Mechanical Engineer": {
-   "count": 20,
+   "count": 21,
    "jd": "## Aerospace Mechanical Engineer – Airframe & Prototyping\n**Location:** San Francisco, CA – Onsite or Hybrid\n **Team:** Airframe & Mechanical Systems\n### About Us\nUSAvionix is building autonomous aircraft that actually operate in the real world. Our Delta platform moves through rapid prototype cycles, starting with electrically powered, ducted-fan aircraft. This work matters beyond a demo. It matters in mission contexts.\n### About The Role\nWe’re looking for an early-career Aerospace Mechanical Engineer to help design, build, test, and iterate airframes and mechanical subsystems.\n You don’t need prior aircraft experience. What we value most is **strong fundamentals, CAD ability, curiosity, and the drive to turn ideas into hardware that flies**.\nThis role is hands-on. You’ll be involved in CAD, prototyping, test setups, and flight support.\n### What You’ll Do\n- Design and iterate mechanical and airframe components for electrically powered autonomous aircraft\n- Create and maintain CAD models and assemblies\n- Build prototypes with 3D printing, composites, and basic machining\n- Support ground testing and flight test preparation\n- Build test rigs, fixtures, and simple tooling\n- Analyze test results and failures and apply learnings to next iterations\n- Collaborate with autonomy, avionics, and systems engineers\n### What You Should Have\n- Degree in Mechanical Engineering, Aerospace Engineering, or equivalent hands-on experience\n- Strong mechanical fundamentals and problem solving\n- Experience or comfort with CAD (SolidWorks, Fusion 360, or similar)\n- Passion for building and testing real hardware\n- Ability to learn airframe and flight concepts quickly\n- A bias toward action in a fast prototype environment\nYou don’t need previous aircraft or airframe experience. If you can learn fast and ship parts that work, you’ll thrive here.\n### Nice to Have\n- UAV, RC, aerospace, or flight project experience\n- Experience with 3D printing, composites, CNC\n- Exposure to structural analysis or basic FEA\n- Test rig or flight test support experience\n### Who You Are\nYou are a doer. You turn CAD into parts. You learn by building and testing. You are not afraid of failure, you learn from it. You want to grow into bigger technical ownership over time.\n### Why You’ll Love Working Here\n- Meaningful ownership early in your career\n- Tight loop from CAD to prototype to flight\n- Small, focused team with direct impact\n- Opportunity to work across mechanical systems, structures, and flight test\n\n",
    "seniority": "Mid"
   },
@@ -2428,5 +2447,5 @@
    "seniority": "Entry"
   }
  },
- "new_count": 54
+ "new_count": 55
 }
